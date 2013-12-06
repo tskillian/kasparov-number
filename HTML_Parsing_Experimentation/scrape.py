@@ -28,10 +28,12 @@ soup = BeautifulSoup(data)
 
 firstTable = soup.find("table", {"class": "blog"})
 opponents_table = firstTable.find_next_sibling()
+
+print opponents_table
 #print opponents_table.find_itall('tr')[2].children
 
-for opponent in opponents_table.find_all('tr')[2:]:
-	print opponent.children
+#for opponent in opponents_table.find_all('tr')[2:]:
+#	print opponent.children
 	#if opponent.children[7] == "W":
 	#	print opponent.children[5]
 
