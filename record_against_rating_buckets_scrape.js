@@ -1,8 +1,7 @@
 var page = require('webpage').create();
+var id = 12528459;
 
-
-
-page.open('http://main.uschess.org/datapage/gamestats.php?memid=12869413', function() {
+page.open('http://main.uschess.org/datapage/gamestats.php?memid='+id, function() {
 	'use strict';
 	page.includeJs('http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js', function() {
 		var highestBucket = page.evaluate(function() {
@@ -30,7 +29,7 @@ page.open('http://main.uschess.org/datapage/gamestats.php?memid=12869413', funct
 					wins: $row.find('td').eq(2).text()
 				});
 			});
-			
+
 			return highestBucketWithWin(rows);
 		});
 		console.log(highestBucket);
