@@ -2,7 +2,8 @@
   "name": "kasparov-number",
   "version": "0.0.0",
   "dependencies": {
-    "phantomjs": "~1.9.2-5"
+    "phantomjs": "~1.9.2-5",
+    "express": "~3.4.6"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
