@@ -1,30 +1,32 @@
-var page = require('webpage').create();
-var player = 12710197;
+var request = require('request'),
+    cheerio = require('cheerio');
+player = 12710197;
+LW = [];
 
-page.open('http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dkey=2600&drill=G', function() {
-    'use strict';
-  page.includeJs("http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", function() {
-    var playerObjects = page.evaluate(function() {
-        var getPageData = function () {
-    	var $table = $('.blog').siblings().find('tr');
-    	var tableLength = $table.length;
-    	console.log(tableLength);
-    	var LW = [];
-    	$table.each(function(i, element) {
+
+'use strict';
+var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dkey=2600&drill=G'
+var PlayerData = request(requestURL, function (error, response, body) {
+    var $ = cheerio.load(body);
+    var getPageData = function () {
+        var $table = $('.blog').siblings().find('tr');
+        var tableLength = $table.length;
+        $table.each(function(i, element) {
             var $row = $(element);
-    		var wl = $row.find('td').eq(7).text();
-    		var pID = $row.find('td').eq(4).text();
+            var wl = $row.find('td').eq(7).text();
+            var pID = $row.find('td').eq(4).text();
             var player = new Object();
             player.winLoss = wl;
             player.playerID = pID;
-    		LW.push(player);
+            LW.push(player);
         });
-        return LW
-    	};
+    return LW
+    };
+    var checkPlayer = function (playerList) {
         function isKamksy (array) {
-            for (i = 0; i < array.length; i ++) {
-                if (array[i]['playerID'] === '12528459' && array[i]['winLoss'] === 'W') { //if player beat Kamsky, return true
-                    return true ;
+        for (i = 0; i < array.length; i ++) {
+            if (array[i]['playerID'] === '12528459' && array[i]['winLoss'] === 'W') { //if player beat Kamsky, return true
+                return true ;
                 }
             }
             return false;
@@ -34,26 +36,19 @@ page.open('http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dk
                 if (array[i]['winLoss'] === 'W') {
                     return array[i]['playerID']; //return player object of first win
                 }
-
             }
             return false;
         };
 
-        var pageData = getPageData();
-
+        var pageData = playerList();
         if (isKamksy(pageData)) {
             return true;
-        }
-        else {
+        } else {
             return highestWin(pageData);
         }
-    });
-    console.log(playerObjects);
-    phantom.exit();
-  });
-});
+    }
+    console.log(checkPlayer(getPageData));
 
+})
 
-
-
-
+    console.log(LW);
