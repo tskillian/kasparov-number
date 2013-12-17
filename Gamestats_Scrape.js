@@ -9,6 +9,7 @@ var async = require('async');
 var getWin = function(player, bucket, callback) {
     'use strict';
     var test = null;
+
     var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dkey='+bucket+'&drill=G';
     request(requestURL, function(error, response, body) {
         var LW = [];
@@ -24,9 +25,11 @@ var getWin = function(player, bucket, callback) {
             player.playerID = pID.trim();
             LW.push(player);
             });
-        };
-        return callback(LW);
-    );
+        callback(LW)
+        });
+    
 };
 
 module.exports = getWin;
+
+getWin('12710197', '2600', function (data) {console.log(data)});
