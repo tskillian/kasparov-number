@@ -30,7 +30,7 @@ var getHighestBucketWithWin = function(id, callback) {
                 wins: $row.find('td').eq(2).text()
             });
         });
-        return highestBucketWithWin($table);
+        callback(highestBucketWithWin($table));
     });
 };
 
