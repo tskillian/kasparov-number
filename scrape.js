@@ -31,38 +31,88 @@ var async = require('async');
 // 			uscfId = firstWin;
 // 		}
 
+var PlayerID = '12869418';
 
-var P = '12869413';
-var ar = ['12869413'];
 
-var kickAssShit = function (PlayerID, ar) {
+
+var kickAssShit = function(PlayerID) {
+	'use strict';
 	async.waterfall([
-	    /*function(callback){
-	        callback(null, 'one', 'two');
-	    },
-	    function(arg1, arg2, callback){
-	        callback(null, 'three');
-	    },*/
-
-	    function(callback) {
-	    	getHighestBucketWithWin(PlayerID, function(highestBucket) {
-	    	callback(null, highestBucket)
-	    	});
-	    },
-	    function( highestBucket, callback){
-	        // arg1 now equals 'three'
-	        kamskyOrRecentWin(PlayerID, highestBucket, function(recentWin){
-			callback(null, recentWin);
+		function(callback) {
+			getHighestBucketWithWin(PlayerID, function(highestBucket) {
+				callback(null, highestBucket);
 			});
-	    }
-	], function (err, result) {
-	   // result now equals 'done'  
-	   console.log(result)
-	   ar.push(result);
-	   console.log(ar);
-	   PlayerID = result;
+		},
+		function(highestBucket, callback) {
+			kamskyOrRecentWin(PlayerID, highestBucket, function(recentWin) {
+				callback(null, recentWin);
+			});
+		}
+	], function(err, result) {
+		console.log(result.trim());
+		PlayerID = result.trim();
+		return result;
+
 	});
 };
-kickAssShit(ar[ar.length-1])
 
-console.log(kickAssShit(ar[ar.length-1]));
+async.whilst(
+	function() {
+		return PlayerID !== '12528459';
+	},
+	function(callback) {
+		async.waterfall([
+
+			function(callback) {
+				getHighestBucketWithWin(PlayerID, function(highestBucket) {
+					console.log('playerID in getHighestBucketWithWin function: '+ PlayerID);
+					callback(null, highestBucket);
+				});
+			},
+			function(highestBucket, callback) {
+				kamskyOrRecentWin(PlayerID, highestBucket, function(recentWin) {
+					console.log('playerID in recent win function: '+ PlayerID);
+					callback(null, recentWin);
+				});
+			}
+		], function(err, recentWin) {
+			console.log(recentWin.trim());
+			console.log('playerID in result function: '+ PlayerID);
+			PlayerID = recentWin.trim();
+			console.log('playerID in result function after mutation: '+ PlayerID);
+			callback(null);
+
+		});
+	},
+	function(err) {
+		console.log('error is: ' + err);
+	});
+
+// var count = 0;
+
+// async.whilst(
+//     function () { return count < 5; },
+//     function (callback) {
+//         count++;
+//         console.log(count);
+//         setTimeout(callback, 1000);
+//     },
+//     function (err) {
+//         // 5 seconds have passed
+//     }
+// );
+
+//kickAssShit(PlayerID);
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,20 +6,12 @@ var request = require('request'),
 
 var getHighestBucketWithWin = function(id, callback) {
     'use strict';
+    console.log('player ID within getHighestBucketWithWin file: '+ id);
     var requestUrl = 'http://main.uschess.org/datapage/gamestats.php?memid=' + id;
     request(requestUrl, function(error, response, body) {
         var $ = cheerio.load(body);
         // Helper function to go through an array of objects with bucket and wins property, finding
         // the highest bucket with a win
-        var highestBucketWithWin = function(arr) {
-            var topBucket = 0;
-            arr.forEach(function(element) {
-                if (parseInt(element.wins, 10) > 0 && parseInt(element.bucket, 10) > topBucket) {
-                    topBucket = element.bucket;
-                }
-            });
-            return topBucket;
-        };
         // Populate an array of objects where each object has a bucket and wins property,
         // the bucket being a given rating and wind being how many wins against that rating
         var $table = [];
@@ -30,7 +22,15 @@ var getHighestBucketWithWin = function(id, callback) {
                 wins: $row.find('td').eq(2).text()
             });
         });
-        callback(highestBucketWithWin($table));
+        var topBucket = 0;
+        $table.forEach(function(element) {
+            if (parseInt(element.wins, 10) > 0 && parseInt(element.bucket, 10) > topBucket) {
+                topBucket = element.bucket;
+            }
+        });
+        console.log('output from highest bucket file: '+topBucket)
+        callback(topBucket);
+        
     });
 };
 
