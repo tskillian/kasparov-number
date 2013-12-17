@@ -30,9 +30,29 @@ var async = require('async');
 // 			path.push(firstWin)
 // 			uscfId = firstWin;
 // 		}
-kamskyOrRecentWin('12710197', '2600', function(recentWin){
-	'use strict';
-	console.log(recentWin);
-});
+
+var PlayerID = '12710197';
 	
-//console.log(test)
+async.waterfall([
+    /*function(callback){
+        callback(null, 'one', 'two');
+    },
+    function(arg1, arg2, callback){
+        callback(null, 'three');
+    },*/
+    function(callback) {
+    	getHighestBucketWithWin(PlayerID) {
+    		
+    	}
+    },
+    function(PlayerID, Bucket, callback){
+        // arg1 now equals 'three'
+        kamskyOrRecentWin(PlayerID, Bucket, function(recentWin){
+		'use strict';
+		callback(null, recentWin);
+});
+    }
+], function (err, result) {
+   // result now equals 'done'  
+   console.log(result);  
+});
