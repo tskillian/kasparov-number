@@ -30,9 +30,12 @@ var async = require('async');
 // 			path.push(firstWin)
 // 			uscfId = firstWin;
 // 		}
-kamskyOrRecentWin('12710197', '2600', function(recentWin){
+// kamskyOrRecentWin('12710197', '2600', function(recentWin){
+// 	'use strict';
+// 	console.log(recentWin);
+// });
+
+getHighestBucketWithWin('12869413', function(highestBucket) {
 	'use strict';
-	console.log(recentWin);
+	console.log(highestBucket);
 });
-	
-//console.log(test)
