@@ -35,15 +35,8 @@ var async = require('async');
 var P = '12869413';
 var ar = ['12869413'];
 
-var kickAssShit = function (PlayerID, ar) {
+var scrapePage = function (PlayerID, callback1) {
 	async.waterfall([
-	    /*function(callback){
-	        callback(null, 'one', 'two');
-	    },
-	    function(arg1, arg2, callback){
-	        callback(null, 'three');
-	    },*/
-
 	    function(callback) {
 	    	getHighestBucketWithWin(PlayerID, function(highestBucket) {
 	    	callback(null, highestBucket)
@@ -57,12 +50,29 @@ var kickAssShit = function (PlayerID, ar) {
 	    }
 	], function (err, result) {
 	   // result now equals 'done'  
-	   console.log(result)
+
+	   //console.log(result);
 	   ar.push(result);
-	   console.log(ar);
-	   PlayerID = result;
+	   callback1(result)
 	});
 };
-kickAssShit(ar[ar.length-1])
+function scrapeLoop (res) {
+	return scrapePage(res)
+};
 
-console.log(kickAssShit(ar[ar.length-1]));
+
+var kamskyFound = false
+
+async.whilst(
+	function() { return !kamskyFound},
+	function(callback) {
+		var next = scrapePage(ar[ar.length-1], function(data) {
+			kamskyFound = (next === true) ? true : false;
+			callback(null, data)}
+			)}
+
+	, function (err, result) {
+		console.log(result)
+	}
+
+	);
