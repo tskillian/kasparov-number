@@ -32,28 +32,37 @@ var async = require('async');
 // 		}
 
 
-var PlayerID = '12710197';
-	
-async.waterfall([
-    /*function(callback){
-        callback(null, 'one', 'two');
-    },
-    function(arg1, arg2, callback){
-        callback(null, 'three');
-    },*/
-    function(callback) {
-    	getHighestBucketWithWin(PlayerID) {
-    		
-    	}
-    },
-    function(PlayerID, Bucket, callback){
-        // arg1 now equals 'three'
-        kamskyOrRecentWin(PlayerID, Bucket, function(recentWin){
-		'use strict';
-		callback(null, recentWin);
-});
-    }
-], function (err, result) {
-   // result now equals 'done'  
-   console.log(result);  
-});
+var P = '12869413';
+var ar = ['12869413'];
+
+var kickAssShit = function (PlayerID, ar) {
+	async.waterfall([
+	    /*function(callback){
+	        callback(null, 'one', 'two');
+	    },
+	    function(arg1, arg2, callback){
+	        callback(null, 'three');
+	    },*/
+
+	    function(callback) {
+	    	getHighestBucketWithWin(PlayerID, function(highestBucket) {
+	    	callback(null, highestBucket)
+	    	});
+	    },
+	    function( highestBucket, callback){
+	        // arg1 now equals 'three'
+	        kamskyOrRecentWin(PlayerID, highestBucket, function(recentWin){
+			callback(null, recentWin);
+			});
+	    }
+	], function (err, result) {
+	   // result now equals 'done'  
+	   console.log(result)
+	   ar.push(result);
+	   console.log(ar);
+	   PlayerID = result;
+	});
+};
+kickAssShit(ar[ar.length-1])
+
+console.log(kickAssShit(ar[ar.length-1]));

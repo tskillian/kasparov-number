@@ -21,7 +21,7 @@ var getWin = function(player, bucket, callback) {
                 var pID = $row.find('td').eq(4).text();
                 var player = {};
                 player.winLoss = wl;
-                player.playerID = pID;
+                player.playerID = pID.trim();
                 LW.push(player);
             });
             return LW;
