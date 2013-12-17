@@ -35,7 +35,7 @@ var PlayerID = '12869418';
 
 
 
-var kickAssShit = function(PlayerID) {
+var asdf = function(PlayerID) {
 	'use strict';
 	async.waterfall([
 		function(callback) {
@@ -55,6 +55,8 @@ var kickAssShit = function(PlayerID) {
 
 	});
 };
+
+
 
 async.whilst(
 	function() {
