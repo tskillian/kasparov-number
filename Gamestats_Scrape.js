@@ -49,7 +49,7 @@ var getWin = function(player, bucket, callback) {
             var pageData = playerList();
             if (isKamksy(pageData)) {
                 //callback(true);
-                return callback(true);
+                return true;
             } else {
                 //return callback(highestWin(pageData));
                 return highestWin(pageData);
