@@ -29,6 +29,7 @@ var getWin = function(player, bucket, WLD, callback) {
                 LW.push(player)
             }
         });
+        console.log(LW);
         callback(LW)
     }); 
 };

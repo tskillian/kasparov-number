@@ -1,6 +1,6 @@
 var express = require('express');
 var path = require('path');
-//var getPathToKasparov = require('./scrape');
+var getPathToKasparov = require('../scrape');
 
 var app = express()
 			.use(express.static(__dirname,
@@ -13,10 +13,13 @@ var app = express()
 // 	res.json(data);
 // });
 
-app.post("/search", function(req, res) {
+app.post('/search', function(req, res) {
 	console.log(req.body.IDinput);
 	var userInput = req.body;
-	
+	getPathToKasparov(userInput, function(data) {
+		console.log(data);
+		res.send(data);
+	});
 });
 
 
