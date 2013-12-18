@@ -27,7 +27,22 @@ require.config({
 });
 
 require([
-    'backbone'
-], function (Backbone) {
+    'backbone',
+    'routes/router',
+    'collections/path',
+    'views/map-graph'
+], function (Backbone, Router, Collection, Views) {
+    window.backboneApp.Router = new Router();
+    new Views.MapGraphView({
+            collection: new Collection.PathCollection()
+        });
     Backbone.history.start();
+    window.backboneApp.init();
 });
+
+window.backboneApp = {
+    Models: {},
+    Collections: {},
+    Views: {},
+    Router: {},
+};
