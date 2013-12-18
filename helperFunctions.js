@@ -31,7 +31,9 @@ var getWinsArray = function(PlayerID) {
             });
         }
     ], function(err, result) {
-        return result;
+        if (isKamsky(result) {
+            return '12528459'
+        }
 
     });
 };

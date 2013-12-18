@@ -10,10 +10,6 @@ var getHighestBucketWithWin = function(id, callback) {
     var requestUrl = 'http://main.uschess.org/datapage/gamestats.php?memid=' + id;
     request(requestUrl, function(error, response, body) {
         var $ = cheerio.load(body);
-        // Helper function to go through an array of objects with bucket and wins property, finding
-        // the highest bucket with a win
-        // Populate an array of objects where each object has a bucket and wins property,
-        // the bucket being a given rating and wind being how many wins against that rating
         var $table = [];
         $('.blog').siblings().find('tr').each(function(i, element) {
             var $row = $(element);

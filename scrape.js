@@ -2,109 +2,70 @@ var getHighestBucketWithWin = require('./record_against_rating_buckets_scrape');
 var kamskyOrRecentWin = require('./Gamestats_Scrape');
 var async = require('async');
 
-// getUserInput //get USCF ID
-// checkIfInDB // if not in database, add player info to database. 
-
-// //if not in database:
-// 	getHighestWin 
-// 		getHighestBucket //needs USCF IF, returns highest ratings bucket with a win
-// 		getFirstWin // returns true needs USCF ID and highest bucket
-// 					// add this player to the database
-
-
-
-// taking in USCF ID, check if any wins against Kamsky, if false return USCF ID of highest win
-
-
-
-
-// var userInput //USCF ID, starting point
-// var path = []; //Store array of USCF ID's
-// var uscfId = userInput;
-// while (uscfId !== kamskyId)
-// 	getHighestWin(uscfId)
-// 		var highestBucket = getHighestBucket(uscfId) //returns highest ratings bucket with win
-// 		var firstWin = getFirstWin(uscfId, highestBucket) // returns true if there's a win vs kamsky, otherwise
-// 															// returns USCF ID of most recent win
-// 		if (firstWin !== true) {
-// 			path.push(firstWin)
-// 			uscfId = firstWin;
-// 		}
-
 var PlayerID = '12869418';
 
-
-
-var asdf = function(PlayerID) {
+var isKamksy = function(playerList) {
 	'use strict';
-	async.waterfall([
-		function(callback) {
-			getHighestBucketWithWin(PlayerID, function(highestBucket) {
-				callback(null, highestBucket);
-			});
-		},
-		function(highestBucket, callback) {
-			kamskyOrRecentWin(PlayerID, highestBucket, function(recentWin) {
-				callback(null, recentWin);
-			});
-		}
-	], function(err, result) {
-		console.log(result.trim());
-		PlayerID = result.trim();
-		return result;
-
-	});
+    for (var i = 0; i < playerList.length; i++) {
+        if (playerList[i].playerID === '12528459' && playerList[i].winLoss === 'W') { //if player beat Kamsky, return true
+            return true;
+        }
+    }
+    return false;
 };
 
-
+var getWinByIndex = function(playerList, winIndex) {
+    'use strict';
+    if (winIndex >= playerList.length) {
+        throw 'Win index out of bounds on getWinByIndex function';
+    } else {
+        winIndex = winIndex || 0;
+        return playerList[winIndex].playerID;
+    }
+};
 
 async.whilst(
 	function() {
+		'use strict';
 		return PlayerID !== '12528459';
 	},
 	function(callback) {
+		'use strict';
 		async.waterfall([
 
 			function(callback) {
 				getHighestBucketWithWin(PlayerID, function(highestBucket) {
-					console.log('playerID in getHighestBucketWithWin function: '+ PlayerID);
+					console.log('playerID in getHighestBucketWithWin function: ' + PlayerID);
 					callback(null, highestBucket);
 				});
 			},
 			function(highestBucket, callback) {
-				kamskyOrRecentWin(PlayerID, highestBucket, function(recentWin) {
-					console.log('playerID in recent win function: '+ PlayerID);
-					callback(null, recentWin);
+				kamskyOrRecentWin(PlayerID, highestBucket, function(winsList) {
+					console.log('playerID in recent win function: ' + PlayerID);
+
+					callback(null, winsList);
 				});
 			}
-		], function(err, recentWin) {
-			console.log(recentWin.trim());
-			console.log('playerID in result function: '+ PlayerID);
-			PlayerID = recentWin.trim();
-			console.log('playerID in result function after mutation: '+ PlayerID);
-			callback(null);
-
+		], function(err, winsList) {
+			console.log(winsList);
+			// If there's a win vs Kamsky in wins list, return his ID, otherwise continue as normal
+			if (isKamksy(winsList)) {
+				PlayerID = '12528459';
+			} else {
+				PlayerID = getWinByIndex(winsList, 0);
+				callback(null);
+			}
+			// console.log('playerID in result function: '+ PlayerID);
+			// PlayerID = winsList.trim();
+			// console.log('playerID in result function after mutation: '+ PlayerID);
 		});
 	},
 	function(err) {
+		'use strict';
 		console.log('error is: ' + err);
 	});
 
-// var count = 0;
 
-// async.whilst(
-//     function () { return count < 5; },
-//     function (callback) {
-//         count++;
-//         console.log(count);
-//         setTimeout(callback, 1000);
-//     },
-//     function (err) {
-//         // 5 seconds have passed
-//     }
-// );
-
-//kickAssShit(PlayerID);
 
 
 

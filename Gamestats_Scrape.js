@@ -23,8 +23,10 @@ var getWin = function(player, bucket, callback) {
             var player = {};
             player.winLoss = wl;
             player.playerID = pID.trim();
-            LW.push(player);
-            });
+            if (player.winLoss === 'W') {
+                LW.push(player);
+            }
+        });
         callback(LW)
         });
     
