@@ -1,5 +1,6 @@
 var express = require('express');
 var path = require('path');
+var getPathToKasparov = require('./scrape');
 
 var app = express()
 			.use(express.static(__dirname,
@@ -11,6 +12,12 @@ var app = express()
 // app.get("/songs", function(req, res) {
 // 	res.json(data);
 // });
+
+app.post("/search", function(req, res) {
+	console.log(req.body);
+	var userInput = req.body;
+	
+});
 
 
 var port = process.env.PORT || 3000;
