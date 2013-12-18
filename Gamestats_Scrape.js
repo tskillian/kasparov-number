@@ -6,7 +6,7 @@ var async = require('async');
 
 
 
-var getWin = function(player, bucket, callback) {
+var getWin = function(player, bucket, WLD, callback) {
     'use strict';
     var test = null;
 
@@ -23,15 +23,17 @@ var getWin = function(player, bucket, callback) {
             var player = {};
             player.winLoss = wl;
             player.playerID = pID.trim();
-            if (player.winLoss === 'W') {
-                LW.push(player);
+            if (WLD === wl) {
+                LW.push(player)
+            } else if (WLD === null && wl !== '') { // Make sure no empty objects are added
+                LW.push(player)
             }
         });
         callback(LW)
-        });
-    
+    }); 
 };
 
 module.exports = getWin;
 
-getWin('12710197', '2600', function (data) {console.log(data)});
+
+
