@@ -80,12 +80,12 @@
       <div class="jumbotron">
         <h2>How many wins away from Kasparov are you?</h2>
         <p>Enter your USCF ID to see how many wins you are away from Garry Kasparov. You can find your USCF ID by searching <a href="http://www.uschess.org/component/option,com_wrapper/Itemid,181/">here.</a></p>
-        <form id="USCF-ID" >
+        <form id="USCF-ID" method="POST" action="/search" role="form" >
             <div class="form-inline">
               <div class="col-xs-4">
-                <input type="text" form="USCF-ID" class="form-control input-lg" id="focusedInput" placeholder="Enter USCF ID">
+                <input type="text" form="USCF-ID" class="form-control input-lg" id="focusedInput" placeholder="Enter USCF ID" name="IDinput">
               </div>
-              <input class="btn btn-success" form="USCF-ID" onclick="goToPage()" value="идти &raquo;" type="submit" role="button">
+              <input class="btn btn-success" form="USCF-ID"  value="идти &raquo;" type="submit" >
             </div>
         </form>
       </div>
