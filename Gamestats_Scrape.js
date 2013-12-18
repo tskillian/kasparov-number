@@ -23,13 +23,13 @@ var getWin = function(player, bucket, WLD, callback) {
             var player = {};
             player.winLoss = wl;
             player.playerID = pID.trim();
+
             if (WLD === wl) {
                 LW.push(player)
             } else if (WLD === null && wl !== '') { // Make sure no empty objects are added
                 LW.push(player)
             }
         });
-        console.log(LW);
         callback(LW)
     }); 
 };

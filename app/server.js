@@ -15,7 +15,7 @@ var app = express()
 
 app.post('/search', function(req, res) {
 	console.log(req.body.IDinput);
-	var userInput = req.body;
+	var userInput = req.body.IDinput;
 	getPathToKasparov(userInput, function(data) {
 		console.log(data);
 		res.send(data);

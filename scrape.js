@@ -48,7 +48,6 @@ var getPathToKasparov = function(PlayerID, callback1) {
 	};
 
 	var getWinByIndex = function(playerList, winIndex) {
-		console.log(playerList);
 		if (winIndex >= playerList.length) {
 			throw 'Win index out of bounds on getWinByIndex function';
 		} else {
@@ -61,7 +60,7 @@ var getPathToKasparov = function(PlayerID, callback1) {
 			}
 		}
 	};
-	function test(PlayerID, callback1) {
+
 		async.whilst(
 			function() {
 				return !(PlayerID in kamskyLosses) || PlayerID === '12528459';
@@ -105,8 +104,7 @@ var getPathToKasparov = function(PlayerID, callback1) {
 				callback1(path);
 				console.log('finished' + path.toString())
 			});
-	}
-	test(PlayerID, callback1);
+
 	// var PathArray = test(PlayerID, function(data) {
 	// 	return data
 
