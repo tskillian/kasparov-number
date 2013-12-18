@@ -27,6 +27,18 @@
                     padding-top: 70px;
                 }
             </style>
+
+        <script type="text/javascript">
+            /*$( document ).ready(function () {
+            $("#USCF-ID").submit(function(e){
+            return false; //Prevent post from form press
+            });
+            function goToPage() {
+            var page = document.getElementById('focusedInput').value;
+            window.location = "/" + page;
+            }
+        });*/
+        </script>
     </head>
  <body>
 
@@ -68,13 +80,14 @@
       <div class="jumbotron">
         <h2>How many wins away from Kasparov are you?</h2>
         <p>Enter your USCF ID to see how many wins you are away from Garry Kasparov. You can find your USCF ID by searching <a href="http://www.uschess.org/component/option,com_wrapper/Itemid,181/">here.</a></p>
-        
-        <div class="form-inline">
-          <div class="col-xs-4">
-            <input type="text" class="form-control" class="form-control input-lg" id="focusedInput" placeholder="Enter USCF ID">
-          </div>
-          <a class="btn btn-success" href="#search" role="button">идти &raquo;</a>
-        </div>
+        <form id="USCF-ID" >
+            <div class="form-inline">
+              <div class="col-xs-4">
+                <input type="text" form="USCF-ID" class="form-control input-lg" id="focusedInput" placeholder="Enter USCF ID">
+              </div>
+              <input class="btn btn-success" form="USCF-ID" onclick="goToPage()" value="идти &raquo;" type="submit" role="button">
+            </div>
+        </form>
       </div>
 
     </div> <!-- /container -->
