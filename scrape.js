@@ -2,12 +2,31 @@ var getHighestBucketWithWin = require('./record_against_rating_buckets_scrape');
 var kamskyOrRecentWin = require('./Gamestats_Scrape');
 var async = require('async');
 
-var PlayerID = '12869418';
+var PlayerID = '12869413';
+var kamskyLosses = {
+	'15218438': '15218438',
+	'12641216': '12641216',
+	'12577974': '12577974',
+	'12543746': '12543746',
+	'12544264': '12544264',
+	'12801246': '12801246',
+	'12473035': '12473035',
+	'13209014': '13209014',
+	'12528454': '12528454',
+	'12775614': '12775614',
+	'12735968': '12735968',
+	'10460921': '10460921',
+	'10098327': '10098327',
+	'12045270': '12045270',
+	'12205680': '12205680',
+	'12841701': '12841701',
+	'10076994': '10076994'
+};
 
-var isKamksy = function(playerList) {
+var didBeatKamksy = function(playerList) {
 	'use strict';
     for (var i = 0; i < playerList.length; i++) {
-        if (playerList[i].playerID === '12528459' && playerList[i].winLoss === 'W') { //if player beat Kamsky, return true
+        if (playerList[i].playerID in kamskyLosses && playerList[i].winLoss === 'W') { //if player beat Kamsky, return true
             return true;
         }
     }
@@ -20,14 +39,21 @@ var getWinByIndex = function(playerList, winIndex) {
         throw 'Win index out of bounds on getWinByIndex function';
     } else {
         winIndex = winIndex || 0;
-        return playerList[winIndex].playerID;
+        if (playerList[winIndex].playerID in path) {
+			getWinByIndex(playerList, winIndex += 1);
+        } else {
+			path[playerList[winIndex].playerID] = playerList[winIndex].playerID;
+			return playerList[winIndex].playerID;
+		}
     }
 };
+var jumpCount = 0;
+var path = {};
 
 async.whilst(
 	function() {
 		'use strict';
-		return PlayerID !== '12528459';
+		return !(PlayerID in kamskyLosses);
 	},
 	function(callback) {
 		'use strict';
@@ -47,9 +73,12 @@ async.whilst(
 				});
 			}
 		], function(err, winsList) {
-			console.log(winsList);
+			//console.log(winsList);
+			jumpCount += 1;
+			console.log('jumps: '+jumpCount);
+			console.log('path: '+ Object.keys(path));
 			// If there's a win vs Kamsky in wins list, return his ID, otherwise continue as normal
-			if (isKamksy(winsList)) {
+			if (didBeatKamksy(winsList)) {
 				PlayerID = '12528459';
 			} else {
 				PlayerID = getWinByIndex(winsList, 0);
