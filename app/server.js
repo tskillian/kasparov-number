@@ -14,6 +14,7 @@ var app = express()
 // });
 
 app.post('/search', function(req, res) {
+	'use strict';
 	console.log(req.body.IDinput);
 	var userInput = req.body.IDinput;
 	getPathToKasparov(userInput, function(data) {

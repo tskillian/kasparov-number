@@ -2,18 +2,13 @@ var getHighestBucketWithWin = require('./record_against_rating_buckets_scrape');
 var kamskyOrRecentWin = require('./Gamestats_Scrape');
 var async = require('async');
 
-var testData;
-var saveData = function(data) {
-		return data;
-	};
-
 var getPathToKasparov = function(PlayerID, callback1) {
 	'use strict';
 
 	// initialize jump count and path
 	var jumpCount = 0;
 	var path = [];
-	
+
 
 	// Players Kamsky has lost to hard coded to make search considerably faster
 	var kamskyLosses = {
@@ -61,64 +56,59 @@ var getPathToKasparov = function(PlayerID, callback1) {
 		}
 	};
 
-		async.whilst(
-			function() {
-				return !(PlayerID in kamskyLosses) || PlayerID === '12528459';
-			},
-			function(callback) {
-				async.waterfall([
+	async.whilst(
+		function() {
+			return !(PlayerID in kamskyLosses) || PlayerID === '12528459';
+		},
+		function(callback) {
+			async.waterfall([
 
-					function(callback) {
-						getHighestBucketWithWin(PlayerID, function(highestBucket) {
-							// console.log('playerID in getHighestBucketWithWin function: ' + PlayerID);
-							callback(null, highestBucket);
-						});
-					},
-					function(highestBucket, callback) {
-						kamskyOrRecentWin(PlayerID, highestBucket, 'W', function(winsList) {
-							// console.log('playerID in recent win function: ' + PlayerID);
+				function(callback) {
+					getHighestBucketWithWin(PlayerID, function(highestBucket) {
+						// console.log('playerID in getHighestBucketWithWin function: ' + PlayerID);
+						callback(null, highestBucket);
+					});
+				},
+				function(highestBucket, callback) {
+					kamskyOrRecentWin(PlayerID, highestBucket, 'W', function(winsList) {
+						// console.log('playerID in recent win function: ' + PlayerID);
 
-							callback(null, winsList);
-						});
-					}
-				], function(err, winsList) {
-					//console.log(winsList);
-					jumpCount += 1;
-					// console.log('jumps: ' + jumpCount);
-					// console.log('path is:' + path);
-					// If there's a win vs Kamsky in wins list, return his ID, otherwise continue as normal
-					//console.log(path);
-					if (didBeatKamksy(winsList)) {
-						PlayerID = didBeatKamksy(winsList);
-						callback(null);
-					} else {
-						PlayerID = getWinByIndex(winsList, 0);
-						callback(null);
-					}
-				});
-			},
-			function(err) {
-				if (err) {
-					console.log('error is: ' + err);
+						callback(null, winsList);
+					});
 				}
-				callback1(path);
-				console.log('finished' + path.toString())
+			], function(err, winsList) {
+				//console.log(winsList);
+				jumpCount += 1;
+				// console.log('jumps: ' + jumpCount);
+				// console.log('path is:' + path);
+				// If there's a win vs Kamsky in wins list, return his ID, otherwise continue as normal
+				//console.log(path);
+				if (didBeatKamksy(winsList)) {
+					PlayerID = didBeatKamksy(winsList);
+					callback(null);
+				} else {
+					PlayerID = getWinByIndex(winsList, 0);
+					callback(null);
+				}
 			});
+		},
+		function(err) {
+			if (err) {
+				console.log('error is: ' + err);
+			}
+			callback1(path);
+			console.log('finished' + path.toString())
+		});
 
-	// var PathArray = test(PlayerID, function(data) {
-	// 	return data
-
-	// });
-
-//return PathArray;
-	
 };
 
 module.exports = getPathToKasparov;
 
-// console.log(getPathToKasparov('12869418', function(data) {
-// 	console.log(data);
-// }));
+
+
+
+
+
 
 
 
