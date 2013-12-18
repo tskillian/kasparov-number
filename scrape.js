@@ -2,7 +2,7 @@ var getHighestBucketWithWin = require('./record_against_rating_buckets_scrape');
 var kamskyOrRecentWin = require('./Gamestats_Scrape');
 var async = require('async');
 
-var PlayerID = '12869413';
+var PlayerID = '12869418';
 var kamskyLosses = {
 	'15218438': '15218438',
 	'12641216': '12641216',
@@ -27,7 +27,7 @@ var didBeatKamksy = function(playerList) {
 	'use strict';
     for (var i = 0; i < playerList.length; i++) {
         if (playerList[i].playerID in kamskyLosses && playerList[i].winLoss === 'W') { //if player beat Kamsky, return true
-            return true;
+            return playerList[i].playerID;
         }
     }
     return false;
@@ -39,21 +39,21 @@ var getWinByIndex = function(playerList, winIndex) {
         throw 'Win index out of bounds on getWinByIndex function';
     } else {
         winIndex = winIndex || 0;
-        if (playerList[winIndex].playerID in path) {
+        if (path.indexOf(playerList[winIndex].playerID) !== -1) {
 			getWinByIndex(playerList, winIndex += 1);
         } else {
-			path[playerList[winIndex].playerID] = playerList[winIndex].playerID;
+			path.push(playerList[winIndex].playerID);
 			return playerList[winIndex].playerID;
 		}
     }
 };
 var jumpCount = 0;
-var path = {};
+var path = [];
 
 async.whilst(
 	function() {
 		'use strict';
-		return !(PlayerID in kamskyLosses);
+		return !(PlayerID in kamskyLosses) || PlayerID === '12528459';
 	},
 	function(callback) {
 		'use strict';
@@ -66,7 +66,7 @@ async.whilst(
 				});
 			},
 			function(highestBucket, callback) {
-				kamskyOrRecentWin(PlayerID, highestBucket, function(winsList) {
+				kamskyOrRecentWin(PlayerID, highestBucket, 'W', function(winsList) {
 					console.log('playerID in recent win function: ' + PlayerID);
 
 					callback(null, winsList);
@@ -76,7 +76,7 @@ async.whilst(
 			//console.log(winsList);
 			jumpCount += 1;
 			console.log('jumps: '+jumpCount);
-			console.log('path: '+ Object.keys(path));
+			console.log('path is:'+ path);
 			// If there's a win vs Kamsky in wins list, return his ID, otherwise continue as normal
 			if (didBeatKamksy(winsList)) {
 				PlayerID = '12528459';

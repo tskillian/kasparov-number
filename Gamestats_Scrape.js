@@ -34,6 +34,3 @@ var getWin = function(player, bucket, WLD, callback) {
 };
 
 module.exports = getWin;
-
-
-
