@@ -112,36 +112,9 @@ var getAllGamesByWinLossDraw = function(uscfID, bucket, winLossDraw, callback) {
     }); //ends request
 } //ends getAllGamesByWinLossDraw
 
-module.exports = getProfile;
-module.exports = getHighestBucketWithWin;
-module.exports = getAllGamesByWinLossDraw;
+var Scrape={};
+Scrape.getProfile =getProfile;
+Scrape.getHighestBucketWithWin =getHighestBucketWithWin;
+Scrape.getAllGamesByWinLossDraw =getAllGamesByWinLossDraw;
 
-getAllGamesByWinLossDraw('12625186', 2700, "W",function(error, data) {
-    console.log(error);
-    console.log(data);
-});
-
-getAllGamesByWinLossDraw('12625186', 2800, "W",function(error, data) {
-    console.log(error);
-    console.log(data);
-});
-
-getAllGamesByWinLossDraw('12625186', 2700, "L",function(error, data) {
-    console.log(error);
-    console.log(data);
-});
-
-getAllGamesByWinLossDraw('12625186', 2700, "D",function(error, data) {
-    console.log(error);
-    console.log(data);
-});
-
-getProfile('1271019', function(error, data) {
-    console.log(error);
-    console.log(data);
-});
-
-getProfile('', function(error, data) {
-    console.log(error);
-    console.log(data);
-});
+module.exports = Scrape;
