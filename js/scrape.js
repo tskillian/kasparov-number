@@ -1,45 +1,35 @@
-var page = require('webpage').create();
-//var userId=12869413;
-var userId=12528459;
-var memberURL='http://www.uschess.org/msa/MbrDtlMain.php?' + userId;
-var memberDetail={};
-var fetchMemberData=function() {
-	var user={};
-	//extracting USCF ID & name
-	var tmp = $(".topbar-middle b").html();
-	tmp=tmp.split(":");
-	user.uscfID=tmp[0]; //tmp.slice(0, tmp.indexOf(":")); alternate to using split
-	user.name=tmp[1].trim() //tmp.slice(tmp.indexOf(":")+2);
+var request = require('request'),
+    cheerio = require('cheerio');
+var getProfile = function(uscfID, callback) {
+    'use strict';
+    var errorMsg = "";
+    var user = null;
+    var requestURL = 'http://www.uschess.org/msa/MbrDtlMain.php?' + uscfId;
 
-	//extracting other details using regex
-	var mainContent=$(".topbar-middle table")[3];
-	var tmpTD = $(mainContent).find("tr:contains('Regular Rating') td")[1]; 
-	//matches 0000 for rating & 0000-00 for year & month
-	user.regularRating = $(tmpTD).html().match(/\d{4}/) + " on " + $(tmpTD).html().match(/\d{4}-\d{2}/); 
-	tmpTD = $(mainContent).find("tr:contains('Overall Ranking') td")[1];
-	//matches rank 1-4 digits + (T) or not + out of + 5 digits (?:.T.) ensures .T. is not returned
-	user.overallRanking =$(tmpTD).html().match(/\d{1,4}(?:.T.)? out of \d{5}/);
-	tmpTD = $(mainContent).find("tr:contains('State') td")[4];
-	//matches 2 uppercase characters
-	user.state = $(tmpTD).html().match(/[A-Z]{2}/);
-	tmpTD = $(mainContent).find("tr:contains('FIDE Title') td")[1];
-	//.*? matches between > & < follwed by replacing < & >.	
-	user.fideTitle = (tmpTD!== undefined) ? $(tmpTD).html().match(/>.*?</)[0].replace(/</,"").replace(/>/,"").trim():"";
-	return user;
+    request(requestURL, function(error, response, body) {
+        if (!error) {
+            var $ = cheerio.load(body);
+
+        } else {
+            errorMsg="error loading page" + error;
+        }
+        callback(errorMsg,user);
+    });
+
+
 }
 
-page.open(memberURL, function(status) {
-	'use strict';
-	if (status!="success"){
-		console.log(status);
-	}
-	
-  	page.includeJs("http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", function() {
-		var memberDetail = page.evaluate(fetchMemberData);
-		// console.log(test.uscfID + "," + test.name);
-		// console.log(test.regularRating + "," + test.overallRanking);
-		// console.log(test.state + "," + test.fideTitle);
-		phantom.exit();
-  	});
+getProfile('12710197', function(error, data) {
+    console.log(error);
+    console.log(data);
 });
 
+getProfile('1271019', function(error, data) {
+    console.log(error);
+    console.log(data);
+});
+
+getProfile('', function(error, data) {
+    console.log(error);
+    console.log(data);
+});
