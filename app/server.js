@@ -5,7 +5,7 @@ var getPathToKasparov = require('../scrape');
 var app = express()
 			.use(express.static(__dirname,
 								path.join(__dirname, 'bower_components'),
-								path.join(__dirname, 'js')))
+								path.join(__dirname, 'js'),path.join(__dirname, 'visualD3')))
 			.use(express.bodyParser());
 
 
