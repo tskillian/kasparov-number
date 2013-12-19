@@ -71,20 +71,14 @@ var getPathToKasparov = function(PlayerID, callback1) {
 				},
 				function(highestBucket, callback) {
 					kamskyOrRecentWin(PlayerID, highestBucket, 'W', function(winsList) {
-						// console.log('playerID in recent win function: ' + PlayerID);
-
 						callback(null, winsList);
 					});
 				}
 			], function(err, winsList) {
-				//console.log(winsList);
 				jumpCount += 1;
-				// console.log('jumps: ' + jumpCount);
-				// console.log('path is:' + path);
-				// If there's a win vs Kamsky in wins list, return his ID, otherwise continue as normal
-				//console.log(path);
 				if (didBeatKamksy(winsList)) {
 					PlayerID = didBeatKamksy(winsList);
+					path.push(PlayerID);
 					callback(null);
 				} else {
 					PlayerID = getWinByIndex(winsList, 0);
@@ -95,21 +89,19 @@ var getPathToKasparov = function(PlayerID, callback1) {
 		function(err) {
 			if (err) {
 				console.log('error is: ' + err);
+			} else {
+				// Add Kamsky and Kasparov since we got up to Kamsky losses
+				callback1(path);
 			}
-			callback1(path);
-			console.log('finished' + path.toString())
 		});
 
 };
 
 module.exports = getPathToKasparov;
 
-
-
-
-
-
-
+// getPathToKasparov('12869413', function(result) {
+// 	console.log(result);
+// });
 
 
 
