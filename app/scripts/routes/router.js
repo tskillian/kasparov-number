@@ -33,7 +33,6 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
                             center: new google.maps.LatLng(41.8780025, -93.097702),
                             zoom: 4
                         };
-                        var myLatlng = new google.maps.LatLng(41.8780025, -93.097702);
                         var map = new google.maps.Map(document.getElementById("map-canvas"),
                             mapOptions);
                         data.forEach(function(element) {
