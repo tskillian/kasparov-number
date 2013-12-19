@@ -99,9 +99,9 @@ var getPathToKasparov = function(PlayerID, callback1) {
 
 module.exports = getPathToKasparov;
 
-// getPathToKasparov('12869413', function(result) {
-// 	console.log(result);
-// });
+getPathToKasparov('12869413', function(result) {
+	console.log(result);
+});
 
 
 
