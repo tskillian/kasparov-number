@@ -6,3 +6,17 @@ body {
     margin: 50px auto 0 auto;
     width: 300px;
 }
+
+#gitList {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#gitList li {
+	list-style: none;
+	padding-left: 30px;
+	background-image: url(git.png);
+	background-repeat: no-repeat;
+	background-position: 0 .5em;
+	text: 30px;
+}

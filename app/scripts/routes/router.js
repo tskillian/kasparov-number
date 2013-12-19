@@ -7,7 +7,8 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
 
     KasparovNumber.Routers.MainrouterRouter = Backbone.Router.extend({
         routes: {
-            "search/:uID": "SearchUser"
+            "search/:uID": "SearchUser",
+            "about": "About"
         },
         SearchUser: function(uID) {
             KasparovNumber.pathCollection = new KasparovNumber.Collections.PathCollection();
@@ -20,9 +21,8 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
                     var path = KasparovNumber.pathCollection;
                     KasparovNumber.graphView = new KasparovNumber.Views.MapGraphView({
                         collection: path
-                    });
-                    $('#GraphView').append(KasparovNumber.graphView.render().el);
-
+                    })
+                    $('#GraphView').append(KasparovNumber.graphView.render().el)
                     var url;
                     var locationData = {};
                     var data = path.toJSON();
@@ -34,7 +34,6 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
                     //     name: 'Kamsky',
                     //     state: 'NY'
                     // }];
-
                     function initialize() {
                         var mapOptions = {
                             center: new google.maps.LatLng(41.8780025, -93.097702),
@@ -63,14 +62,23 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
                     };
 
                     initialize();
-                    //google.maps.event.addDomListener(window, 'load', initialize);
                 }
             })
+        },
+        About: function() {
+            $('.jumbotron').html('');
+            $('#home').removeClass();
+            $('.jumbotron').append(aboutPage);
+            $('#about').addClass('active');
         }
+
+
     });
+
 
     KasparovNumber.router = new KasparovNumber.Routers.MainrouterRouter();
     Backbone.history.start({
         root: "/"
-    })
+    });
 })();
+var aboutPage = '<div id="gitList"><h2>This project brought to you by:</h2><p><ul><li><a href="https://github.com/smitabusar">smitabusar</a> </li><li><a href="https://github.com/tskillian">tskillian</a> </li><li><a href="https://github.com/pollackaaron">pollackaaron</a> </li></ul></p></div>'
