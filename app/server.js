@@ -34,14 +34,14 @@ app.get('/search', function(req, res) {
 		uscfID: '12518524',
 		name: 'Garry Kasparov',
 		regularRating: '2812',
-		state: '',
+		State: 'RU',
 		country: 'RU'
 	};
 	var kamskyProfile = {
 		uscfID: '12528459',
 		name: 'Gata Kamsky',
 		regularRating: '2796',
-		state: 'NY',
+		State: 'NY',
 		country: 'US'
 	};
 	getPathToKasparov(userInput, function(playersArray) {
