@@ -26,7 +26,9 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
     	},
     	About : function() {
     		$('.jumbotron').html('');
+    		$('#home').removeClass();
     		$('.jumbotron').append(aboutPage);
+    		$('#about').addClass('active');
     	}
     });
 
