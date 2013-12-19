@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf8FEg8WlR7e-jzpqrRInZoGwb58S3jis&sensor=false">
+    </script>
+    <script type="text/javascript">
+    var url;
+    var locationData = {};
+      var data = [{name: 'Tim Killian', state: 'IA'}, {name: 'Kamsky', state: 'NY'}];
+
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(41.8780025, -93.097702),
+          zoom: 4
+        };
+        var myLatlng = new google.maps.LatLng(41.8780025, -93.097702);
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+        data.forEach(function(element) {
+        url = 'http://maps.googleapis.com/maps/api/geocode/json?address=+'+element.state+'&sensor=false';
+
+        $.ajax({
+          dataType: "json",
+          url: url,
+          success: function(data) {
+            console.log(data.results[0].geometry.location);
+            locationData[element.state] = data.results[0].geometry.location;
+            var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(data.results[0].geometry.location.lat, data.results[0].geometry.location.lng),
+              map: map,
+              title: 'yes'
+            })
+          }
+        });
+      });
+  };
+
+      
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"/>
+  </body>
+</html>
