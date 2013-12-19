@@ -7,10 +7,16 @@ KasparovNumber.Views = KasparovNumber.Views || {};
 
     KasparovNumber.Views.MapGraphView = Backbone.View.extend({
 
-        render : function {
-        		this.$el.html('This is your course path ' + this.model.get('path'))
-        		return this;
-        	}
+        render : function () {
+        	this.collection.each(function(model) {
+                        KasparovNumber.nodeView = new KasparovNumber.Views.PlayerNodeView({
+                                model:model
+                        });
+                
+                this.$el.append(KasparovNumber.nodeView.render().el);
+        },this);
+         return this; 
+     }
 
     });
 

@@ -16,8 +16,18 @@ var app = express()
 // 	res.json(data);
 // });
 
+var userInput;
+
 app.post('/search', function(req, res) {
 	'use strict';
+
+	userInput = req.body.uscfID;
+	console.log(userInput);
+	res.send('Success')
+	
+});
+
+app.get('/search', function(req, res) {
 	var path = [];
 	// initialize profiles with Kasparov and Kamsky
 	var kasparovProfile = {
@@ -34,8 +44,6 @@ app.post('/search', function(req, res) {
 		state: 'NY',
 		country: 'US'
 	};
-	var userInput = req.body.uscfID;
-	console.log(userInput);
 	getPathToKasparov(userInput, function(playersArray) {
 		async.eachSeries(playersArray, function(player, callback) {
 			console.log(player);
@@ -53,7 +61,6 @@ app.post('/search', function(req, res) {
 
 	});
 });
-
 
 var port = process.env.PORT || 3000;
 app.listen(port);

@@ -16,7 +16,10 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
     		KasparovNumber.pathCollection.fetch({
     			success: function () {
     				var path = KasparovNumber.pathCollection;
-    				
+    				KasparovNumber.graphView = new KasparovNumber.Views.MapGraphView({
+    					collection: path
+    				})
+    				$('#GraphView').append(KasparovNumber.graphView.render().el)
     			}
     		})
     	}
