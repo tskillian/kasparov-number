@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 var getPathToKasparov = require('../scrape');
 var smitaScrape = require('../js/scrape');
+var async = require('async');
 
 
 var app = express()
@@ -15,32 +16,41 @@ var app = express()
 // 	res.json(data);
 // });
 
-app.get('/search', function(req, res) {
+app.post('/search', function(req, res) {
 	'use strict';
 	var path = [];
 	// initialize profiles with Kasparov and Kamsky
-	var kamskyKasparovProfiles = [{
+	var kasparovProfile = {
 		uscfID: '12518524',
 		name: 'Garry Kasparov',
 		regularRating: '2812',
 		state: '',
 		country: 'RU'
-	}, {
+	};
+	var kamskyProfile = {
 		uscfID: '12528459',
 		name: 'Gata Kamsky',
 		regularRating: '2796',
 		state: 'NY',
 		country: 'US'
-	}];
-	console.log(req.body.IDinput);
+	};
 	var userInput = req.body.uscfID;
+	console.log(userInput);
 	getPathToKasparov(userInput, function(playersArray) {
-		playersArray.forEach(function(element) {
-			path.push(smitaScrape.getProfile(element));
+		async.eachSeries(playersArray, function(player, callback) {
+			console.log(player);
+			smitaScrape.getProfile(player, function(err, profile) {
+				console.log(profile);
+				path.push(profile);
+				callback(null);
+			});
+			
+		}, function() {
+			path.push(kamskyProfile);
+			path.push(kasparovProfile);
+			res.send(path);
 		});
-		path.push(kamskyKasparovProfiles);
 
-		res.send(kamskyKasparovProfiles);
 	});
 });
 

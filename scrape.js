@@ -90,7 +90,6 @@ var getPathToKasparov = function(PlayerID, callback1) {
 			if (err) {
 				console.log('error is: ' + err);
 			} else {
-				// Add Kamsky and Kasparov since we got up to Kamsky losses
 				callback1(path);
 			}
 		});
@@ -99,9 +98,9 @@ var getPathToKasparov = function(PlayerID, callback1) {
 
 module.exports = getPathToKasparov;
 
-getPathToKasparov('12869413', function(result) {
-	console.log(result);
-});
+// getPathToKasparov('12869413', function(result) {
+// 	console.log(result);
+// });
 
 
 
