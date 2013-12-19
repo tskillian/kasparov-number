@@ -7,7 +7,8 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
 
     KasparovNumber.Routers.MainrouterRouter = Backbone.Router.extend({
     	routes: {
-    		"search/:uID" : "SearchUser"
+    		"search/:uID" : "SearchUser",
+    		"about" : "About"
     	},
     	SearchUser : function(uID) {
     		KasparovNumber.pathCollection = new KasparovNumber.Collections.PathCollection();
@@ -22,6 +23,10 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
     				$('#GraphView').append(KasparovNumber.graphView.render().el)
     			}
     		})
+    	},
+    	About : function() {
+    		$('.jumbotron').html('');
+    		$('.jumbotron').append(aboutPage);
     	}
     });
 
@@ -29,3 +34,4 @@ KasparovNumber.router = new KasparovNumber.Routers.MainrouterRouter();
 Backbone.history.start({root: "/"})
 })();
 
+var aboutPage = '<div id="gitList"><h2>This project brought to you by:</h2><p><ul><li><a href="https://github.com/smitabusar">smitabusar</a> </li><li><a href="https://github.com/tskillian">tskillian</a> </li><li><a href="https://github.com/pollackaaron">pollackaaron</a> </li></ul></p></div>'
