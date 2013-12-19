@@ -7,8 +7,10 @@ KasparovNumber.Collections = KasparovNumber.Collections || {};
 
     KasparovNumber.Collections.PathCollection = Backbone.Collection.extend({
 
-        model: KasparovNumber.Models.PathModel
+        model: KasparovNumber.Models.UserModel,
+        url : '/search'
 
     });
+
 
 })();

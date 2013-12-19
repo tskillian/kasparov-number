@@ -1,6 +1,5 @@
 /*global KasparovNumber, $*/
 
-
 window.KasparovNumber = {
     Models: {},
     Collections: {},
