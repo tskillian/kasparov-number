@@ -28,7 +28,7 @@ app.get('/search', function(req, res) {
 	// initialize profiles with Kasparov and Kamsky
 	var kasparovProfile = {
 		uscfID: '12518524',
-		Name: 'GARRY KASPAROV',
+		name: 'GARRY KASPAROV',
 		RegularRating: '2812',
 		OverallRanking: '2 out of the entire world',
 		State: 'RU',
@@ -36,7 +36,7 @@ app.get('/search', function(req, res) {
 	};
 	var kamskyProfile = {
 		uscfID: '12528459',
-		Name: 'GATA KAMSKY',
+		name: 'GATA KAMSKY',
 		RegularRating: '2796',
 		OverallRanking: '3 out of 53790',
 		State: 'NY',
