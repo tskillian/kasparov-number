@@ -31,16 +31,22 @@
             </style>
 
         <script type="text/javascript">
-        $("#USCF-ID").submit(function(e){
-            return false; //Prevent post from form press
+        $(document).ready(function() {
+            $("#USCF-ID").submit(function(e) {
+                return false; //Prevent post from form press
             });
-        $('#submitButton').on('click', function () {
-            var buttonVal = $('focusedInput').val();
-            if (buttonVal) {
-                backboneApp.Router.navigate('#search/' + buttonVal, {trigger: true, replace: true}); //Logic to load course from server via backbone
-            } else {
-                return false;
-            }
+            $('#submitButton').on('click', function() {
+                var buttonVal = $('#focusedInput').val();
+                console.log(buttonVal);
+                if (buttonVal) {
+                    KasparovNumber.router.navigate('#search/' + buttonVal, {
+                        trigger: true,
+                        replace: true
+                    }); //Logic to load course from server via backbone
+                } else {
+                    return false;
+                }
+            });
         });
         </script>
     </head>
@@ -56,7 +62,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Checkmate Kasparov</a>
+          <a class="navbar-brand" href="">Checkmate Kasparov</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -93,6 +99,9 @@
             </div>
         </form>
       </div>
+    
+    <div id="GraphView">
+    </div>
 
     </div> <!-- /container -->
 
@@ -108,7 +117,18 @@
         </script>
 
         <!-- build:js scripts/main.js -->
-        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        
+        <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+        <script type="text/javascript" src="bower_components/backbone/backbone.js"></script>
+        <script type="text/javascript" src="scripts/main.js"></script>
+        <script type="text/javascript" src="scripts/routes/router.js"></script>
+
+        <script type="text/javascript" src="scripts/models/user.js"></script>
+        <script type="text/javascript" src="scripts/collections/path.js"></script>
+        <script type="text/javascript" src="scripts/views/map-graph.js"></script>
+        <script type="text/javascript" src="scripts/views/node-view.js"></script>
+
+
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <!-- endbuild -->
 </body>

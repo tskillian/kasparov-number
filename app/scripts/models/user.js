@@ -1,23 +1,16 @@
-/*global define*/
+/*global KasparovNumber, Backbone*/
 
-define([
-	'underscore',
-	'backbone'
-], function(_, Backbone) {
-	'use strict';
+KasparovNumber.Models = KasparovNumber.Models || {};
 
-	var UserModel = Backbone.Model.extend({
-		defaults: function() {
-			return {
-				uscfID: null,
-				name: null,
-				RegularRating: null,
-				OverallRanking: null,
-				State: null,
-				FIDETitle: null
-			}
-		}
-	});
+(function () {
+    'use strict';
 
-	return UserModel;
-});
+    KasparovNumber.Models.UserModel = Backbone.Model.extend({
+		uscfID: null,
+  		name: null,
+  		RegularRating: null,
+  		OverallRanking: null,
+  		State: null
+    });
+
+})();

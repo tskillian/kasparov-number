@@ -1,48 +1,17 @@
-/*global require*/
-'use strict';
+/*global KasparovNumber, $*/
 
-require.config({
-    shim: {
-        underscore: {
-            exports: '_'
-        },
-        backbone: {
-            deps: [
-                'underscore',
-                'jquery'
-            ],
-            exports: 'Backbone'
-        },
-        bootstrap: {
-            deps: ['jquery'],
-            exports: 'jquery'
-        }
-    },
-    paths: {
-        jquery: '../bower_components/jquery/jquery',
-        backbone: '../bower_components/backbone/backbone',
-        underscore: '../bower_components/underscore/underscore',
-        bootstrap: 'vendor/bootstrap'
-    }
-});
-
-require([
-    'backbone',
-    'routes/router',
-    'collections/path',
-    'views/map-graph'
-], function (Backbone, Router, Collection, Views) {
-    window.backboneApp.Router = new Router();
-    new Views.MapGraphView({
-            collection: new Collection.PathCollection()
-        });
-    Backbone.history.start();
-    window.backboneApp.init();
-});
-
-window.backboneApp = {
+window.KasparovNumber = {
     Models: {},
     Collections: {},
     Views: {},
-    Router: {},
+    Routers: {},
+    init: function () {
+        'use strict';
+        console.log('Hello from Backbone!');
+    }
 };
+
+$(document).ready(function () {
+    'use strict';
+    KasparovNumber.init();
+});
