@@ -1,16 +1,14 @@
-/*global define*/
+/*global KasparovNumber, Backbone*/
 
-define([
-    'underscore',
-    'backbone',
-    'models/user'
-], function (_, Backbone, UserModel) {
+KasparovNumber.Collections = KasparovNumber.Collections || {};
+
+(function () {
     'use strict';
 
-    var PathCollection = Backbone.Collection.extend({
-        model: UserModel,
-        url : '/search'
+    KasparovNumber.Collections.PathCollection = Backbone.Collection.extend({
+
+        model: KasparovNumber.Models.PathModel
+
     });
 
-    return PathCollection;
-});
+})();

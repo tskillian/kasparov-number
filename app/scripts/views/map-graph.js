@@ -1,16 +1,14 @@
-/*global define*/
+/*global KasparovNumber, Backbone, JST*/
 
-define([
-    'jquery',
-    'underscore',
-    'backbone',
-    'templates'
-], function ($, _, Backbone, JST) {
+KasparovNumber.Views = KasparovNumber.Views || {};
+
+(function () {
     'use strict';
 
-    var MapGraphView = Backbone.View.extend({
+    KasparovNumber.Views.MapGraphView = Backbone.View.extend({
+
         template: JST['app/scripts/templates/map-graph.ejs']
+
     });
 
-    return MapGraphView;
-});
+})();

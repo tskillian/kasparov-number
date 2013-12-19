@@ -1,23 +1,12 @@
-/*global define*/
+/*global KasparovNumber, Backbone*/
 
-define([
-    'jquery',
-    'backbone'
-], function ($, Backbone) {
+KasparovNumber.Routers = KasparovNumber.Routers || {};
+
+(function () {
     'use strict';
 
-    var RouterRouter = Backbone.Router.extend({
-        routes: {
-        	"search/:uID" : "userSearch",
-        },
-
-    userSearch : function (uID) {
-    	alert(uID);
-    }
+    KasparovNumber.Routers.MainrouterRouter = Backbone.Router.extend({
 
     });
 
-    return RouterRouter;
-
-
-});
+})();
