@@ -10,7 +10,8 @@
     "requirejs-text": "~2.0.5",
     "modernizr": "~2.6.2",
     "bootstrap": "~3.0.3",
-    "d3": "~3.3.13"
+    "d3": "~3.3.13",
+    "topojson": "~1.4.5"
   },
   "devDependencies": {}
 }

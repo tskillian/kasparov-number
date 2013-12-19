@@ -18,7 +18,7 @@ function getCentroid(selection) {
 }
 
 var drawD3Document = function(data) {
-
+  console.dir(data);
   var cost_data = {}
   data.forEach(function(d) {
     cost_data[d['Provider State']] = {};
@@ -26,7 +26,7 @@ var drawD3Document = function(data) {
     cost_data[d['Provider State']].pay = d[' Average Total Payments '];
   })
 
-  console.log(cost_data);
+  console.dir(cost_data);
 
   var width = WIDTH,
     height = HEIGHT,
@@ -79,7 +79,7 @@ var drawD3Document = function(data) {
     0: null
   };
 
-  d3.tsv("/d3templates/us-state-names.tsv", function(error, names) {
+  d3.tsv("/visualD3/d3templates/us-state-names.tsv", function(error, names) {
 
     for (var i = 0; i < names.length; i++) {
       id_name_map[names[i].id] = names[i];
@@ -92,7 +92,7 @@ var drawD3Document = function(data) {
       return +d[' Average Total Payments '];
     })]);
 
-    d3.json("/d3templates/us.json", function(error, us) {
+    d3.json("/visualD3/d3templates/us.json", function(error, us) {
       function clicked(d) {}
 
       g.append("g")

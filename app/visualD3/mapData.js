@@ -1,4 +1,4 @@
-[
+myData=[
   {
     "Provider State": "AK",
     " Average Covered Charges ": "59078.2784598214",
@@ -254,4 +254,4 @@
     " Average Covered Charges ": "48963.7436079545",
     " Average Total Payments ": "19187.1149680398"
   }
-]
+];
