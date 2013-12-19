@@ -22,18 +22,12 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
                     KasparovNumber.graphView = new KasparovNumber.Views.MapGraphView({
                         collection: path
                     })
-                    $('#GraphView').append(KasparovNumber.graphView.render().el)
+                    $('#jumpsTitle').css('display', 'block');
+                    $('#GraphView').append(KasparovNumber.graphView.render().el);
                     var url;
                     var locationData = {};
                     var data = path.toJSON();
                     console.log(data);
-                    // var data = [{
-                    //     name: 'Tim Killian',
-                    //     state: 'IA'
-                    // }, {
-                    //     name: 'Kamsky',
-                    //     state: 'NY'
-                    // }];
                     function initialize() {
                         var mapOptions = {
                             center: new google.maps.LatLng(41.8780025, -93.097702),
@@ -56,9 +50,24 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
                                         map: map,
                                         title: element.name
                                     });
+                                var message = ("<p>Regular Rating: " + element.RegularRating + '<br>' +
+                                				"Overall Ranking: " + element.OverallRanking + '<br>' +
+                                				"State: " + element.State + "</p>")
+                                addInfoWindow(marker, message);
                                 }
                             });
                         });
+						function addInfoWindow(marker, message) {
+							var info = message;
+
+							var infoWindow = new google.maps.InfoWindow({
+								content: message
+							});
+
+							google.maps.event.addListener(marker, 'click', function() {
+								infoWindow.open(map, marker);
+							});
+						}
                     };
 
                     initialize();

@@ -6,9 +6,9 @@ KasparovNumber.Views = KasparovNumber.Views || {};
     'use strict';
 
     KasparovNumber.Views.PlayerNodeView = Backbone.View.extend({
-    	tagName: 'p',
+    	tagName: 'li',
         render : function () {
-        		this.$el.html('Chess Player: ' + this.model.get("name"))
+        		this.$el.html(this.model.get("name"))
         		return this;
         	}
 

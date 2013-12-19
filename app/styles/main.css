@@ -20,3 +20,11 @@ body {
 	background-position: 0 .5em;
 	text: 30px;
 }
+
+#map-canvas {
+    margin: 0 auto;
+}
+
+#jumpsTitle {
+	display: none;
+}
