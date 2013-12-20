@@ -49,7 +49,8 @@ KasparovNumber.Routers = KasparovNumber.Routers || {};
                                         map: map,
                                         title: element.name
                                     });
-                                var message = ("<p>Regular Rating: " + element.RegularRating + '<br>' +
+                                var message = ("<p>Name: " + element.name + '<br>' +
+                                				"Regular Rating: " + element.RegularRating + '<br>' +
                                 				"Overall Ranking: " + element.OverallRanking + '<br>' +
                                 				"State: " + element.State + "</p>")
                                 addInfoWindow(marker, message);
