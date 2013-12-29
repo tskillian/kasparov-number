@@ -3,8 +3,7 @@ var myMongoDb = require('./priv_mongo_info');
 mongoose.connect(myMongoDb);
 var playerSchema = mongoose.Schema({
 	name: String,
-	country: String,
-	usState: String,
+	location: String,
 	fideId: {
 		type: Number,
 		index: true
