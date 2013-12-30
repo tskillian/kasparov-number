@@ -60,7 +60,7 @@ var getProfile = function(uscfID, callback) {
                         user[field] = value;
                     } else if (field === 'OverallRanking' || field === 'State') {
                         user[field] = value;
-                        
+
                     }
                 }); //end each
             } //end user created
@@ -71,33 +71,62 @@ var getProfile = function(uscfID, callback) {
     }); //ends request
 }; //ends getProfile
 
-getProfile('12528459', function(err, data) {
-    console.log(data);
-});
+// getProfile('12528459', function(err, data) {
+//     console.log(data);
+// });
+
+var addProfileToDatabase = function(err, profile, callback) {
+    'use strict';
+    MongoClient.connect(dbInfo, function(err, db) {
+        var collection = db.collection('players');
+        collection.insert({
+            name: profile.name,
+            uscfId: profile.uscfID,
+            uscfRating: parseInt(profile.RegularRating, 10),
+            asOfDate: profile.asOfDate,
+            location: profile.State,
+            fideId: profile.FIDEID,
+            wins: [],
+            draws: [],
+            losses: []
+        }, function(err, docs) {
+            if (err) {
+                db.close();
+                throw err;
+            } else {
+                db.close();
+                console.log(docs);
+                //callback(docs);
+            }
+        });
+
+    });
+};
+
+//getProfile('12528459', addProfileToDatabase);
 
 var getAllBuckets = function(id, callback) {
     'use strict';
-    console.log('player ID within getHighestBucketWithWin file: '+ id);
     var requestUrl = 'http://main.uschess.org/datapage/gamestats.php?memid=' + id;
     request(requestUrl, function(error, response, body) {
         var $ = cheerio.load(body);
-        var buckets = [];
+        var bucketsArray = [];
         $('.blog').siblings().find('tr').each(function(i, element) {
             var $row = $(element);
             var bucket = $row.find('td').eq(0).text();
             if (bucket && bucket.length < 5) {
-                buckets.push(bucket);
+                bucketsArray.push(bucket);
             }
         });
-        callback(null, buckets);
+        callback(null, id, bucketsArray);
     });
 };
 
 // getAllBuckets('12528459', function(err, data) {
 //     console.log(data);
 // });
-var addGamesInBucket = function(id, bucket, callback) {
-    var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + id + '&dkey='+bucket+'&drill=G';
+var getGamesInBucket = function(id, bucket, callback) {
+    var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + id + '&dkey=' + bucket + '&drill=G';
     request(requestURL, function(error, response, body) {
         var games = [];
         var $ = cheerio.load(body);
@@ -110,23 +139,103 @@ var addGamesInBucket = function(id, bucket, callback) {
                     winLossDraw: winLossDraw,
                     opponentUscfId: $row.find('td').eq(4).text(),
                     tournament: $row.find('td').eq(0).text(),
-                    preTourneyRating: $row.find('td').eq(6).text().slice(0,4)
+                    preTourneyRating: $row.find('td').eq(6).text().slice(0, 4)
                 });
             }
         });
+        console.log('games array right before evoking callback within getGamesinBucket:');
+        console.log(games);
         callback(null, games);
     });
 };
 
-// addGamesInBucket('12528459', '2900', function(err, data) {
+// getGamesInBucket('12528459', '2900', function(err, data) {
 //     console.log(data);
 // });
 
+var getGamesInAllBuckets = function(err, id, bucketsArray) {
+    'use strict';
+    var allGamesArray = [];
+    async.eachSeries(bucketsArray, function(bucket, eachCallback) {
+        getGamesInBucket(id, bucket, function(err, games) {
+            allGamesArray = allGamesArray.concat(games);
+            eachCallback(null);
+        });
+    }, function(err) {
+        console.log('in end callback of eachseries');
+        console.log(allGamesArray);
+        console.log('array length: ' + allGamesArray.length);
+    });
+};
+
+//getAllBuckets('20131342', getGamesInAllBuckets);
+
+var addGamesToDatabase = function(err, id, games, callback) {
+    'use strict';
+    MongoClient.connect(dbInfo, function(err, db) {
+        var collection = db.collection('players');
+        console.log('before async each');
+        async.eachSeries(games, function(game, eachCallback) {
+            if (game.winLossDraw === 'W') {
+                collection.update({
+                    uscfId: id
+                }, {
+                    $push: {
+                        wins: game
+                    }
+                }, function() {
+                    eachCallback();
+                });
+            } else if (game.winLossDraw === 'L') {
+                collection.update({
+                    uscfId: id
+                }, {
+                    $push: {
+                        losses: game
+                    }
+                }, function() {
+                    eachCallback();
+                });
+            } else if (game.winLossDraw === 'D') {
+                collection.update({
+                    uscfId: id
+                }, {
+                    $push: {
+                        draws: game
+                    }
+                }, function() {
+                    eachCallback();
+                });
+            }
+        }, function(err) {
+            db.close();
+            console.log('updates finished');
+        });
+    });
+};
+var exampleGames = [{
+    winLossDraw: 'L',
+    opponentUscfId: '12635380  ',
+    tournament: 'Klein End-of-Year Scholastic ',
+    preTourneyRating: 'Unr.'
+}, {
+    winLossDraw: 'W',
+    opponentUscfId: '12653365  ',
+    tournament: 'Klein End-of-Year Scholastic ',
+    preTourneyRating: 'Unr.'
+}, {
+    winLossDraw: 'D',
+    opponentUscfId: '20115970  ',
+    tournament: 'Klein End-of-Year Scholastic ',
+    preTourneyRating: 'Unr.'
+}];
+
+//addGamesToDatabase(null, "12528459", exampleGames);
 
 var getWin = function(player, bucket, WLD, callback) {
     'use strict';
 
-    var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dkey='+bucket+'&drill=G';
+    var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dkey=' + bucket + '&drill=G';
     request(requestURL, function(error, response, body) {
         var LW = [];
         var $ = cheerio.load(body);
@@ -148,7 +257,6 @@ var getWin = function(player, bucket, WLD, callback) {
         callback(LW);
     });
 };
-
 
 
 
