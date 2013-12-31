@@ -3,7 +3,9 @@ var request = require('request'),
     mongodb = require('mongodb'),
     async = require('async'),
     dbInfo = require('../priv_mongo_info'),
-    MongoClient = mongodb.MongoClient; //Connect via MongoClient.connect(dbInfo, function(err, db) {})
+    MongoClient = mongodb.MongoClient;
+
+var queue, playersVisited, currentId;
 
 var getPersistentData = function(callback) {
     'use strict';
@@ -15,7 +17,10 @@ var getPersistentData = function(callback) {
         // }));
         dbObject.toArray(function(err, data) {
             db.close();
-            callback(null, data[0]);
+            queue = data[0].queue;
+            playersVisited = data[0].playersVisited;
+            currentId = queue[0];
+            callback(currentId);
         });
     });
 };
@@ -75,7 +80,7 @@ var getProfile = function(uscfID, callback) {
 //     console.log(data);
 // });
 
-var addProfileToDatabase = function(err, profile, callback) {
+var addProfileToDatabase = function(profile, callback) {
     'use strict';
     MongoClient.connect(dbInfo, function(err, db) {
         var collection = db.collection('players');
@@ -96,7 +101,7 @@ var addProfileToDatabase = function(err, profile, callback) {
             } else {
                 db.close();
                 console.log(docs);
-                //callback(docs);
+                callback();
             }
         });
 
@@ -126,6 +131,7 @@ var getAllBuckets = function(id, callback) {
 //     console.log(data);
 // });
 var getGamesInBucket = function(id, bucket, callback) {
+    'use strict';
     var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + id + '&dkey=' + bucket + '&drill=G';
     request(requestURL, function(error, response, body) {
         var games = [];
@@ -137,7 +143,7 @@ var getGamesInBucket = function(id, bucket, callback) {
             if (winLossDraw) {
                 games.push({
                     winLossDraw: winLossDraw,
-                    opponentUscfId: $row.find('td').eq(4).text(),
+                    opponentUscfId: $row.find('td').eq(4).text().trim(),
                     tournament: $row.find('td').eq(0).text(),
                     preTourneyRating: $row.find('td').eq(6).text().slice(0, 4)
                 });
@@ -153,7 +159,7 @@ var getGamesInBucket = function(id, bucket, callback) {
 //     console.log(data);
 // });
 
-var getGamesInAllBuckets = function(err, id, bucketsArray) {
+var getGamesInAllBuckets = function(err, id, bucketsArray, callback) {
     'use strict';
     var allGamesArray = [];
     async.eachSeries(bucketsArray, function(bucket, eachCallback) {
@@ -165,6 +171,7 @@ var getGamesInAllBuckets = function(err, id, bucketsArray) {
         console.log('in end callback of eachseries');
         console.log(allGamesArray);
         console.log('array length: ' + allGamesArray.length);
+        callback(id, allGamesArray);
     });
 };
 
@@ -174,8 +181,8 @@ var addGamesToDatabase = function(err, id, games, callback) {
     'use strict';
     MongoClient.connect(dbInfo, function(err, db) {
         var collection = db.collection('players');
-        console.log('before async each');
         async.eachSeries(games, function(game, eachCallback) {
+            console.log('adding '+game.opponentUscfId+' to db');
             if (game.winLossDraw === 'W') {
                 collection.update({
                     uscfId: id
@@ -210,57 +217,84 @@ var addGamesToDatabase = function(err, id, games, callback) {
         }, function(err) {
             db.close();
             console.log('updates finished');
+            callback(id, games);
         });
     });
 };
-var exampleGames = [{
-    winLossDraw: 'L',
-    opponentUscfId: '12635380  ',
-    tournament: 'Klein End-of-Year Scholastic ',
-    preTourneyRating: 'Unr.'
-}, {
-    winLossDraw: 'W',
-    opponentUscfId: '12653365  ',
-    tournament: 'Klein End-of-Year Scholastic ',
-    preTourneyRating: 'Unr.'
-}, {
-    winLossDraw: 'D',
-    opponentUscfId: '20115970  ',
-    tournament: 'Klein End-of-Year Scholastic ',
-    preTourneyRating: 'Unr.'
-}];
+
+// var exampleGames = [{
+//     winLossDraw: 'L',
+//     opponentUscfId: '12635380  ',
+//     tournament: 'Klein End-of-Year Scholastic ',
+//     preTourneyRating: 'Unr.'
+// }, {
+//     winLossDraw: 'W',
+//     opponentUscfId: '12653365  ',
+//     tournament: 'Klein End-of-Year Scholastic ',
+//     preTourneyRating: 'Unr.'
+// }, {
+//     winLossDraw: 'D',
+//     opponentUscfId: '20115970  ',
+//     tournament: 'Klein End-of-Year Scholastic ',
+//     preTourneyRating: 'Unr.'
+// }];
 
 //addGamesToDatabase(null, "12528459", exampleGames);
 
-var getWin = function(player, bucket, WLD, callback) {
+var updatePersistentData = function(id, games, queue, playersVisited, callback) {
     'use strict';
-
-    var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dkey=' + bucket + '&drill=G';
-    request(requestURL, function(error, response, body) {
-        var LW = [];
-        var $ = cheerio.load(body);
-        var $table = $('.blog').siblings().find('tr');
-        $table.each(function(i, element) {
-            var $row = $(element);
-            var wl = $row.find('td').eq(7).text();
-            var pID = $row.find('td').eq(4).text();
-            var player = {};
-            player.winLoss = wl;
-            player.playerID = pID.trim();
-
-            if (WLD === wl) {
-                LW.push(player);
-            } else if (WLD === null && wl !== '') { // Make sure no empty objects are added
-                LW.push(player);
+    games.forEach(function(game) {
+        if (game.winLossDraw === 'L' && !(game.opponentUscfId in playersVisited)) {
+            //avoid duplicates
+            if (queue.indexOf(game.opponentUscfId) === -1) {
+                queue.push(game.opponentUscfId.trim());
             }
+        }
+    });
+    // remove player whose profile and games we just added and add to players visited
+    var temp = queue.shift();
+    if (temp !== id) {
+        throw 'queue and current ID mismatch';
+    }
+    playersVisited[temp] = temp;
+
+    MongoClient.connect(dbInfo, function(err, db) {
+        var collection = db.collection('dataPersistence');
+        collection.update({
+            name: 'dataPersistence'
+        }, {
+            $set: {
+                'queue': queue,
+                'playersVisited': playersVisited
+            }
+        }, function() {
+            db.close();
+            callback();
         });
-        callback(LW);
     });
 };
 
+// updatePersistentData('123', exampleGames, [], {}, function() {
+//     console.log('finished updating');
+// });
+
+getPersistentData(function(currentId) {
+    'use strict';
+    getProfile(currentId, function(err, profile) {
+        addProfileToDatabase(profile, function() {
+            getAllBuckets(currentId, function(err, id, bucketsArray) {
+                getGamesInAllBuckets(null, id, bucketsArray, function(id, AllGamesArray) {
+                    addGamesToDatabase(null, id, AllGamesArray, function(id, games) {
+                        updatePersistentData(id, games, queue, playersVisited, function() {
+                            console.log('done pls');
+                        });
+                    });
+                });
+            });
+        });
+    });
+});
 
 
-// Need to add every game played to DB
 
-// Start with array of buckets, the pop each off as you go, adding to players win/loss/draws
-// go to each player lost to, doing same thing
+
