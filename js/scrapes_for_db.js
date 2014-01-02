@@ -12,9 +12,6 @@ var getPersistentData = function(callback) {
     MongoClient.connect(dbInfo, function(err, db) {
         var collection = db.collection('dataPersistence');
         var dbObject = collection.find({});
-        // callback(null, persistedData.toArray(function(err, data) {
-        //     console.log(data[0].playersVisited, data[0].queue);
-        // }));
         dbObject.toArray(function(err, data) {
             db.close();
             queue = data[0].queue;
@@ -25,10 +22,7 @@ var getPersistentData = function(callback) {
     });
 };
 
-// getPersistentData(function(err, data) {
-//     'use strict';
-//     console.log(data);
-// });
+
 
 var getProfile = function(uscfID, callback) {
     'use strict';
@@ -149,8 +143,6 @@ var getGamesInBucket = function(id, bucket, callback) {
                 });
             }
         });
-        console.log('games array right before evoking callback within getGamesinBucket:');
-        console.log(games);
         callback(null, games);
     });
 };
@@ -168,8 +160,6 @@ var getGamesInAllBuckets = function(err, id, bucketsArray, callback) {
             eachCallback(null);
         });
     }, function(err) {
-        console.log('in end callback of eachseries');
-        console.log(allGamesArray);
         console.log('array length: ' + allGamesArray.length);
         callback(id, allGamesArray);
     });
@@ -179,41 +169,92 @@ var getGamesInAllBuckets = function(err, id, bucketsArray, callback) {
 
 var addGamesToDatabase = function(err, id, games, callback) {
     'use strict';
+    var wonGames = [],
+        lostGames = [],
+        drawnGames = [],
+        gamesForDb = [];
+
+    games.forEach(function(game) {
+        if (game.winLossDraw === 'W') {
+            wonGames.push(game);
+        } else if (game.winLossDraw === 'L') {
+            lostGames.push(game);
+        } else if (game.winLossDraw === 'D') {
+            drawnGames.push(game);
+        }
+    });
+    gamesForDb[0] = wonGames;
+    gamesForDb[1] = lostGames;
+    gamesForDb[2] = drawnGames;
+
     MongoClient.connect(dbInfo, function(err, db) {
         var collection = db.collection('players');
-        async.eachSeries(games, function(game, eachCallback) {
-            console.log('adding '+game.opponentUscfId+' to db');
-            if (game.winLossDraw === 'W') {
+        async.eachSeries(gamesForDb, function(arr, eachCallback) {
+            console.log('adding '+arr.length+' games to db');
+            if (arr.length > 0 && arr[0].winLossDraw === 'W') {
                 collection.update({
                     uscfId: id
                 }, {
                     $push: {
-                        wins: game
+                        wins: { $each: arr }
                     }
                 }, function() {
                     eachCallback();
                 });
-            } else if (game.winLossDraw === 'L') {
+            } else if (arr.length > 0 && arr[0].winLossDraw === 'L') {
                 collection.update({
                     uscfId: id
                 }, {
                     $push: {
-                        losses: game
+                        losses: { $each: arr }
                     }
                 }, function() {
                     eachCallback();
                 });
-            } else if (game.winLossDraw === 'D') {
+            } else if (arr.length > 0 && arr[0].winLossDraw === 'D') {
                 collection.update({
                     uscfId: id
                 }, {
                     $push: {
-                        draws: game
+                        draws: { $each: arr }
                     }
                 }, function() {
                     eachCallback();
                 });
+            } else {
+                eachCallback();
             }
+            // if (game.winLossDraw === 'W') {
+            //     collection.update({
+            //         uscfId: id
+            //     }, {
+            //         $push: {
+            //             wins: game
+            //         }
+            //     }, function() {
+            //         eachCallback();
+            //     });
+            // } else if (game.winLossDraw === 'L') {
+            //     collection.update({
+            //         uscfId: id
+            //     }, {
+            //         $push: {
+            //             losses: game
+            //         }
+            //     }, function() {
+            //         eachCallback();
+            //     });
+            // } else if (game.winLossDraw === 'D') {
+            //     collection.update({
+            //         uscfId: id
+            //     }, {
+            //         $push: {
+            //             draws: game
+            //         }
+            //     }, function() {
+            //         eachCallback();
+            //     });
+            // }
         }, function(err) {
             db.close();
             console.log('updates finished');
@@ -277,24 +318,52 @@ var updatePersistentData = function(id, games, queue, playersVisited, callback) 
 // updatePersistentData('123', exampleGames, [], {}, function() {
 //     console.log('finished updating');
 // });
-
-getPersistentData(function(currentId) {
+var addNextPlayerInQueue = function(callback) {
     'use strict';
-    getProfile(currentId, function(err, profile) {
-        addProfileToDatabase(profile, function() {
-            getAllBuckets(currentId, function(err, id, bucketsArray) {
-                getGamesInAllBuckets(null, id, bucketsArray, function(id, AllGamesArray) {
-                    addGamesToDatabase(null, id, AllGamesArray, function(id, games) {
-                        updatePersistentData(id, games, queue, playersVisited, function() {
-                            console.log('done pls');
+    getPersistentData(function(currentId) {
+        getProfile(currentId, function(err, profile) {
+            addProfileToDatabase(profile, function() {
+                getAllBuckets(currentId, function(err, id, bucketsArray) {
+                    getGamesInAllBuckets(null, id, bucketsArray, function(id, AllGamesArray) {
+                        addGamesToDatabase(null, id, AllGamesArray, function(id, games) {
+                            updatePersistentData(id, games, queue, playersVisited, function() {
+                                console.log('done pls');
+                                callback();
+                            });
                         });
                     });
                 });
             });
         });
     });
-});
+};
+
+// async.times(2, function(n, next) {
+//     addNextPlayerInQueue(function() {
+//         next();
+//     });
+// }, function() {
+//     console.log('done with async.times');
+// }
+// );
+
+//addNextPlayerInQueue(addNextPlayerInQueue);
+
+var count = 0;
 
 
+async.whilst(
+    function () { return count < 50; },
+    function (callback) {
+        count += 1;
+        setTimeout(function() {
+            addNextPlayerInQueue(callback);
+        } , 3000);
+    },
+    function (err) {
+        console.log(queue.length);
+        console.log('whilst done');
+    }
+);
 
 
