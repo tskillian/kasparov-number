@@ -135,11 +135,16 @@ var getGamesInBucket = function(id, bucket, callback) {
             var $row = $(element);
             var winLossDraw = $row.find('td').eq(7).text();
             if (winLossDraw) {
+                var rating = $row.find('td').eq(6).text().slice(0, 4);
+                // Rating should be either a number or 'UNR'
+                if (parseInt(rating, 10)) {
+                    rating = parseInt(rating, 10);
+                }
                 games.push({
                     winLossDraw: winLossDraw,
                     opponentUscfId: $row.find('td').eq(4).text().trim(),
                     tournament: $row.find('td').eq(0).text(),
-                    preTourneyRating: $row.find('td').eq(6).text().slice(0, 4)
+                    preTourneyRating: rating
                 });
             }
         });
@@ -353,12 +358,12 @@ var count = 0;
 
 
 async.whilst(
-    function () { return count < 50; },
+    function () { return count < 1000; },
     function (callback) {
         count += 1;
         setTimeout(function() {
             addNextPlayerInQueue(callback);
-        } , 3000);
+        } , 2000);
     },
     function (err) {
         console.log(queue.length);
