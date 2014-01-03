@@ -358,7 +358,7 @@ var count = 0;
 
 
 async.whilst(
-    function () { return count < 1000; },
+    function () { return count < 835; },
     function (callback) {
         count += 1;
         setTimeout(function() {
