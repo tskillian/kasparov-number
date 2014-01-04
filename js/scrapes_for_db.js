@@ -54,10 +54,15 @@ var getProfile = function(uscfID, callback) {
                     var field = $row.find('td').eq(0).text().replace(/\n/g, '').replace(/ /g, '');
                     var value = $row.find('td').eq(1).text().replace(/\n/g, '').trim();
                     if (field === 'RegularRating') {
-                        var asOfDate = value.match(/\d{4}-\d{2}/)[0];
-                        value = value.match(/\d{4}/)[0];
-                        user[field] = value;
-                        user.asOfDate = asOfDate;
+                        // conditional to account to edge case where player doesn't even have provisonal rating
+                        if (value === '(Unrated)') {
+                            user[field] = value;
+                        } else {
+                            var asOfDate = value.match(/\d{4}-\d{2}/)[0];
+                            value = value.match(/\d{4}/)[0];
+                            user[field] = value;
+                            user.asOfDate = asOfDate;
+                        }
                     } else if (field === 'FIDEID') {
                         value = value.match(/\d+/).toString();
                         user[field] = value;
@@ -362,7 +367,7 @@ var count = 0;
 
 
 async.whilst(
-    function () { return count < 500; },
+    function () { return count < 1000; },
     function (callback) {
         count += 1;
         setTimeout(function() {
