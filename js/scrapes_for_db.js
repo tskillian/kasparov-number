@@ -34,6 +34,10 @@ var getProfile = function(uscfID, callback) {
         if (!error) { //Page Loaded
             var $ = cheerio.load(body);
             var tmp = $('.topbar-middle b').html();
+            // Trying to find strange bug where tmp is null
+            if (tmp === null) {
+                console.log(body);
+            }
             if (tmp.search('Error') !== -1) { //uscfID not valid
                 errorMsg = 'Invalid USCF ID: ' + uscfID;
             } else {
@@ -358,12 +362,12 @@ var count = 0;
 
 
 async.whilst(
-    function () { return count < 835; },
+    function () { return count < 500; },
     function (callback) {
         count += 1;
         setTimeout(function() {
             addNextPlayerInQueue(callback);
-        } , 2000);
+        } , 5000);
     },
     function (err) {
         console.log(queue.length);
