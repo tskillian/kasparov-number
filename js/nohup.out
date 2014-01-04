@@ -1786,3 +1786,2095 @@ TypeError: Cannot call method 'search' of null
     at IncomingMessage.EventEmitter.emit (events.js:117:20)
     at _stream_readable.js:920:16
     at process._tickCallback (node.js:415:13)
+nohup: ignoring input
+[ { name: 'MICHAEL SPIEGEL',
+    uscfId: '10509190',
+    uscfRating: 2194,
+    asOfDate: '2009-07',
+    location: 'PA',
+    fideId: '2004500',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7437b8b27f4e9034aaf16 } ]
+array length: 81
+adding 49 games to db
+adding 21 games to db
+adding 11 games to db
+updates finished
+done pls
+[ { name: 'PHILIP M COLLIER',
+    uscfId: '10169861',
+    uscfRating: 2200,
+    asOfDate: '2014-01',
+    location: 'MD',
+    fideId: '2010186',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c743898b27f4e9034aaf17 } ]
+array length: 1211
+adding 562 games to db
+adding 439 games to db
+adding 210 games to db
+updates finished
+done pls
+[ { name: 'STEPHEN POZAREK',
+    uscfId: '10048826',
+    uscfRating: 2140,
+    asOfDate: '2010-12',
+    location: 'NJ',
+    fideId: '2003880',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7439e8b27f4e9034aaf18 } ]
+array length: 226
+adding 90 games to db
+adding 67 games to db
+adding 69 games to db
+updates finished
+done pls
+[ { name: 'MATTHEW T MORGAN',
+    uscfId: '12491871',
+    uscfRating: 2380,
+    asOfDate: '1998-12',
+    location: 'VA',
+    fideId: '2005859',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c743ac8b27f4e9034aaf19 } ]
+array length: 199
+adding 107 games to db
+adding 65 games to db
+adding 27 games to db
+updates finished
+done pls
+[ { name: 'RANDY SCHAIN',
+    uscfId: '10945381',
+    uscfRating: 2285,
+    asOfDate: '1995-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c743bb8b27f4e9034aaf1a } ]
+array length: 32
+adding 11 games to db
+adding 6 games to db
+adding 15 games to db
+updates finished
+done pls
+[ { name: 'KAPIL CHANDRAN',
+    uscfId: '13023280',
+    uscfRating: 2349,
+    asOfDate: '2014-01',
+    location: 'CT',
+    fideId: '2034077',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c743c78b27f4e9034aaf1b } ]
+array length: 854
+adding 454 games to db
+adding 259 games to db
+adding 141 games to db
+updates finished
+done pls
+[ { name: 'KASSA KORLEY',
+    uscfId: '12832679',
+    uscfRating: 2406,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2033801',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c743dc8b27f4e9034aaf1c } ]
+array length: 1013
+adding 591 games to db
+adding 277 games to db
+adding 145 games to db
+updates finished
+done pls
+[ { name: 'RAWLE A ALLICOCK',
+    uscfId: '12702201',
+    uscfRating: 2360,
+    asOfDate: '2013-11',
+    location: 'NJ',
+    fideId: '408042',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c743f08b27f4e9034aaf1d } ]
+array length: 317
+adding 228 games to db
+adding 41 games to db
+adding 48 games to db
+updates finished
+done pls
+[ { name: 'MATTHEW J HERMAN',
+    uscfId: '12626280',
+    uscfRating: 2443,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2028964',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c743ff8b27f4e9034aaf1e } ]
+array length: 477
+adding 291 games to db
+adding 116 games to db
+adding 70 games to db
+updates finished
+done pls
+[ { name: 'RAY KAUFMAN',
+    uscfId: '20058328',
+    uscfRating: 2398,
+    asOfDate: '2014-01',
+    location: 'CA',
+    fideId: '2015056',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744118b27f4e9034aaf1f } ]
+array length: 1930
+adding 1017 games to db
+adding 564 games to db
+adding 349 games to db
+updates finished
+done pls
+[ { name: 'CARLOS PUJOL',
+    uscfId: '14144017',
+    uscfRating: 2374,
+    asOfDate: '2014-01',
+    location: 'CA',
+    fideId: '3502287',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7442a8b27f4e9034aaf20 } ]
+array length: 185
+adding 123 games to db
+adding 40 games to db
+adding 22 games to db
+updates finished
+done pls
+[ { name: 'ANDREW BOEKHOFF',
+    uscfId: '12685687',
+    uscfRating: 2317,
+    asOfDate: '2013-09',
+    location: 'CA',
+    fideId: '2024292',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744398b27f4e9034aaf21 } ]
+array length: 519
+adding 302 games to db
+adding 118 games to db
+adding 99 games to db
+updates finished
+done pls
+[ { name: 'ALI FRHAT',
+    uscfId: '13433596',
+    uscfRating: 2431,
+    asOfDate: '2008-07',
+    location: 'NY',
+    fideId: '10600507',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7444a8b27f4e9034aaf22 } ]
+array length: 26
+adding 15 games to db
+adding 6 games to db
+adding 5 games to db
+updates finished
+done pls
+[ { name: 'DMITRI SHEVELEV',
+    uscfId: '12599412',
+    uscfRating: 2320,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: '2022559',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744568b27f4e9034aaf23 } ]
+array length: 305
+adding 168 games to db
+adding 99 games to db
+adding 38 games to db
+updates finished
+done pls
+[ { name: 'FARAI MANDIZHA',
+    uscfId: '13405786',
+    uscfRating: 2453,
+    asOfDate: '2013-11',
+    location: 'NY',
+    fideId: '11000430',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744658b27f4e9034aaf24 } ]
+array length: 468
+adding 267 games to db
+adding 118 games to db
+adding 83 games to db
+updates finished
+done pls
+[ { name: 'KANSTANTSIN YURASHKEVICH',
+    uscfId: '13321197',
+    uscfRating: 2283,
+    asOfDate: '2008-09',
+    location: 'NY',
+    fideId: '13504380',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744748b27f4e9034aaf25 } ]
+array length: 64
+adding 37 games to db
+adding 15 games to db
+adding 12 games to db
+updates finished
+done pls
+[ { name: 'DMYTRO KEDYK',
+    uscfId: '12887610',
+    uscfRating: 2479,
+    asOfDate: '2008-09',
+    location: 'NY',
+    fideId: '14112990',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744818b27f4e9034aaf26 } ]
+array length: 868
+adding 594 games to db
+adding 106 games to db
+adding 168 games to db
+updates finished
+done pls
+[ { name: 'RICARDO DANIEL D\'ARRUDA',
+    uscfId: '12531304',
+    uscfRating: 2365,
+    asOfDate: '2003-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744938b27f4e9034aaf27 } ]
+array length: 342
+adding 197 games to db
+adding 92 games to db
+adding 53 games to db
+updates finished
+done pls
+[ { name: 'LEV MILMAN',
+    uscfId: '21012681',
+    uscfRating: 2479,
+    asOfDate: '2012-05',
+    location: 'NY',
+    fideId: '2020050',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744a28b27f4e9034aaf28 } ]
+array length: 871
+adding 431 games to db
+adding 233 games to db
+adding 207 games to db
+updates finished
+done pls
+[ { name: 'ROMAN DUBINSKY',
+    uscfId: '12779388',
+    uscfRating: 2378,
+    asOfDate: '2006-06',
+    location: 'NY',
+    fideId: '4124553',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744b78b27f4e9034aaf29 } ]
+array length: 535
+adding 339 games to db
+adding 129 games to db
+adding 67 games to db
+updates finished
+done pls
+[ { name: 'JAYSON GONZALES',
+    uscfId: '12687052',
+    uscfRating: 2423,
+    asOfDate: '2006-06',
+    location: 'NY',
+    fideId: '5201080',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744c88b27f4e9034aaf2a } ]
+array length: 490
+adding 279 games to db
+adding 109 games to db
+adding 102 games to db
+updates finished
+done pls
+[ { name: 'NOAH SIEGEL',
+    uscfId: '12544735',
+    uscfRating: 2273,
+    asOfDate: '2007-07',
+    location: 'NY',
+    fideId: '2010267',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744d88b27f4e9034aaf2b } ]
+array length: 849
+adding 450 games to db
+adding 250 games to db
+adding 149 games to db
+updates finished
+done pls
+[ { name: 'LUIS R CHIONG',
+    uscfId: '12452244',
+    uscfRating: 2419,
+    asOfDate: '2005-06',
+    location: 'PA',
+    fideId: '5200105',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744eb8b27f4e9034aaf2c } ]
+array length: 212
+adding 113 games to db
+adding 50 games to db
+adding 49 games to db
+updates finished
+done pls
+[ { name: 'DONNY ARIEL',
+    uscfId: '12548889',
+    uscfRating: 2428,
+    asOfDate: '2011-08',
+    location: 'NY',
+    fideId: '2009722',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c744f98b27f4e9034aaf2d } ]
+array length: 981
+adding 562 games to db
+adding 265 games to db
+adding 154 games to db
+updates finished
+done pls
+[ { name: 'TAREK TOUBALE',
+    uscfId: '12618942',
+    uscfRating: 2308,
+    asOfDate: '1998-12',
+    location: '*FRANCE',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7450c8b27f4e9034aaf2e } ]
+array length: 117
+adding 64 games to db
+adding 27 games to db
+adding 26 games to db
+updates finished
+done pls
+[ { name: 'DMITRIY BERKOVICH',
+    uscfId: '12603532',
+    uscfRating: 2385,
+    asOfDate: '2011-01',
+    location: 'OH',
+    fideId: '14100916',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745188b27f4e9034aaf2f } ]
+array length: 285
+adding 179 games to db
+adding 44 games to db
+adding 62 games to db
+updates finished
+done pls
+[ { name: 'MATTHEW J MORRIS',
+    uscfId: '10331749',
+    uscfRating: 2263,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: '2006081',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745278b27f4e9034aaf30 } ]
+array length: 273
+adding 127 games to db
+adding 61 games to db
+adding 85 games to db
+updates finished
+done pls
+[ { name: 'DOUGLAS PADER',
+    uscfId: '10095352',
+    uscfRating: 2203,
+    asOfDate: '2011-02',
+    location: 'NY',
+    fideId: '2025523',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745358b27f4e9034aaf31 } ]
+array length: 658
+adding 305 games to db
+adding 217 games to db
+adding 136 games to db
+updates finished
+done pls
+[ { name: 'CARLOS O GRUSHKA',
+    uscfId: '12563051',
+    uscfRating: 2313,
+    asOfDate: '1996-12',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745468b27f4e9034aaf32 } ]
+array length: 50
+adding 26 games to db
+adding 18 games to db
+adding 6 games to db
+updates finished
+done pls
+[ { name: 'VLADIMIR VLADIMIROVI PROSVIRIAKOV',
+    uscfId: '12504561',
+    uscfRating: 2301,
+    asOfDate: '2013-12',
+    location: 'RUSSIAN FEDERATION',
+    fideId: '2004860',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745538b27f4e9034aaf33 } ]
+array length: 40
+adding 18 games to db
+adding 10 games to db
+adding 12 games to db
+updates finished
+done pls
+[ { name: 'KYRON W GRIFFITH',
+    uscfId: '12860484',
+    uscfRating: 2424,
+    asOfDate: '2014-01',
+    location: 'CA',
+    fideId: '2046318',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745618b27f4e9034aaf34 } ]
+array length: 1205
+adding 698 games to db
+adding 329 games to db
+adding 178 games to db
+updates finished
+done pls
+[ { name: 'CARLOS E MENA',
+    uscfId: '14854553',
+    uscfRating: 2450,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '3506410',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745798b27f4e9034aaf35 } ]
+array length: 499
+adding 332 games to db
+adding 105 games to db
+adding 62 games to db
+updates finished
+done pls
+[ { name: 'JUSTIN SARKAR',
+    uscfId: '12561884',
+    uscfRating: 2478,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2010011',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745898b27f4e9034aaf36 } ]
+array length: 3645
+adding 2025 games to db
+adding 889 games to db
+adding 731 games to db
+updates finished
+done pls
+[ { name: 'THOMAS BARTELL',
+    uscfId: '12559979',
+    uscfRating: 2470,
+    asOfDate: '2014-01',
+    location: 'PA',
+    fideId: '2017849',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745a88b27f4e9034aaf37 } ]
+array length: 1818
+adding 1047 games to db
+adding 412 games to db
+adding 359 games to db
+updates finished
+done pls
+[ { name: 'MICHAEL A ROHDE',
+    uscfId: '10047871',
+    uscfRating: 2505,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2000172',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745c38b27f4e9034aaf38 } ]
+array length: 2418
+adding 1610 games to db
+adding 294 games to db
+adding 514 games to db
+updates finished
+done pls
+[ { name: 'OLIVER A BARBOSA',
+    uscfId: '12774447',
+    uscfRating: 2582,
+    asOfDate: '2009-11',
+    location: 'NY',
+    fideId: '5201640',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745db8b27f4e9034aaf39 } ]
+array length: 168
+adding 129 games to db
+adding 16 games to db
+adding 23 games to db
+updates finished
+done pls
+[ { name: 'GRIGORIY BRAYLOVSKIY',
+    uscfId: '12588419',
+    uscfRating: 2439,
+    asOfDate: '2012-09',
+    location: 'NY',
+    fideId: '2015420',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745e98b27f4e9034aaf3a } ]
+array length: 762
+adding 422 games to db
+adding 202 games to db
+adding 138 games to db
+updates finished
+done pls
+[ { name: 'GABRIEL BATTAGLINI',
+    uscfId: '12720448',
+    uscfRating: 2398,
+    asOfDate: '2013-10',
+    location: 'GA',
+    fideId: '621650',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c745fc8b27f4e9034aaf3b } ]
+array length: 284
+adding 158 games to db
+adding 75 games to db
+adding 51 games to db
+updates finished
+done pls
+[ { name: 'BOSKO ABRAMOVIC',
+    uscfId: '12493219',
+    uscfRating: 2507,
+    asOfDate: '2007-09',
+    location: '*FO',
+    fideId: '900206',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7460d8b27f4e9034aaf3c } ]
+array length: 33
+adding 19 games to db
+adding 8 games to db
+adding 6 games to db
+updates finished
+done pls
+[ { name: 'ALFONSO A ALMEIDA',
+    uscfId: '12927539',
+    uscfRating: 2402,
+    asOfDate: '2013-12',
+    location: 'TX',
+    fideId: '5100321',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746198b27f4e9034aaf3d } ]
+array length: 300
+adding 151 games to db
+adding 91 games to db
+adding 58 games to db
+updates finished
+done pls
+[ { name: 'SALVIJUS BERCYS',
+    uscfId: '12909023',
+    uscfRating: 2522,
+    asOfDate: '2013-05',
+    location: 'NY',
+    fideId: '12802212',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746298b27f4e9034aaf3e } ]
+array length: 1121
+adding 609 games to db
+adding 196 games to db
+adding 316 games to db
+updates finished
+done pls
+[ { name: 'YURY LAPSHUN',
+    uscfId: '12548533',
+    uscfRating: 2522,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: '2006960',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7463c8b27f4e9034aaf3f } ]
+array length: 2783
+adding 1884 games to db
+adding 417 games to db
+adding 482 games to db
+updates finished
+done pls
+[ { name: 'IRINA KRUSH',
+    uscfId: '12543137',
+    uscfRating: 2563,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2012782',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746568b27f4e9034aaf40 } ]
+array length: 2026
+adding 969 games to db
+adding 619 games to db
+adding 438 games to db
+updates finished
+done pls
+[ { name: 'DEAN IPPOLITO',
+    uscfId: '12445752',
+    uscfRating: 2556,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2009870',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7466e8b27f4e9034aaf41 } ]
+array length: 2113
+adding 1159 games to db
+adding 377 games to db
+adding 577 games to db
+updates finished
+done pls
+[ { name: 'MILOS SCEKIC',
+    uscfId: '12933950',
+    uscfRating: 2469,
+    asOfDate: '2009-09',
+    location: 'NY',
+    fideId: '916498',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746888b27f4e9034aaf42 } ]
+array length: 187
+adding 95 games to db
+adding 48 games to db
+adding 44 games to db
+updates finished
+done pls
+[ { name: 'ALTIN CELA&nbsp;(Duplicate, see 12847076)',
+    uscfId: '12810072',
+    uscfRating: 2405,
+    asOfDate: '2004-10',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746968b27f4e9034aaf43 } ]
+array length: 45
+adding 20 games to db
+adding 20 games to db
+adding 5 games to db
+updates finished
+done pls
+[ { name: 'PASCAL CHARBONNEAU',
+    uscfId: '12566530',
+    uscfRating: 2552,
+    asOfDate: '2012-12',
+    location: 'NY',
+    fideId: '2602504',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746a38b27f4e9034aaf44 } ]
+array length: 292
+adding 167 games to db
+adding 49 games to db
+adding 76 games to db
+updates finished
+done pls
+[ { name: 'VALERIAN GAPRINDASHVILI',
+    uscfId: '12807799',
+    uscfRating: 2537,
+    asOfDate: '2001-12',
+    location: 'NY',
+    fideId: '13601091',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746b38b27f4e9034aaf45 } ]
+array length: 164
+adding 117 games to db
+adding 19 games to db
+adding 28 games to db
+updates finished
+done pls
+[ { name: 'SAUDIN ROBOVIC',
+    uscfId: '12688370',
+    uscfRating: 2449,
+    asOfDate: '2002-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746c28b27f4e9034aaf46 } ]
+array length: 218
+adding 138 games to db
+adding 47 games to db
+adding 33 games to db
+updates finished
+done pls
+[ { name: 'RELAN MAGBANUA',
+    uscfId: '12513247',
+    uscfRating: 2422,
+    asOfDate: '2012-05',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746d08b27f4e9034aaf47 } ]
+array length: 15
+adding 7 games to db
+adding 6 games to db
+adding 2 games to db
+updates finished
+done pls
+[ { name: 'MLADEN VUCIC',
+    uscfId: '12513968',
+    uscfRating: 2353,
+    asOfDate: '2012-08',
+    location: 'NY',
+    fideId: '2006340',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746db8b27f4e9034aaf48 } ]
+array length: 1243
+adding 710 games to db
+adding 215 games to db
+adding 318 games to db
+updates finished
+done pls
+[ { name: 'ALEXANDER KALIKSHTEYN',
+    uscfId: '12579305',
+    uscfRating: 2420,
+    asOfDate: '2012-11',
+    location: 'NY',
+    fideId: '2007630',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c746ef8b27f4e9034aaf49 } ]
+array length: 662
+adding 359 games to db
+adding 122 games to db
+adding 181 games to db
+updates finished
+done pls
+[ { name: 'MAURICE A ASHLEY',
+    uscfId: '12357030',
+    uscfRating: 2475,
+    asOfDate: '2013-07',
+    location: 'NY',
+    fideId: '2001012',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747018b27f4e9034aaf4a } ]
+array length: 711
+adding 363 games to db
+adding 151 games to db
+adding 197 games to db
+updates finished
+done pls
+[ { name: 'NENAD VULICEVIC',
+    uscfId: '12528650',
+    uscfRating: 2440,
+    asOfDate: '1999-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747128b27f4e9034aaf4b } ]
+array length: 1427
+adding 918 games to db
+adding 214 games to db
+adding 295 games to db
+updates finished
+done pls
+[ { name: 'PIERRE MOULIN',
+    uscfId: '12498561',
+    uscfRating: 2406,
+    asOfDate: '1998-12',
+    location: 'IL',
+    fideId: '200131',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747278b27f4e9034aaf4c } ]
+array length: 248
+adding 141 games to db
+adding 74 games to db
+adding 33 games to db
+updates finished
+done pls
+[ { name: 'MIKHEIL KEKELIDZE',
+    uscfId: '12807422',
+    uscfRating: 2557,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '13600818',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747358b27f4e9034aaf4d } ]
+array length: 1247
+adding 824 games to db
+adding 193 games to db
+adding 230 games to db
+updates finished
+done pls
+[ { name: 'MARK C PARAGUA',
+    uscfId: '12707937',
+    uscfRating: 2644,
+    asOfDate: '2011-05',
+    location: 'NY',
+    fideId: '5201241',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747488b27f4e9034aaf4e } ]
+array length: 812
+adding 552 games to db
+adding 99 games to db
+adding 161 games to db
+updates finished
+done pls
+[ { name: 'LEONID G YUDASIN',
+    uscfId: '12542077',
+    uscfRating: 2605,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2802341',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747598b27f4e9034aaf4f } ]
+array length: 1567
+adding 981 games to db
+adding 118 games to db
+adding 468 games to db
+updates finished
+done pls
+[ { name: 'ALEXANDER STRIPUNSKY',
+    uscfId: '12715435',
+    uscfRating: 2641,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2015315',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7476e8b27f4e9034aaf50 } ]
+array length: 3079
+adding 2038 games to db
+adding 356 games to db
+adding 685 games to db
+updates finished
+done pls
+[ { name: 'SERGEY KUDRIN',
+    uscfId: '11257585',
+    uscfRating: 2581,
+    asOfDate: '2014-01',
+    location: 'CT',
+    fideId: '2000164',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747888b27f4e9034aaf51 } ]
+array length: 2142
+adding 1298 games to db
+adding 193 games to db
+adding 651 games to db
+updates finished
+done pls
+[ { name: 'GENNADY SAGALCHIK',
+    uscfId: '12565070',
+    uscfRating: 2518,
+    asOfDate: '2013-04',
+    location: 'NY',
+    fideId: '2007916',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7479d8b27f4e9034aaf52 } ]
+array length: 676
+adding 436 games to db
+adding 103 games to db
+adding 137 games to db
+updates finished
+done pls
+[ { name: 'NICK E DE FIRMIAN',
+    uscfId: '10469007',
+    uscfRating: 2582,
+    asOfDate: '2013-12',
+    location: 'CA',
+    fideId: '2000105',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747ae8b27f4e9034aaf53 } ]
+array length: 1125
+adding 655 games to db
+adding 131 games to db
+adding 339 games to db
+updates finished
+done pls
+[ { name: 'JULIO J BECERRA',
+    uscfId: '12778049',
+    uscfRating: 2617,
+    asOfDate: '2013-12',
+    location: 'FL',
+    fideId: '3501728',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747c08b27f4e9034aaf54 } ]
+array length: 1386
+adding 900 games to db
+adding 109 games to db
+adding 377 games to db
+updates finished
+done pls
+[ { name: 'RONALD WAYNE BURNETT',
+    uscfId: '12093120',
+    uscfRating: 2442,
+    asOfDate: '2014-01',
+    location: 'TN',
+    fideId: '2002159',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747d58b27f4e9034aaf55 } ]
+array length: 2436
+adding 1542 games to db
+adding 337 games to db
+adding 557 games to db
+updates finished
+done pls
+[ { name: 'BORIS KREIMAN',
+    uscfId: '12536729',
+    uscfRating: 2532,
+    asOfDate: '2013-05',
+    location: 'NY',
+    fideId: '2007770',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c747ee8b27f4e9034aaf56 } ]
+array length: 1285
+adding 723 games to db
+adding 244 games to db
+adding 318 games to db
+updates finished
+done pls
+[ { name: 'SUSAN ZSUZSA POLGAR',
+    uscfId: '12452240',
+    uscfRating: 2598,
+    asOfDate: '2009-08',
+    location: 'MO',
+    fideId: '700088',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748008b27f4e9034aaf57 } ]
+array length: 84
+adding 54 games to db
+adding 9 games to db
+adding 21 games to db
+updates finished
+done pls
+[ { name: 'ANATOLY LEIN',
+    uscfId: '11167489',
+    uscfRating: 2213,
+    asOfDate: '2013-10',
+    location: 'OH',
+    fideId: '2000270',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7480e8b27f4e9034aaf58 } ]
+array length: 782
+adding 380 games to db
+adding 161 games to db
+adding 241 games to db
+updates finished
+done pls
+[ { name: 'IGOR V IVANOV&nbsp;(Deceased)',
+    uscfId: '12237320',
+    uscfRating: 2522,
+    asOfDate: '2007-11',
+    location: 'UT',
+    fideId: '2000288',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748208b27f4e9034aaf59 } ]
+array length: 2421
+adding 1812 games to db
+adding 231 games to db
+adding 378 games to db
+updates finished
+done pls
+[ { name: 'BENJAMIN P FINEGOLD',
+    uscfId: '11264417',
+    uscfRating: 2577,
+    asOfDate: '2014-01',
+    location: 'MO',
+    fideId: '2000261',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748398b27f4e9034aaf5a } ]
+array length: 1850
+adding 1330 games to db
+adding 127 games to db
+adding 393 games to db
+updates finished
+done pls
+[ { name: 'ALEXANDER FISHBEIN',
+    uscfId: '12077910',
+    uscfRating: 2553,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2000377',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748528b27f4e9034aaf5b } ]
+array length: 529
+adding 298 games to db
+adding 87 games to db
+adding 144 games to db
+updates finished
+done pls
+[ { name: 'TAMAZ GELASHVILI',
+    uscfId: '14651144',
+    uscfRating: 2688,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '13600702',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748618b27f4e9034aaf5c } ]
+array length: 417
+adding 271 games to db
+adding 37 games to db
+adding 109 games to db
+updates finished
+done pls
+[ { name: 'ANATOLY BYKHOVSKY',
+    uscfId: '14508330',
+    uscfRating: 2564,
+    asOfDate: '2014-01',
+    location: 'MO',
+    fideId: '2806991',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748708b27f4e9034aaf5d } ]
+array length: 189
+adding 100 games to db
+adding 23 games to db
+adding 66 games to db
+updates finished
+done pls
+[ { name: 'JAAN EHLVEST',
+    uscfId: '12514557',
+    uscfRating: 2644,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '4500016',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7487e8b27f4e9034aaf5e } ]
+array length: 1484
+adding 888 games to db
+adding 138 games to db
+adding 458 games to db
+updates finished
+done pls
+[ { name: 'GIORGI KACHEISHVILI',
+    uscfId: '12746489',
+    uscfRating: 2642,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '13600613',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748928b27f4e9034aaf5f } ]
+array length: 1044
+adding 641 games to db
+adding 104 games to db
+adding 299 games to db
+updates finished
+done pls
+[ { name: 'ILDAR IBRAGIMOV',
+    uscfId: '12576446',
+    uscfRating: 2610,
+    asOfDate: '2013-08',
+    location: 'CT',
+    fideId: '4102878',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748a48b27f4e9034aaf60 } ]
+array length: 1124
+adding 682 games to db
+adding 125 games to db
+adding 317 games to db
+updates finished
+done pls
+[ { name: 'JAN GUSTAFSSON',
+    uscfId: '12776181',
+    uscfRating: 2648,
+    asOfDate: '2011-10',
+    location: '*GERMANY',
+    fideId: '4625498',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748b68b27f4e9034aaf61 } ]
+array length: 52
+adding 28 games to db
+adding 3 games to db
+adding 21 games to db
+updates finished
+done pls
+[ { name: 'JOEL BENJAMIN',
+    uscfId: '10102511',
+    uscfRating: 2637,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2000091',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748c28b27f4e9034aaf62 } ]
+array length: 1200
+adding 681 games to db
+adding 121 games to db
+adding 398 games to db
+updates finished
+done pls
+[ { name: 'ZVIAD IZORIA',
+    uscfId: '12922861',
+    uscfRating: 2620,
+    asOfDate: '2013-11',
+    location: 'NY',
+    fideId: '13601733',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748d48b27f4e9034aaf63 } ]
+array length: 779
+adding 493 games to db
+adding 51 games to db
+adding 235 games to db
+updates finished
+done pls
+[ { name: 'ROLAND SCHMALTZ',
+    uscfId: '12675584',
+    uscfRating: 2626,
+    asOfDate: '2003-08',
+    location: '*GERMANY',
+    fideId: '4614054',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748e48b27f4e9034aaf64 } ]
+array length: 112
+adding 70 games to db
+adding 11 games to db
+adding 31 games to db
+updates finished
+done pls
+[ { name: 'ROMAN DZINDZICHASHVILI',
+    uscfId: '12114210',
+    uscfRating: 2598,
+    asOfDate: '2008-08',
+    location: 'MA',
+    fideId: '2000113',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c748f18b27f4e9034aaf65 } ]
+array length: 391
+adding 193 games to db
+adding 31 games to db
+adding 167 games to db
+updates finished
+done pls
+[ { name: 'AUGUSTO MORAN',
+    uscfId: '12563207',
+    uscfRating: 2580,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749008b27f4e9034aaf66 } ]
+array length: 44
+adding 24 games to db
+adding 7 games to db
+adding 13 games to db
+updates finished
+done pls
+[ { name: 'ARTASHES MINASIAN',
+    uscfId: '12596331',
+    uscfRating: 2697,
+    asOfDate: '2003-12',
+    location: 'NY',
+    fideId: '13300040',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7490e8b27f4e9034aaf67 } ]
+array length: 157
+adding 97 games to db
+adding 24 games to db
+adding 36 games to db
+updates finished
+done pls
+[ { name: 'JOHN P FEDOROWICZ',
+    uscfId: '10604737',
+    uscfRating: 2485,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: '2000083',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7491b8b27f4e9034aaf68 } ]
+array length: 1412
+adding 753 games to db
+adding 130 games to db
+adding 529 games to db
+updates finished
+done pls
+[ { name: 'MAXIM DLUGY',
+    uscfId: '11435629',
+    uscfRating: 2557,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2000075',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7492e8b27f4e9034aaf69 } ]
+array length: 267
+adding 162 games to db
+adding 36 games to db
+adding 69 games to db
+updates finished
+done pls
+[ { name: 'ALEXANDER IVANOV',
+    uscfId: '12513936',
+    uscfRating: 2616,
+    asOfDate: '2014-01',
+    location: 'MA',
+    fideId: '2000202',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7493c8b27f4e9034aaf6a } ]
+array length: 3195
+adding 2133 games to db
+adding 329 games to db
+adding 733 games to db
+updates finished
+done pls
+[ { name: 'PATRICK G WOLFF',
+    uscfId: '11343406',
+    uscfRating: 2623,
+    asOfDate: '2007-05',
+    location: 'CA',
+    fideId: '2000148',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749568b27f4e9034aaf6b } ]
+array length: 262
+adding 140 games to db
+adding 30 games to db
+adding 92 games to db
+updates finished
+done pls
+[ { name: 'IVAN IVANISEVIC',
+    uscfId: '14929206',
+    uscfRating: 2657,
+    asOfDate: '2012-08',
+    location: 'NA SERBIA',
+    fideId: '912417',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749658b27f4e9034aaf6c } ]
+array length: 32
+adding 16 games to db
+adding 4 games to db
+adding 12 games to db
+updates finished
+done pls
+[ { name: 'HAI DE XIN',
+    uscfId: '12656787',
+    uscfRating: 2309,
+    asOfDate: '1995-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749708b27f4e9034aaf6d } ]
+array length: 4
+adding 3 games to db
+adding 1 games to db
+adding 0 games to db
+updates finished
+done pls
+[ { name: 'EVGENY SOLOZHENKIN',
+    uscfId: '12619330',
+    uscfRating: 2630,
+    asOfDate: '1994-12',
+    location: '*RUSSIA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c7497b8b27f4e9034aaf6e } ]
+array length: 30
+adding 20 games to db
+adding 4 games to db
+adding 6 games to db
+updates finished
+done pls
+[ { name: 'RICHARD A KAHN',
+    uscfId: '12553429',
+    uscfRating: 1578,
+    asOfDate: '2014-01',
+    location: 'FL',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749888b27f4e9034aaf6f } ]
+array length: 2871
+adding 1165 games to db
+adding 1541 games to db
+adding 165 games to db
+updates finished
+done pls
+[ { name: 'GREGORY C SWINEHART',
+    uscfId: '12823369',
+    uscfRating: 1662,
+    asOfDate: '2002-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749a68b27f4e9034aaf70 } ]
+array length: 186
+adding 66 games to db
+adding 107 games to db
+adding 13 games to db
+updates finished
+done pls
+[ { name: 'JAMES L RANDALL',
+    uscfId: '12408845',
+    uscfRating: 1722,
+    asOfDate: '1997-12',
+    location: 'CT',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749b68b27f4e9034aaf71 } ]
+array length: 42
+adding 19 games to db
+adding 18 games to db
+adding 5 games to db
+updates finished
+done pls
+[ { name: 'KEVIN YAN',
+    uscfId: '12901672',
+    uscfRating: 1882,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2065720',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749c38b27f4e9034aaf72 } ]
+array length: 557
+adding 230 games to db
+adding 267 games to db
+adding 60 games to db
+updates finished
+done pls
+[ { name: 'MAX YELSKY',
+    uscfId: '12799909',
+    uscfRating: 2006,
+    asOfDate: '2012-06',
+    location: 'NJ',
+    fideId: '2023903',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749d58b27f4e9034aaf73 } ]
+array length: 895
+adding 380 games to db
+adding 309 games to db
+adding 206 games to db
+updates finished
+done pls
+[ { name: 'DAVID C KALITA',
+    uscfId: '12705701',
+    uscfRating: 2009,
+    asOfDate: '2005-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c749eb8b27f4e9034aaf74 } ]
+array length: 949
+adding 550 games to db
+adding 291 games to db
+adding 108 games to db
+updates finished
+done pls
+[ { name: 'ANATOLY TREGER',
+    uscfId: '12688021',
+    uscfRating: 1838,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2082365',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a008b27f4e9034aaf75 } ]
+array length: 557
+adding 273 games to db
+adding 168 games to db
+adding 116 games to db
+updates finished
+done pls
+[ { name: 'CHRISTOPHER LICCARDO',
+    uscfId: '12563394',
+    uscfRating: 1700,
+    asOfDate: '2003-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a128b27f4e9034aaf76 } ]
+array length: 507
+adding 222 games to db
+adding 234 games to db
+adding 51 games to db
+updates finished
+done pls
+[ { name: 'JAY KLEINMAN',
+    uscfId: '12489600',
+    uscfRating: 1894,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2013932',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a258b27f4e9034aaf77 } ]
+array length: 1031
+adding 463 games to db
+adding 350 games to db
+adding 218 games to db
+updates finished
+done pls
+[ { name: 'NELSON FARBER',
+    uscfId: '12813964',
+    uscfRating: 1913,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2023504',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a398b27f4e9034aaf78 } ]
+array length: 930
+adding 312 games to db
+adding 444 games to db
+adding 174 games to db
+updates finished
+done pls
+[ { name: 'BRIAN BLAKE',
+    uscfId: '12458143',
+    uscfRating: 1923,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: '2034620',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a4d8b27f4e9034aaf79 } ]
+array length: 451
+adding 195 games to db
+adding 185 games to db
+adding 71 games to db
+updates finished
+done pls
+[ { name: 'SHAWN MARTINEZ',
+    uscfId: '12871507',
+    uscfRating: 2223,
+    asOfDate: '2013-04',
+    location: 'NY',
+    fideId: '2039770',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a5e8b27f4e9034aaf7a } ]
+array length: 684
+adding 406 games to db
+adding 199 games to db
+adding 79 games to db
+updates finished
+done pls
+[ { name: 'KURSAT KARATAS',
+    uscfId: '12657061',
+    uscfRating: 1847,
+    asOfDate: '2013-08',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a728b27f4e9034aaf7b } ]
+array length: 216
+adding 84 games to db
+adding 91 games to db
+adding 41 games to db
+updates finished
+done pls
+[ { name: 'MARCUS MAIRENA',
+    uscfId: '12568298',
+    uscfRating: 2068,
+    asOfDate: '2007-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a838b27f4e9034aaf7c } ]
+array length: 1430
+adding 719 games to db
+adding 546 games to db
+adding 165 games to db
+updates finished
+done pls
+[ { name: 'PAUL RACHLIN',
+    uscfId: '12491761',
+    uscfRating: 1954,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2053764',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74a9a8b27f4e9034aaf7d } ]
+array length: 400
+adding 186 games to db
+adding 178 games to db
+adding 36 games to db
+updates finished
+done pls
+[ { name: 'JACK E HEUBLUM',
+    uscfId: '12865309',
+    uscfRating: 2020,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2083515',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74aaa8b27f4e9034aaf7e } ]
+array length: 532
+adding 281 games to db
+adding 197 games to db
+adding 54 games to db
+updates finished
+done pls
+[ { name: 'JUSTIN KARP',
+    uscfId: '12801732',
+    uscfRating: 2134,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: '2031868',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74abd8b27f4e9034aaf7f } ]
+array length: 788
+adding 397 games to db
+adding 293 games to db
+adding 98 games to db
+updates finished
+done pls
+[ { name: 'BRIAN D WATSON',
+    uscfId: '20094779',
+    uscfRating: 1919,
+    asOfDate: '2012-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74ad28b27f4e9034aaf80 } ]
+array length: 550
+adding 257 games to db
+adding 237 games to db
+adding 56 games to db
+updates finished
+done pls
+[ { name: 'EDWARD KOPIECKI',
+    uscfId: '10108004',
+    uscfRating: 2133,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2023660',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74ae48b27f4e9034aaf81 } ]
+array length: 4524
+adding 2301 games to db
+adding 1670 games to db
+adding 553 games to db
+updates finished
+done pls
+[ { name: 'JEFFREY A LAWRENCE',
+    uscfId: '11273025',
+    uscfRating: 1935,
+    asOfDate: '2013-12',
+    location: 'CT',
+    fideId: '2006448',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b048b27f4e9034aaf82 } ]
+array length: 565
+adding 234 games to db
+adding 196 games to db
+adding 135 games to db
+updates finished
+done pls
+[ { name: 'JONATHAN GOTTEHRER',
+    uscfId: '12639294',
+    uscfRating: 2047,
+    asOfDate: '2013-04',
+    location: 'NY',
+    fideId: '2072211',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b158b27f4e9034aaf83 } ]
+array length: 423
+adding 222 games to db
+adding 181 games to db
+adding 20 games to db
+updates finished
+done pls
+[ { name: 'ELINA KATS',
+    uscfId: '12717761',
+    uscfRating: 1925,
+    asOfDate: '2008-01',
+    location: 'NY',
+    fideId: '2028859',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b278b27f4e9034aaf84 } ]
+array length: 916
+adding 439 games to db
+adding 396 games to db
+adding 81 games to db
+updates finished
+done pls
+[ { name: 'SCOT D MC ELHENY',
+    uscfId: '10150311',
+    uscfRating: 1965,
+    asOfDate: '2012-10',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b3c8b27f4e9034aaf85 } ]
+array length: 1108
+adding 477 games to db
+adding 566 games to db
+adding 65 games to db
+updates finished
+done pls
+[ { name: 'JONATHAN ANDREW CORBBLAH',
+    uscfId: '12758690',
+    uscfRating: 2151,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2038641',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b508b27f4e9034aaf86 } ]
+array length: 915
+adding 457 games to db
+adding 374 games to db
+adding 84 games to db
+updates finished
+done pls
+[ { name: 'MARIAN WAXMAN',
+    uscfId: '10109540',
+    uscfRating: 1949,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2012057',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b658b27f4e9034aaf87 } ]
+array length: 941
+adding 387 games to db
+adding 297 games to db
+adding 257 games to db
+updates finished
+done pls
+[ { name: 'RENZO GUTIERREZ',
+    uscfId: '12728266',
+    uscfRating: 2288,
+    asOfDate: '2005-06',
+    location: 'FL',
+    fideId: '3800482',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b788b27f4e9034aaf88 } ]
+array length: 39
+adding 23 games to db
+adding 13 games to db
+adding 3 games to db
+updates finished
+done pls
+[ { name: 'IZZY EINSIDLER',
+    uscfId: '12497753',
+    uscfRating: 1910,
+    asOfDate: '2011-12',
+    location: 'DC',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b868b27f4e9034aaf89 } ]
+array length: 544
+adding 244 games to db
+adding 236 games to db
+adding 64 games to db
+updates finished
+done pls
+[ { name: 'JONES M MURPHY JR',
+    uscfId: '12376400',
+    uscfRating: 1985,
+    asOfDate: '2002-12',
+    location: 'FRANCE',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74b978b27f4e9034aaf8a } ]
+array length: 223
+adding 101 games to db
+adding 95 games to db
+adding 27 games to db
+updates finished
+done pls
+[ { name: 'LILIA MEILAN POTEAT',
+    uscfId: '12920065',
+    uscfRating: 2070,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2067590',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74ba68b27f4e9034aaf8b } ]
+array length: 1333
+adding 605 games to db
+adding 606 games to db
+adding 122 games to db
+updates finished
+done pls
+[ { name: 'ZACHARY CHEN TANENBAUM',
+    uscfId: '13616253',
+    uscfRating: 2085,
+    asOfDate: '2014-01',
+    location: 'CT',
+    fideId: '2060850',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74bbd8b27f4e9034aaf8c } ]
+array length: 652
+adding 289 games to db
+adding 250 games to db
+adding 113 games to db
+updates finished
+done pls
+[ { name: 'AZEEZ ALADE',
+    uscfId: '13471486',
+    uscfRating: 2124,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2099535',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74bd18b27f4e9034aaf8d } ]
+array length: 1059
+adding 638 games to db
+adding 291 games to db
+adding 130 games to db
+updates finished
+done pls
+[ { name: 'SHAWN SWINDELL',
+    uscfId: '13416702',
+    uscfRating: 2056,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2064588',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74be68b27f4e9034aaf8e } ]
+array length: 991
+adding 536 games to db
+adding 324 games to db
+adding 131 games to db
+updates finished
+done pls
+[ { name: 'ANDREW HELLENSCHMIDT',
+    uscfId: '12593461',
+    uscfRating: 2086,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2016761',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74bfb8b27f4e9034aaf8f } ]
+array length: 713
+adding 300 games to db
+adding 234 games to db
+adding 179 games to db
+updates finished
+done pls
+[ { name: 'MICHAEL CHIANG',
+    uscfId: '12852051',
+    uscfRating: 2277,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: '2006405',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c118b27f4e9034aaf90 } ]
+array length: 1158
+adding 541 games to db
+adding 483 games to db
+adding 134 games to db
+updates finished
+done pls
+[ { name: 'RICHARD MCLAUGHLIN JR',
+    uscfId: '12443601',
+    uscfRating: 2111,
+    asOfDate: '2013-11',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c288b27f4e9034aaf91 } ]
+array length: 162
+adding 89 games to db
+adding 42 games to db
+adding 31 games to db
+updates finished
+done pls
+[ { name: 'JAMES CARL PINKERTON',
+    uscfId: '12900688',
+    uscfRating: 2128,
+    asOfDate: '2012-11',
+    location: 'MD',
+    fideId: '2029251',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c378b27f4e9034aaf92 } ]
+array length: 618
+adding 322 games to db
+adding 224 games to db
+adding 72 games to db
+updates finished
+done pls
+[ { name: 'JEFF KELLEHER',
+    uscfId: '12567847',
+    uscfRating: 2156,
+    asOfDate: '2013-06',
+    location: 'NY',
+    fideId: '2020033',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c4c8b27f4e9034aaf93 } ]
+array length: 1461
+adding 736 games to db
+adding 547 games to db
+adding 178 games to db
+updates finished
+done pls
+[ { name: 'FRITZ P GASPARD',
+    uscfId: '12527444',
+    uscfRating: 2068,
+    asOfDate: '2011-10',
+    location: 'NY',
+    fideId: '2018411',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c658b27f4e9034aaf94 } ]
+array length: 493
+adding 245 games to db
+adding 164 games to db
+adding 84 games to db
+updates finished
+done pls
+[ { name: 'LEONARD B CHIPKIN',
+    uscfId: '10119031',
+    uscfRating: 2059,
+    asOfDate: '2013-11',
+    location: 'NY',
+    fideId: '2006251',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c778b27f4e9034aaf95 } ]
+array length: 1524
+adding 664 games to db
+adding 411 games to db
+adding 449 games to db
+updates finished
+done pls
+[ { name: 'HARRISON BROACH WHEELER',
+    uscfId: '12873573',
+    uscfRating: 2215,
+    asOfDate: '2012-09',
+    location: 'CT',
+    fideId: '2008548',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c8d8b27f4e9034aaf96 } ]
+array length: 464
+adding 280 games to db
+adding 120 games to db
+adding 64 games to db
+updates finished
+done pls
+[ { name: 'MATTHEW RYAN FISCHLER',
+    uscfId: '12766817',
+    uscfRating: 2047,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: '2023512',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c74c9f8b27f4e9034aaf97 } ]
+array length: 1068
+adding 466 games to db
+adding 420 games to db
+adding 182 games to db
+updates finished
+done pls
+
+TypeError: Cannot call method 'search' of null
+    at Request._callback (/home/ubuntu/kasparov-number/js/scrapes_for_db.js:37:21)
+    at Request.self.callback (/home/ubuntu/kasparov-number/node_modules/request/request.js:123:22)
+    at Request.EventEmitter.emit (events.js:98:17)
+    at Request.<anonymous> (/home/ubuntu/kasparov-number/node_modules/request/request.js:893:14)
+    at Request.EventEmitter.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (/home/ubuntu/kasparov-number/node_modules/request/request.js:844:12)
+    at IncomingMessage.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
