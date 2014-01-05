@@ -6,8 +6,8 @@ var request = require('request'),
     MongoClient = mongodb.MongoClient;
 
 var queue, playersVisited, currentId;
-// Start back off timer at 30 seconds, to double each time script is blocked from USCF
-var backoffTimer = 30000;
+// Start back off timer at 10 mins, US chess blocks for somewhere betwen 8-16 minutes
+var backoffTimer = 600000;
 
 var getPersistentData = function(callback) {
     'use strict';
@@ -38,7 +38,9 @@ var getProfile = function(uscfID, callback) {
         // if tmp is null/undefined, temporarily blocked by USCF, so try after a hefty delay
         if (tmp === null) {
             console.log(body);
-            backoffTimer *= 2;
+            if (backoffTimer + 60000 <= 960000) {
+                backoffTimer += 60000;
+            }
             setTimeout(addPlayersLoop, backoffTimer);
         } else {
             if (tmp.search('Error') !== -1) { //uscfID not valid
@@ -162,9 +164,6 @@ var getGamesInBucket = function(id, bucket, callback) {
     });
 };
 
-// getGamesInBucket('12528459', '2900', function(err, data) {
-//     console.log(data);
-// });
 
 var getGamesInAllBuckets = function(err, id, bucketsArray, callback) {
     'use strict';
@@ -180,7 +179,6 @@ var getGamesInAllBuckets = function(err, id, bucketsArray, callback) {
     });
 };
 
-//getAllBuckets('20131342', getGamesInAllBuckets);
 
 var addGamesToDatabase = function(err, id, games, callback) {
     'use strict';
@@ -239,37 +237,6 @@ var addGamesToDatabase = function(err, id, games, callback) {
             } else {
                 eachCallback();
             }
-            // if (game.winLossDraw === 'W') {
-            //     collection.update({
-            //         uscfId: id
-            //     }, {
-            //         $push: {
-            //             wins: game
-            //         }
-            //     }, function() {
-            //         eachCallback();
-            //     });
-            // } else if (game.winLossDraw === 'L') {
-            //     collection.update({
-            //         uscfId: id
-            //     }, {
-            //         $push: {
-            //             losses: game
-            //         }
-            //     }, function() {
-            //         eachCallback();
-            //     });
-            // } else if (game.winLossDraw === 'D') {
-            //     collection.update({
-            //         uscfId: id
-            //     }, {
-            //         $push: {
-            //             draws: game
-            //         }
-            //     }, function() {
-            //         eachCallback();
-            //     });
-            // }
         }, function(err) {
             db.close();
             console.log('updates finished');
@@ -277,25 +244,6 @@ var addGamesToDatabase = function(err, id, games, callback) {
         });
     });
 };
-
-// var exampleGames = [{
-//     winLossDraw: 'L',
-//     opponentUscfId: '12635380  ',
-//     tournament: 'Klein End-of-Year Scholastic ',
-//     preTourneyRating: 'Unr.'
-// }, {
-//     winLossDraw: 'W',
-//     opponentUscfId: '12653365  ',
-//     tournament: 'Klein End-of-Year Scholastic ',
-//     preTourneyRating: 'Unr.'
-// }, {
-//     winLossDraw: 'D',
-//     opponentUscfId: '20115970  ',
-//     tournament: 'Klein End-of-Year Scholastic ',
-//     preTourneyRating: 'Unr.'
-// }];
-
-//addGamesToDatabase(null, "12528459", exampleGames);
 
 var updatePersistentData = function(id, games, queue, playersVisited, callback) {
     'use strict';
@@ -330,9 +278,7 @@ var updatePersistentData = function(id, games, queue, playersVisited, callback) 
     });
 };
 
-// updatePersistentData('123', exampleGames, [], {}, function() {
-//     console.log('finished updating');
-// });
+
 var addNextPlayerInQueue = function(callback) {
     'use strict';
     getPersistentData(function(currentId) {
@@ -353,16 +299,6 @@ var addNextPlayerInQueue = function(callback) {
     });
 };
 
-// async.times(2, function(n, next) {
-//     addNextPlayerInQueue(function() {
-//         next();
-//     });
-// }, function() {
-//     console.log('done with async.times');
-// }
-// );
-
-//addNextPlayerInQueue(addNextPlayerInQueue);
 
 var count = 0;
 
