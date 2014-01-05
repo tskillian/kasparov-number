@@ -304,7 +304,7 @@ var count = 0;
 
 function addPlayersLoop() {
     async.whilst(
-        function () { return count < 1000; },
+        function () { return count < 1500; },
         function (callback) {
             count += 1;
             console.log('current backoff timer: '+backoffTimer/1000+' seconds');
