@@ -1,6 +1,6 @@
 Checkmate Kasparov
 ==================
-Calculates your kasparov number.
+Calculates your Kasparov number (how many jumps it takes for you to have transitively beaten previous world chess champion Garry Kasparov)
 
 -npm install  
 -bower install  
