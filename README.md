@@ -1,4 +1,4 @@
-Checkmate Kasparov
+Checkmates To Kasparov
 ==================
 Calculates your Kasparov number (how many jumps it takes for you to have transitively beaten previous world chess champion Garry Kasparov)
 
