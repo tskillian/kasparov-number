@@ -6,6 +6,8 @@ var request = require('request'),
     MongoClient = mongodb.MongoClient;
 
 var queue, playersVisited, currentId;
+// Start back off timer at 30 seconds, to double each time script is blocked from USCF
+var backoffTimer = 30000;
 
 var getPersistentData = function(callback) {
     'use strict';
@@ -31,16 +33,16 @@ var getProfile = function(uscfID, callback) {
     var requestURL = 'http://www.uschess.org/msa/MbrDtlMain.php?' + uscfID;
 
     request(requestURL, function(error, response, body) {
-        if (!error) { //Page Loaded
-            var $ = cheerio.load(body);
-            var tmp = $('.topbar-middle b').html();
-            // if tmp is null/undefined, temporarily blocked by USCF, so try after a hefty delay
-            if (tmp === null) {
-                console.log(body);
-                setTimeout(addPlayersLoop, 600000);
-            }
+        var $ = cheerio.load(body);
+        var tmp = $('.topbar-middle b').html();
+        // if tmp is null/undefined, temporarily blocked by USCF, so try after a hefty delay
+        if (tmp === null) {
+            console.log(body);
+            backoffTimer *= 2;
+            setTimeout(addPlayersLoop, backoffTimer);
+        } else {
             if (tmp.search('Error') !== -1) { //uscfID not valid
-                errorMsg = 'Invalid USCF ID: ' + uscfID;
+                throw 'uscfID not valid or error somehwere on USCF page: ' + requestURL;
             } else {
                 //get uscfID and player Name
                 user = {};
@@ -73,10 +75,8 @@ var getProfile = function(uscfID, callback) {
                     }
                 }); //end each
             } //end user created
-        } else {
-            errorMsg = 'error loading page: ' + error;
+            callback(errorMsg, user);
         }
-        callback(errorMsg, user);
     }); //ends request
 }; //ends getProfile
 
@@ -371,6 +371,7 @@ function addPlayersLoop() {
         function () { return count < 1000; },
         function (callback) {
             count += 1;
+            console.log('current backoff timer: '+backoffTimer/1000+' seconds');
             console.log('delay so that USCF doesn\'t get mad at me...');
             setTimeout(function() {
                 addNextPlayerInQueue(callback);
