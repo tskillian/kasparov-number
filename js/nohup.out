@@ -16802,3 +16802,5052 @@ the <a href="mailto:admin@uschess.org">webmaster</a>.
 </html>
 
 
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'HAROLD A MITCHELL',
+    uscfId: '12417826',
+    uscfRating: 1844,
+    asOfDate: '2013-10',
+    location: 'WV',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a753bbc147630e2c1c03 } ]
+array length: 320
+adding 151 games to db
+adding 102 games to db
+adding 67 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'AMIT R DAVE',
+    uscfId: '12182560',
+    uscfRating: 1888,
+    asOfDate: '2013-10',
+    location: 'TX',
+    fideId: '2089491',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a768bbc147630e2c1c04 } ]
+array length: 72
+adding 31 games to db
+adding 26 games to db
+adding 15 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'COLIN T DENNISTON',
+    uscfId: '14196285',
+    uscfRating: 1878,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2073137',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a77abbc147630e2c1c05 } ]
+array length: 330
+adding 137 games to db
+adding 97 games to db
+adding 96 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANIL K MARTHI',
+    uscfId: '14938331',
+    uscfRating: 1888,
+    asOfDate: '2014-01',
+    location: 'MA',
+    fideId: '2090813',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a791bbc147630e2c1c06 } ]
+array length: 181
+adding 97 games to db
+adding 60 games to db
+adding 24 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'TAL KESTENBERG',
+    uscfId: '14708796',
+    uscfRating: 2009,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2093839',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a7a5bbc147630e2c1c07 } ]
+array length: 84
+adding 28 games to db
+adding 39 games to db
+adding 17 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ARIEL SHUSTERMAN',
+    uscfId: '12905466',
+    uscfRating: 2038,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2083973',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a7b8bbc147630e2c1c08 } ]
+array length: 527
+adding 270 games to db
+adding 212 games to db
+adding 45 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SZYMON RUDOWSKI',
+    uscfId: '13591837',
+    uscfRating: 1892,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2085380',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a7d1bbc147630e2c1c09 } ]
+array length: 139
+adding 52 games to db
+adding 70 games to db
+adding 17 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'GERALD TOWNS',
+    uscfId: '12771591',
+    uscfRating: 1957,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2030497',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a7e4bbc147630e2c1c0a } ]
+array length: 792
+adding 380 games to db
+adding 322 games to db
+adding 90 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ISAAC VEYTSMAN',
+    uscfId: '13331188',
+    uscfRating: 1940,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2098156',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a7febbc147630e2c1c0b } ]
+array length: 373
+adding 201 games to db
+adding 132 games to db
+adding 40 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SABRIJA MEHMEDOVIC',
+    uscfId: '12789228',
+    uscfRating: 1969,
+    asOfDate: '2010-08',
+    location: 'NY',
+    fideId: '2006626',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a815bbc147630e2c1c0c } ]
+array length: 278
+adding 169 games to db
+adding 79 games to db
+adding 30 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MATTHEW WALTER BROWN',
+    uscfId: '12768671',
+    uscfRating: 1794,
+    asOfDate: '2013-07',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a828bbc147630e2c1c0d } ]
+array length: 271
+adding 155 games to db
+adding 78 games to db
+adding 38 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BORIS SENDEROVICH',
+    uscfId: '12780765',
+    uscfRating: 1857,
+    asOfDate: '2013-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a83fbbc147630e2c1c0e } ]
+array length: 605
+adding 295 games to db
+adding 228 games to db
+adding 82 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ROSTIK GOLTSER',
+    uscfId: '12647915',
+    uscfRating: 2013,
+    asOfDate: '2008-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a857bbc147630e2c1c0f } ]
+array length: 471
+adding 277 games to db
+adding 121 games to db
+adding 73 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CHARLES JACOB EDELMAN',
+    uscfId: '12689210',
+    uscfRating: 2005,
+    asOfDate: '2013-12',
+    location: 'DC',
+    fideId: '2065037',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a86ebbc147630e2c1c10 } ]
+array length: 156
+adding 85 games to db
+adding 48 games to db
+adding 23 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DAVID F LONG',
+    uscfId: '10241103',
+    uscfRating: 1885,
+    asOfDate: '2014-01',
+    location: 'VA',
+    fideId: '2032147',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a883bbc147630e2c1c11 } ]
+array length: 709
+adding 301 games to db
+adding 248 games to db
+adding 160 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MULAZIM MUWWAKKIL',
+    uscfId: '10110491',
+    uscfRating: 1841,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2015633',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a89cbbc147630e2c1c12 } ]
+array length: 717
+adding 318 games to db
+adding 322 games to db
+adding 77 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SEAN SENFT',
+    uscfId: '13232026',
+    uscfRating: 1905,
+    asOfDate: '2014-01',
+    location: 'VA',
+    fideId: '2044960',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a8b3bbc147630e2c1c13 } ]
+array length: 792
+adding 408 games to db
+adding 286 games to db
+adding 98 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BORIS BERKUN',
+    uscfId: '12029870',
+    uscfRating: 1985,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a8cebbc147630e2c1c14 } ]
+array length: 161
+adding 98 games to db
+adding 37 games to db
+adding 26 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LEO COHEN SOLAL',
+    uscfId: '14944177',
+    uscfRating: 1924,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '676454',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a8e0bbc147630e2c1c15 } ]
+array length: 104
+adding 51 games to db
+adding 45 games to db
+adding 8 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SOLOMON I BEILIN',
+    uscfId: '12327780',
+    uscfRating: 1859,
+    asOfDate: '2013-12',
+    location: 'CA',
+    fideId: '2024250',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a8f3bbc147630e2c1c16 } ]
+array length: 203
+adding 83 games to db
+adding 82 games to db
+adding 38 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MARCIN MACIASZEK',
+    uscfId: '14566615',
+    uscfRating: 1992,
+    asOfDate: '2014-01',
+    location: 'PA',
+    fideId: '2089904',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a906bbc147630e2c1c17 } ]
+array length: 224
+adding 103 games to db
+adding 71 games to db
+adding 50 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'TAMARI CHALABASHVILI',
+    uscfId: '13022808',
+    uscfRating: 1947,
+    asOfDate: '2012-04',
+    location: 'NY',
+    fideId: '13602454',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a91abbc147630e2c1c18 } ]
+array length: 20
+adding 7 games to db
+adding 9 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANTHONY NORRIS',
+    uscfId: '12758884',
+    uscfRating: 2016,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2077779',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a92bbbc147630e2c1c19 } ]
+array length: 916
+adding 460 games to db
+adding 327 games to db
+adding 129 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RACHEL GITA GOLOGORSKY',
+    uscfId: '13302945',
+    uscfRating: 2030,
+    asOfDate: '2014-01',
+    location: 'FL',
+    fideId: '2065711',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a945bbc147630e2c1c1a } ]
+array length: 454
+adding 249 games to db
+adding 135 games to db
+adding 69 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KADHIR ANDRES PILLAI',
+    uscfId: '13344871',
+    uscfRating: 2168,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2053551',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a95dbbc147630e2c1c1b } ]
+array length: 947
+adding 448 games to db
+adding 298 games to db
+adding 201 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LEON ZUKOFF',
+    uscfId: '11099599',
+    uscfRating: 1966,
+    asOfDate: '2008-09',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a977bbc147630e2c1c1c } ]
+array length: 324
+adding 165 games to db
+adding 95 games to db
+adding 64 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'OLUWASEUN BISIRIYU-SALAM',
+    uscfId: '15056585',
+    uscfRating: 2067,
+    asOfDate: '2013-09',
+    location: 'NJ',
+    fideId: '8501408',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a98cbbc147630e2c1c1d } ]
+array length: 78
+adding 33 games to db
+adding 34 games to db
+adding 11 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'EUGENIO VARGAS GARCIA',
+    uscfId: '14637025',
+    uscfRating: 2044,
+    asOfDate: '2013-05',
+    location: 'NY',
+    fideId: '2142880',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a99ebbc147630e2c1c1e } ]
+array length: 55
+adding 17 games to db
+adding 22 games to db
+adding 16 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ARTHUR W TOLLEFSON',
+    uscfId: '12410892',
+    uscfRating: 2135,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: '2099527',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a9b0bbc147630e2c1c1f } ]
+array length: 5
+adding 1 games to db
+adding 0 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SARATHI RAY',
+    uscfId: '12655562',
+    uscfRating: 2134,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2032490',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a9c0bbc147630e2c1c20 } ]
+array length: 735
+adding 346 games to db
+adding 274 games to db
+adding 115 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PHILIP ROSENBACH',
+    uscfId: '10046807',
+    uscfRating: 2200,
+    asOfDate: '2013-04',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a9d7bbc147630e2c1c21 } ]
+array length: 14
+adding 6 games to db
+adding 5 games to db
+adding 3 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KOLA ADEYEMI',
+    uscfId: '13235534',
+    uscfRating: 2234,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: '2074010',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a9e7bbc147630e2c1c22 } ]
+array length: 139
+adding 87 games to db
+adding 27 games to db
+adding 25 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MITCHELL FITZKO',
+    uscfId: '10105544',
+    uscfRating: 2049,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: '2009889',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9a9fbbbc147630e2c1c23 } ]
+array length: 729
+adding 318 games to db
+adding 211 games to db
+adding 200 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'VLADIMIR BUGAYEV',
+    uscfId: '12954240',
+    uscfRating: 2196,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '30901480',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aa13bbc147630e2c1c24 } ]
+array length: 132
+adding 74 games to db
+adding 41 games to db
+adding 17 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'EVAN M TURTEL',
+    uscfId: '12026140',
+    uscfRating: 2184,
+    asOfDate: '2008-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aa26bbc147630e2c1c25 } ]
+array length: 138
+adding 76 games to db
+adding 35 games to db
+adding 27 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SCOTT MICHAEL DOMBRO',
+    uscfId: '13734022',
+    uscfRating: 1747,
+    asOfDate: '2013-11',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aa39bbc147630e2c1c26 } ]
+array length: 171
+adding 82 games to db
+adding 57 games to db
+adding 32 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'HENRY QI',
+    uscfId: '13789922',
+    uscfRating: 2026,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2073188',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aa4ebbc147630e2c1c27 } ]
+array length: 718
+adding 355 games to db
+adding 275 games to db
+adding 88 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KARTHIK RAO-KALAGNANAM',
+    uscfId: '13331990',
+    uscfRating: 1607,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aa67bbc147630e2c1c28 } ]
+array length: 276
+adding 127 games to db
+adding 110 games to db
+adding 39 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALEX PAKH',
+    uscfId: '12903379',
+    uscfRating: 1804,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2098091',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aa7dbbc147630e2c1c29 } ]
+array length: 202
+adding 94 games to db
+adding 70 games to db
+adding 38 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RYAN MASTERSON',
+    uscfId: '12647594',
+    uscfRating: 1804,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aa93bbc147630e2c1c2a } ]
+array length: 476
+adding 227 games to db
+adding 194 games to db
+adding 55 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PAUL VIGNOLO MUNSON',
+    uscfId: '13983514',
+    uscfRating: 1629,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2088363',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aaaabbc147630e2c1c2b } ]
+array length: 251
+adding 85 games to db
+adding 125 games to db
+adding 41 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALEX CHEN',
+    uscfId: '13461426',
+    uscfRating: 1864,
+    asOfDate: '2014-01',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aabfbbc147630e2c1c2c } ]
+array length: 248
+adding 142 games to db
+adding 70 games to db
+adding 36 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MATTHEW LIM',
+    uscfId: '13701860',
+    uscfRating: 1982,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2073455',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aad4bbc147630e2c1c2d } ]
+array length: 616
+adding 305 games to db
+adding 230 games to db
+adding 81 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ABRAHAM ADBERSTEIN',
+    uscfId: '14332417',
+    uscfRating: 1917,
+    asOfDate: '2012-02',
+    location: 'MEXICO',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aaecbbc147630e2c1c2e } ]
+array length: 26
+adding 15 games to db
+adding 8 games to db
+adding 3 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ISURU ADEEPA ATTANAGODA',
+    uscfId: '13685963',
+    uscfRating: 2065,
+    asOfDate: '2014-01',
+    location: 'VA',
+    fideId: '2040379',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9aafebbc147630e2c1c2f } ]
+array length: 586
+adding 248 games to db
+adding 227 games to db
+adding 111 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CHEN QU',
+    uscfId: '13940256',
+    uscfRating: 1807,
+    asOfDate: '2012-10',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ab17bbc147630e2c1c30 } ]
+array length: 320
+adding 140 games to db
+adding 119 games to db
+adding 61 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'FEDERICO DE LA CRUZ FRANCISCO JR JR',
+    uscfId: '14163311',
+    uscfRating: 1864,
+    asOfDate: '2013-09',
+    location: 'CA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ab2dbbc147630e2c1c31 } ]
+array length: 81
+adding 39 games to db
+adding 26 games to db
+adding 16 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'NEPHTALI DIAZ',
+    uscfId: '12656485',
+    uscfRating: 1826,
+    asOfDate: '2014-01',
+    location: 'TX',
+    fideId: '2078031',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ab40bbc147630e2c1c32 } ]
+array length: 703
+adding 309 games to db
+adding 324 games to db
+adding 70 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRODERICK BELLO',
+    uscfId: '12482806',
+    uscfRating: 1624,
+    asOfDate: '2013-10',
+    location: 'NC',
+    fideId: '2056100',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ab5abbc147630e2c1c33 } ]
+array length: 333
+adding 139 games to db
+adding 151 games to db
+adding 43 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'WESLEY M TURNER',
+    uscfId: '12647722',
+    uscfRating: 1871,
+    asOfDate: '2008-03',
+    location: 'CA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ab6fbbc147630e2c1c34 } ]
+array length: 93
+adding 50 games to db
+adding 28 games to db
+adding 15 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ENRICO F BALMACEDA',
+    uscfId: '12708635',
+    uscfRating: 2030,
+    asOfDate: '2013-11',
+    location: 'CA',
+    fideId: '2089785',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ab83bbc147630e2c1c35 } ]
+array length: 180
+adding 76 games to db
+adding 58 games to db
+adding 46 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ILAN BENJAMIN',
+    uscfId: '12748391',
+    uscfRating: 2063,
+    asOfDate: '2008-09',
+    location: 'CA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ab98bbc147630e2c1c36 } ]
+array length: 261
+adding 117 games to db
+adding 84 games to db
+adding 60 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ROBERT  A BUTLER',
+    uscfId: '12394431',
+    uscfRating: 1677,
+    asOfDate: '2013-03',
+    location: 'WY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9abacbbc147630e2c1c37 } ]
+array length: 73
+adding 32 games to db
+adding 32 games to db
+adding 9 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRIAN E SCANLON',
+    uscfId: '12458139',
+    uscfRating: 1613,
+    asOfDate: '2014-01',
+    location: 'CA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9abbebbc147630e2c1c38 } ]
+array length: 779
+adding 290 games to db
+adding 339 games to db
+adding 150 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'FRANK DRAZIL',
+    uscfId: '12421582',
+    uscfRating: 1565,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2066009',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9abd8bbc147630e2c1c39 } ]
+array length: 900
+adding 356 games to db
+adding 491 games to db
+adding 53 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BENJAMIN HELLER',
+    uscfId: '12548155',
+    uscfRating: 1755,
+    asOfDate: '1996-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9abf2bbc147630e2c1c3a } ]
+array length: 50
+adding 30 games to db
+adding 17 games to db
+adding 3 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'YUVIK N UMAPATHY',
+    uscfId: '12962172',
+    uscfRating: 1768,
+    asOfDate: '2013-08',
+    location: 'NJ',
+    fideId: '2073579',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac03bbc147630e2c1c3b } ]
+array length: 722
+adding 326 games to db
+adding 265 games to db
+adding 131 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ROBERT A CAMERON',
+    uscfId: '13822080',
+    uscfRating: 1756,
+    asOfDate: '2014-01',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac1dbbc147630e2c1c3c } ]
+array length: 411
+adding 174 games to db
+adding 192 games to db
+adding 45 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'TIMOTHY R PRIESTLEY',
+    uscfId: '12640139',
+    uscfRating: 1798,
+    asOfDate: '2013-05',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac32bbc147630e2c1c3d } ]
+array length: 229
+adding 107 games to db
+adding 98 games to db
+adding 24 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ARUN N SHANBHAG',
+    uscfId: '12814946',
+    uscfRating: 1849,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac46bbc147630e2c1c3e } ]
+array length: 436
+adding 214 games to db
+adding 163 games to db
+adding 59 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PERRY FENG',
+    uscfId: '13215504',
+    uscfRating: 1766,
+    asOfDate: '2013-12',
+    location: 'VA',
+    fideId: '2019256',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac5bbbc147630e2c1c3f } ]
+array length: 610
+adding 271 games to db
+adding 257 games to db
+adding 82 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'NICHOLAS JOHN CRAVOTTA',
+    uscfId: '12912700',
+    uscfRating: 1904,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2016834',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac72bbc147630e2c1c40 } ]
+array length: 288
+adding 144 games to db
+adding 95 games to db
+adding 49 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOSHUA SAMUEL ABADY',
+    uscfId: '13269350',
+    uscfRating: 1827,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: '2072017',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac88bbc147630e2c1c41 } ]
+array length: 445
+adding 188 games to db
+adding 178 games to db
+adding 79 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MICHAEL W REGAN',
+    uscfId: '12914087',
+    uscfRating: 1733,
+    asOfDate: '2014-01',
+    location: 'MD',
+    fideId: '2053616',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ac9fbbc147630e2c1c42 } ]
+array length: 49
+adding 18 games to db
+adding 17 games to db
+adding 14 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MARYIA ORESHKO',
+    uscfId: '13494590',
+    uscfRating: 1994,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2049295',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9acb0bbc147630e2c1c43 } ]
+array length: 536
+adding 256 games to db
+adding 215 games to db
+adding 65 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALEXANDER CHEN',
+    uscfId: '13729284',
+    uscfRating: 1698,
+    asOfDate: '2011-01',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9acc8bbc147630e2c1c44 } ]
+array length: 333
+adding 171 games to db
+adding 136 games to db
+adding 26 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KEVIN BERRY',
+    uscfId: '12562257',
+    uscfRating: 1768,
+    asOfDate: '2013-10',
+    location: 'CT',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9acdebbc147630e2c1c45 } ]
+array length: 333
+adding 113 games to db
+adding 151 games to db
+adding 69 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Access forbidden!</title>
+<link rev="made" href="mailto:admin@uschess.org" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Access forbidden!</h1>
+<p>
+
+
+  
+
+    You don't have permission to access the requested object.
+    It is either read-protected or not readable by the server.
+
+  
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:admin@uschess.org">webmaster</a>.
+
+</p>
+
+<h2>Error 403</h2>
+<address>
+  <a href="/">www.uschess.org</a><br />
+  <span>Apache/2.2.3 (CentOS)</span>
+</address>
+</body>
+</html>
+
+
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CHARLIE D FAUMAN',
+    uscfId: '12931853',
+    uscfRating: 1963,
+    asOfDate: '2013-06',
+    location: 'MA',
+    fideId: '2079143',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b0bbbbc147630e2c1c46 } ]
+array length: 691
+adding 328 games to db
+adding 254 games to db
+adding 109 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JULIO C BERNAL',
+    uscfId: '12203440',
+    uscfRating: 1707,
+    asOfDate: '2002-12',
+    location: 'FL',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b0d6bbc147630e2c1c47 } ]
+array length: 221
+adding 89 games to db
+adding 95 games to db
+adding 37 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'NICHOLAS FULOP',
+    uscfId: '12574999',
+    uscfRating: 1593,
+    asOfDate: '2006-04',
+    location: 'MO',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b0eabbc147630e2c1c48 } ]
+array length: 123
+adding 53 games to db
+adding 61 games to db
+adding 9 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'IAN WIGGINS',
+    uscfId: '13126162',
+    uscfRating: 1911,
+    asOfDate: '2012-09',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b0fdbbc147630e2c1c49 } ]
+array length: 81
+adding 40 games to db
+adding 36 games to db
+adding 5 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PETER W PRITCHETT',
+    uscfId: '12616414',
+    uscfRating: 1884,
+    asOfDate: '2013-09',
+    location: 'WA',
+    fideId: '2099314',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b10fbbc147630e2c1c4a } ]
+array length: 186
+adding 96 games to db
+adding 68 games to db
+adding 22 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALEN KUBATI',
+    uscfId: '14097206',
+    uscfRating: 1851,
+    asOfDate: '2012-03',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b123bbc147630e2c1c4b } ]
+array length: 17
+adding 9 games to db
+adding 6 games to db
+adding 2 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PEDRO PERDOMO',
+    uscfId: '12704647',
+    uscfRating: 1951,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b138bbc147630e2c1c4c } ]
+array length: 125
+adding 57 games to db
+adding 43 games to db
+adding 25 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JARROD M TAVARES',
+    uscfId: '12761163',
+    uscfRating: 2016,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2076977',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b149bbc147630e2c1c4d } ]
+array length: 686
+adding 361 games to db
+adding 228 games to db
+adding 97 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'TIP WOLFE',
+    uscfId: '13262231',
+    uscfRating: 1931,
+    asOfDate: '2011-11',
+    location: 'VA',
+    fideId: '2044803',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b161bbc147630e2c1c4e } ]
+array length: 448
+adding 288 games to db
+adding 117 games to db
+adding 43 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ROBERT DENNIS BEATTY',
+    uscfId: '12027970',
+    uscfRating: 1931,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2095408',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b179bbc147630e2c1c4f } ]
+array length: 340
+adding 134 games to db
+adding 144 games to db
+adding 62 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PAUL C LEBLANC',
+    uscfId: '13867956',
+    uscfRating: 1882,
+    asOfDate: '2014-01',
+    location: 'BC CANADA',
+    fideId: '2605406',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b18dbbc147630e2c1c50 } ]
+array length: 78
+adding 28 games to db
+adding 26 games to db
+adding 24 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SAMUIL CHATSKY',
+    uscfId: '12911708',
+    uscfRating: 1783,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b19ebbc147630e2c1c51 } ]
+array length: 748
+adding 267 games to db
+adding 321 games to db
+adding 160 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KARL PETERSON',
+    uscfId: '10188784',
+    uscfRating: 1829,
+    asOfDate: '2014-01',
+    location: 'VA',
+    fideId: '2048957',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b1b5bbc147630e2c1c52 } ]
+array length: 419
+adding 190 games to db
+adding 172 games to db
+adding 57 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'HUMBERTO TANGARIFE',
+    uscfId: '12810208',
+    uscfRating: 1848,
+    asOfDate: '2013-10',
+    location: 'CT',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b1ccbbc147630e2c1c53 } ]
+array length: 91
+adding 34 games to db
+adding 37 games to db
+adding 20 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JAMES T WU',
+    uscfId: '14232508',
+    uscfRating: 1834,
+    asOfDate: '2012-01',
+    location: 'CA',
+    fideId: '2056658',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b1ddbbc147630e2c1c54 } ]
+array length: 116
+adding 50 games to db
+adding 54 games to db
+adding 12 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KEVIN EMMANUEL CHEN',
+    uscfId: '12632969',
+    uscfRating: 1958,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2030640',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b1f0bbc147630e2c1c55 } ]
+array length: 724
+adding 288 games to db
+adding 291 games to db
+adding 145 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KERRY W MCDERMOTT',
+    uscfId: '12108660',
+    uscfRating: 2014,
+    asOfDate: '2013-11',
+    location: 'NH',
+    fideId: '2047462',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b208bbc147630e2c1c56 } ]
+array length: 447
+adding 223 games to db
+adding 131 games to db
+adding 93 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'THOMAS E HARTMAYER',
+    uscfId: '10037093',
+    uscfRating: 1927,
+    asOfDate: '2014-01',
+    location: 'CT',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b21dbbc147630e2c1c57 } ]
+array length: 1111
+adding 567 games to db
+adding 398 games to db
+adding 146 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANDREW C W WALKER',
+    uscfId: '12544194',
+    uscfRating: 1904,
+    asOfDate: '2013-04',
+    location: 'NJ',
+    fideId: '2047985',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b237bbc147630e2c1c58 } ]
+array length: 378
+adding 175 games to db
+adding 147 games to db
+adding 56 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LYLE D BROOKS',
+    uscfId: '10119022',
+    uscfRating: 1820,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b24cbbc147630e2c1c59 } ]
+array length: 84
+adding 39 games to db
+adding 34 games to db
+adding 11 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'AHMAD WIGGLESWORTH',
+    uscfId: '12555661',
+    uscfRating: 1911,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: '2012073',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b25fbbc147630e2c1c5a } ]
+array length: 626
+adding 368 games to db
+adding 182 games to db
+adding 76 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KENNETH D CRUZ',
+    uscfId: '10645816',
+    uscfRating: 1736,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2055430',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b278bbc147630e2c1c5b } ]
+array length: 1194
+adding 504 games to db
+adding 519 games to db
+adding 171 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MICHAEL J HORVATH',
+    uscfId: '10103011',
+    uscfRating: 1767,
+    asOfDate: '2010-06',
+    location: 'FL',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b292bbc147630e2c1c5c } ]
+array length: 43
+adding 16 games to db
+adding 16 games to db
+adding 11 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'EVAN CORTES',
+    uscfId: '12651896',
+    uscfRating: 1914,
+    asOfDate: '2013-12',
+    location: 'NJ',
+    fideId: '2076306',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b2a4bbc147630e2c1c5d } ]
+array length: 208
+adding 102 games to db
+adding 82 games to db
+adding 24 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LAWRENCE MARTINEZ',
+    uscfId: '12550947',
+    uscfRating: 1917,
+    asOfDate: '2013-12',
+    location: 'CA',
+    fideId: '2097001',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b2b8bbc147630e2c1c5e } ]
+array length: 478
+adding 220 games to db
+adding 214 games to db
+adding 44 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'FRANCISCO ANCHONDO',
+    uscfId: '12399956',
+    uscfRating: 1930,
+    asOfDate: '2013-12',
+    location: 'CA',
+    fideId: '2007584',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b2cfbbc147630e2c1c5f } ]
+array length: 285
+adding 126 games to db
+adding 112 games to db
+adding 47 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PHIL THOMAS',
+    uscfId: '13312957',
+    uscfRating: 2013,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b2e4bbc147630e2c1c60 } ]
+array length: 239
+adding 127 games to db
+adding 67 games to db
+adding 45 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALEKSANDAR B BRANCIC',
+    uscfId: '12447888',
+    uscfRating: 1956,
+    asOfDate: '2014-01',
+    location: 'MA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b2f9bbc147630e2c1c61 } ]
+array length: 271
+adding 134 games to db
+adding 95 games to db
+adding 42 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOHN P ELMORE',
+    uscfId: '12747422',
+    uscfRating: 2065,
+    asOfDate: '2014-01',
+    location: 'NH',
+    fideId: '2024233',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b30dbbc147630e2c1c62 } ]
+array length: 1569
+adding 782 games to db
+adding 470 games to db
+adding 317 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOSHUA SAMUEL',
+    uscfId: '10408261',
+    uscfRating: 1941,
+    asOfDate: '2014-01',
+    location: 'CO',
+    fideId: '2087219',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b328bbc147630e2c1c63 } ]
+array length: 175
+adding 79 games to db
+adding 55 games to db
+adding 41 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ZACHARY ALLAN BEKKEDAHL',
+    uscfId: '12805139',
+    uscfRating: 2225,
+    asOfDate: '2013-11',
+    location: 'CO',
+    fideId: '2069156',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b33bbbc147630e2c1c64 } ]
+array length: 472
+adding 285 games to db
+adding 118 games to db
+adding 69 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRAD LUNDSTROM',
+    uscfId: '10410347',
+    uscfRating: 2009,
+    asOfDate: '2013-12',
+    location: 'CO',
+    fideId: '2032163',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b353bbc147630e2c1c65 } ]
+array length: 575
+adding 301 games to db
+adding 171 games to db
+adding 103 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'EPIPHANY M PETERS',
+    uscfId: '12937939',
+    uscfRating: 2067,
+    asOfDate: '2014-01',
+    location: 'TN',
+    fideId: '2055961',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b369bbc147630e2c1c66 } ]
+array length: 713
+adding 433 games to db
+adding 194 games to db
+adding 86 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SPENCER BLEDSOE',
+    uscfId: '12842589',
+    uscfRating: 2018,
+    asOfDate: '2013-04',
+    location: 'IL',
+    fideId: '2050307',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b382bbc147630e2c1c67 } ]
+array length: 533
+adding 256 games to db
+adding 172 games to db
+adding 105 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'YUSHENG XIA',
+    uscfId: '13471910',
+    uscfRating: 2268,
+    asOfDate: '2014-01',
+    location: 'CA',
+    fideId: '2056771',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b399bbc147630e2c1c68 } ]
+array length: 541
+adding 306 games to db
+adding 133 games to db
+adding 102 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JAMES EGERTON',
+    uscfId: '10336422',
+    uscfRating: 1938,
+    asOfDate: '2012-03',
+    location: 'IL',
+    fideId: '2025612',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b3b1bbc147630e2c1c69 } ]
+array length: 412
+adding 198 games to db
+adding 135 games to db
+adding 79 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'FAUSTO ROBLES',
+    uscfId: '13312633',
+    uscfRating: 1993,
+    asOfDate: '2012-09',
+    location: 'CA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b3c6bbc147630e2c1c6a } ]
+array length: 315
+adding 139 games to db
+adding 134 games to db
+adding 42 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'STEPHEN BRUDNO',
+    uscfId: '10017734',
+    uscfRating: 1989,
+    asOfDate: '2013-10',
+    location: 'MA',
+    fideId: '2039605',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b3dbbbc147630e2c1c6b } ]
+array length: 888
+adding 371 games to db
+adding 337 games to db
+adding 180 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'NIGEL MITCHELL',
+    uscfId: '12459088',
+    uscfRating: 1967,
+    asOfDate: '2014-01',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b3f3bbc147630e2c1c6c } ]
+array length: 898
+adding 395 games to db
+adding 285 games to db
+adding 218 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'GARY WILLIAM RUBRIGHT',
+    uscfId: '12358370',
+    uscfRating: 2030,
+    asOfDate: '2013-09',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b40bbbc147630e2c1c6d } ]
+array length: 346
+adding 184 games to db
+adding 90 games to db
+adding 72 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'HERMAN ANTHONY ABDUL',
+    uscfId: '12493832',
+    uscfRating: 1954,
+    asOfDate: '2013-02',
+    location: 'NY',
+    fideId: '2012081',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b41fbbc147630e2c1c6e } ]
+array length: 107
+adding 47 games to db
+adding 36 games to db
+adding 24 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'EDGAR IAN CIMAFRANCA',
+    uscfId: '12599575',
+    uscfRating: 1900,
+    asOfDate: '2003-06',
+    location: 'NY',
+    fideId: '2010771',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b433bbc147630e2c1c6f } ]
+array length: 223
+adding 102 games to db
+adding 96 games to db
+adding 25 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ISAIAS C SORIANO',
+    uscfId: '12545793',
+    uscfRating: 1821,
+    asOfDate: '2013-09',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b447bbc147630e2c1c70 } ]
+array length: 352
+adding 158 games to db
+adding 151 games to db
+adding 43 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MATTHEW BOXER',
+    uscfId: '12510577',
+    uscfRating: 1915,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b45cbbc147630e2c1c71 } ]
+array length: 376
+adding 159 games to db
+adding 113 games to db
+adding 104 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KENNETH REINHART',
+    uscfId: '12442171',
+    uscfRating: 1924,
+    asOfDate: '2003-08',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b471bbc147630e2c1c72 } ]
+array length: 115
+adding 54 games to db
+adding 37 games to db
+adding 24 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOSHUA RUBIN',
+    uscfId: '12903382',
+    uscfRating: 2144,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2076950',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b484bbc147630e2c1c73 } ]
+array length: 346
+adding 199 games to db
+adding 96 games to db
+adding 51 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DHUHA MOHAMMED MOHSIN',
+    uscfId: '14499561',
+    uscfRating: 2022,
+    asOfDate: '2013-02',
+    location: 'AZ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b49abbc147630e2c1c74 } ]
+array length: 21
+adding 12 games to db
+adding 5 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANIEL BRENT GATER',
+    uscfId: '13273576',
+    uscfRating: 2215,
+    asOfDate: '2014-01',
+    location: 'TX',
+    fideId: '2050374',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b4abbbc147630e2c1c75 } ]
+array length: 628
+adding 406 games to db
+adding 155 games to db
+adding 67 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RICHARD C MORAN',
+    uscfId: '10096316',
+    uscfRating: 1932,
+    asOfDate: '2011-10',
+    location: 'CANADA',
+    fideId: '2605260',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b4c5bbc147630e2c1c76 } ]
+array length: 406
+adding 198 games to db
+adding 153 games to db
+adding 55 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JULIUS KADOR',
+    uscfId: '10103916',
+    uscfRating: 1900,
+    asOfDate: '2001-12',
+    location: 'NJ',
+    fideId: '2013908',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b4dabbc147630e2c1c77 } ]
+array length: 179
+adding 82 games to db
+adding 51 games to db
+adding 46 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RICHARD PANKEN',
+    uscfId: '12395034',
+    uscfRating: 1961,
+    asOfDate: '2006-06',
+    location: 'NY',
+    fideId: '2010747',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b4eebbc147630e2c1c78 } ]
+array length: 929
+adding 429 games to db
+adding 306 games to db
+adding 194 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PAUL ASCOLESE',
+    uscfId: '12198010',
+    uscfRating: 1993,
+    asOfDate: '2013-04',
+    location: 'NY',
+    fideId: '2006235',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b506bbc147630e2c1c79 } ]
+array length: 317
+adding 138 games to db
+adding 102 games to db
+adding 77 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SIVASANKAR BALAKUMAR',
+    uscfId: '14440620',
+    uscfRating: 2135,
+    asOfDate: '2011-05',
+    location: 'CT',
+    fideId: '5007933',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b51abbc147630e2c1c7a } ]
+array length: 18
+adding 9 games to db
+adding 6 games to db
+adding 3 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ILYA SOLONKOVICH',
+    uscfId: '12944828',
+    uscfRating: 2150,
+    asOfDate: '2013-09',
+    location: 'NY',
+    fideId: '2026830',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b52abbc147630e2c1c7b } ]
+array length: 442
+adding 211 games to db
+adding 113 games to db
+adding 118 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOHN MANNING',
+    uscfId: '12641027',
+    uscfRating: 2159,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b53fbbc147630e2c1c7c } ]
+array length: 95
+adding 43 games to db
+adding 30 games to db
+adding 22 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'AIKAZ MAKAROVSKIY',
+    uscfId: '12616061',
+    uscfRating: 2175,
+    asOfDate: '1996-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b552bbc147630e2c1c7d } ]
+array length: 14
+adding 8 games to db
+adding 2 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ISAAC M ROZIC',
+    uscfId: '12547385',
+    uscfRating: 2050,
+    asOfDate: '2001-12',
+    location: 'NY',
+    fideId: '2009919',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b562bbc147630e2c1c7e } ]
+array length: 273
+adding 143 games to db
+adding 75 games to db
+adding 55 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BERNARD HILL',
+    uscfId: '10103908',
+    uscfRating: 2200,
+    asOfDate: '2006-10',
+    location: 'TX',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b576bbc147630e2c1c7f } ]
+array length: 420
+adding 273 games to db
+adding 71 games to db
+adding 76 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RONALD WIECK',
+    uscfId: '10108802',
+    uscfRating: 2125,
+    asOfDate: '2005-06',
+    location: 'NY',
+    fideId: '2010780',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b58bbbc147630e2c1c80 } ]
+array length: 187
+adding 102 games to db
+adding 46 games to db
+adding 39 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANNY KOPEC',
+    uscfId: '10108756',
+    uscfRating: 2348,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2000679',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b59dbbc147630e2c1c81 } ]
+array length: 289
+adding 167 games to db
+adding 71 games to db
+adding 51 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANATOLY TONKONOGY',
+    uscfId: '12560375',
+    uscfRating: 2354,
+    asOfDate: '2004-06',
+    location: 'NY',
+    fideId: '2077710',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b5b1bbc147630e2c1c82 } ]
+array length: 93
+adding 67 games to db
+adding 10 games to db
+adding 16 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JEREMY GLICK',
+    uscfId: '12956246',
+    uscfRating: 2039,
+    asOfDate: '2013-02',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b5c3bbc147630e2c1c83 } ]
+array length: 31
+adding 14 games to db
+adding 11 games to db
+adding 6 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BREZHNEV SANCHEZ',
+    uscfId: '12758135',
+    uscfRating: 1362,
+    asOfDate: '2003-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b5d5bbc147630e2c1c84 } ]
+array length: 225
+adding 109 games to db
+adding 93 games to db
+adding 23 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ROBERT E SIMMONS',
+    uscfId: '12889246',
+    uscfRating: 1235,
+    asOfDate: '2005-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b5eabbc147630e2c1c85 } ]
+array length: 46
+adding 21 games to db
+adding 21 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOHN DJON LEKOCEVIC',
+    uscfId: '12808198',
+    uscfRating: 1352,
+    asOfDate: '2012-06',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b5fbbbc147630e2c1c86 } ]
+array length: 74
+adding 17 games to db
+adding 55 games to db
+adding 2 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANDRES D FERNANDEZ',
+    uscfId: '12762741',
+    uscfRating: 1280,
+    asOfDate: '2003-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b60ebbc147630e2c1c87 } ]
+array length: 192
+adding 99 games to db
+adding 77 games to db
+adding 16 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SARAH CHRISTINE DAPUL-WEBERMAN',
+    uscfId: '12723205',
+    uscfRating: 1874,
+    asOfDate: '2009-10',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b622bbc147630e2c1c88 } ]
+array length: 639
+adding 307 games to db
+adding 271 games to db
+adding 61 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ELMO DOTY',
+    uscfId: '12761420',
+    uscfRating: 1570,
+    asOfDate: '2012-11',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9b639bbc147630e2c1c89 } ]
+array length: 143
+adding 81 games to db
+adding 47 games to db
+adding 15 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Access forbidden!</title>
+<link rev="made" href="mailto:admin@uschess.org" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Access forbidden!</h1>
+<p>
+
+
+  
+
+    You don't have permission to access the requested object.
+    It is either read-protected or not readable by the server.
+
+  
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:admin@uschess.org">webmaster</a>.
+
+</p>
+
+<h2>Error 403</h2>
+<address>
+  <a href="/">www.uschess.org</a><br />
+  <span>Apache/2.2.3 (CentOS)</span>
+</address>
+</body>
+</html>
+
+
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CHRISTOPHER P JU',
+    uscfId: '12759177',
+    uscfRating: 1467,
+    asOfDate: '2007-04',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ba15bbc147630e2c1c8a } ]
+array length: 411
+adding 160 games to db
+adding 185 games to db
+adding 66 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SIMON FRIEND YALE',
+    uscfId: '12730408',
+    uscfRating: 1461,
+    asOfDate: '2005-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ba2cbbc147630e2c1c8b } ]
+array length: 156
+adding 91 games to db
+adding 54 games to db
+adding 11 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'EVAN A ALVAREZ',
+    uscfId: '12641751',
+    uscfRating: 1722,
+    asOfDate: '2005-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ba41bbc147630e2c1c8c } ]
+array length: 223
+adding 147 games to db
+adding 54 games to db
+adding 22 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'WILLIAM H CLOOS JR',
+    uscfId: '12242420',
+    uscfRating: 1526,
+    asOfDate: '2007-08',
+    location: 'RI',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ba58bbc147630e2c1c8d } ]
+array length: 177
+adding 69 games to db
+adding 91 games to db
+adding 17 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MARK B ALBERTS',
+    uscfId: '20042347',
+    uscfRating: 1708,
+    asOfDate: '2010-10',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ba6bbbc147630e2c1c8e } ]
+array length: 74
+adding 38 games to db
+adding 17 games to db
+adding 19 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'FELIX RADUTMAN',
+    uscfId: '12787653',
+    uscfRating: 2195,
+    asOfDate: '2013-12',
+    location: 'NJ',
+    fideId: '2076772',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ba7dbbc147630e2c1c8f } ]
+array length: 377
+adding 216 games to db
+adding 102 games to db
+adding 59 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CARLOS TAPIA',
+    uscfId: '14176632',
+    uscfRating: 1646,
+    asOfDate: '2013-07',
+    location: 'NY',
+    fideId: '3811247',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9ba93bbc147630e2c1c90 } ]
+array length: 575
+adding 267 games to db
+adding 244 games to db
+adding 64 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CHRISTOPHER A MAKSYMOWICZ',
+    uscfId: '12601755',
+    uscfRating: 1838,
+    asOfDate: '2013-11',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9baabbbc147630e2c1c91 } ]
+array length: 521
+adding 232 games to db
+adding 226 games to db
+adding 63 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'WILLIAM A POTTS',
+    uscfId: '12844903',
+    uscfRating: 1792,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: '2006774',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bac2bbc147630e2c1c92 } ]
+array length: 500
+adding 182 games to db
+adding 216 games to db
+adding 102 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CHARLES KRUPIN&nbsp;(Deceased)',
+    uscfId: '12264330',
+    uscfRating: 1712,
+    asOfDate: '2005-10',
+    location: 'FL',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bad8bbc147630e2c1c93 } ]
+array length: 1252
+adding 505 games to db
+adding 548 games to db
+adding 199 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOSEPH LIEBER',
+    uscfId: '15176571',
+    uscfRating: 1848,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9baf2bbc147630e2c1c94 } ]
+array length: 21
+adding 11 games to db
+adding 6 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'NATHANIEL, O ROCKHILL',
+    uscfId: '12562002',
+    uscfRating: 1954,
+    asOfDate: '2011-12',
+    location: 'IN',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb02bbc147630e2c1c95 } ]
+array length: 140
+adding 72 games to db
+adding 49 games to db
+adding 19 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DAVID A ISAACSON',
+    uscfId: '12567097',
+    uscfRating: 1799,
+    asOfDate: '2006-02',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb17bbc147630e2c1c96 } ]
+array length: 263
+adding 117 games to db
+adding 90 games to db
+adding 56 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DENEIL D BRAZELL',
+    uscfId: '12752788',
+    uscfRating: 1736,
+    asOfDate: '2007-05',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb2cbbc147630e2c1c97 } ]
+array length: 377
+adding 217 games to db
+adding 123 games to db
+adding 37 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOSEPH TEGTMEIER',
+    uscfId: '12546036',
+    uscfRating: 1744,
+    asOfDate: '2009-09',
+    location: 'DE',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb42bbc147630e2c1c98 } ]
+array length: 187
+adding 77 games to db
+adding 77 games to db
+adding 33 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RALPH ITALIE',
+    uscfId: '10092019',
+    uscfRating: 1832,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2046164',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb55bbc147630e2c1c99 } ]
+array length: 261
+adding 91 games to db
+adding 135 games to db
+adding 35 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JHONEL BALDAGO BANIEL',
+    uscfId: '12657066',
+    uscfRating: 1912,
+    asOfDate: '2011-05',
+    location: 'TX',
+    fideId: '2026899',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb6abbc147630e2c1c9a } ]
+array length: 86
+adding 32 games to db
+adding 19 games to db
+adding 35 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MATTHEW A VESCOVI',
+    uscfId: '12482510',
+    uscfRating: 1961,
+    asOfDate: '2005-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb7cbbc147630e2c1c9b } ]
+array length: 175
+adding 81 games to db
+adding 82 games to db
+adding 12 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'FRANK LEE ASHMUN',
+    uscfId: '12845540',
+    uscfRating: 2140,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: '2082640',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bb90bbc147630e2c1c9c } ]
+array length: 614
+adding 335 games to db
+adding 175 games to db
+adding 104 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'EVAN D JU',
+    uscfId: '12740630',
+    uscfRating: 2346,
+    asOfDate: '2012-02',
+    location: 'NJ',
+    fideId: '2022346',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bba9bbc147630e2c1c9d } ]
+array length: 790
+adding 436 games to db
+adding 229 games to db
+adding 125 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANATOLY VERKHOVSKY',
+    uscfId: '12089040',
+    uscfRating: 2220,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2083655',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bbc2bbc147630e2c1c9e } ]
+array length: 16
+adding 7 games to db
+adding 3 games to db
+adding 6 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PIETA GARRETT',
+    uscfId: '12663467',
+    uscfRating: 2200,
+    asOfDate: '2012-01',
+    location: 'AZ',
+    fideId: '2019108',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bbd3bbc147630e2c1c9f } ]
+array length: 1345
+adding 785 games to db
+adding 445 games to db
+adding 115 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CHIKWERE GODWIN ONYEKWERE',
+    uscfId: '13041244',
+    uscfRating: 2210,
+    asOfDate: '2010-09',
+    location: 'NY',
+    fideId: '8500428',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bbf0bbc147630e2c1ca0 } ]
+array length: 157
+adding 83 games to db
+adding 40 games to db
+adding 34 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PROF AHARONOV YAKIR',
+    uscfId: '12765490',
+    uscfRating: 1881,
+    asOfDate: '1999-12',
+    location: 'SC',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc03bbc147630e2c1ca1 } ]
+array length: 4
+adding 2 games to db
+adding 1 games to db
+adding 1 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANG TRAN',
+    uscfId: '12714875',
+    uscfRating: 1534,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc12bbc147630e2c1ca2 } ]
+array length: 4
+adding 3 games to db
+adding 1 games to db
+adding 0 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DAVID GEORGE',
+    uscfId: '12625656',
+    uscfRating: 1997,
+    asOfDate: '1997-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc22bbc147630e2c1ca3 } ]
+array length: 28
+adding 11 games to db
+adding 17 games to db
+adding 0 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRANDON GUTIERREZ',
+    uscfId: '12601446',
+    uscfRating: 1997,
+    asOfDate: '1997-12',
+    location: 'OR',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc32bbc147630e2c1ca4 } ]
+array length: 25
+adding 11 games to db
+adding 11 games to db
+adding 3 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'IAN WHITEHEAD',
+    uscfId: '12568331',
+    uscfRating: 1046,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc43bbc147630e2c1ca5 } ]
+array length: 64
+adding 31 games to db
+adding 29 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BENJAMIN G BLACKWOOD',
+    uscfId: '12632551',
+    uscfRating: 1998,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc56bbc147630e2c1ca6 } ]
+array length: 148
+adding 67 games to db
+adding 73 games to db
+adding 8 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANDREW POBUDA',
+    uscfId: '12589433',
+    uscfRating: 1012,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc69bbc147630e2c1ca7 } ]
+array length: 164
+adding 81 games to db
+adding 74 games to db
+adding 9 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ASHLEY E MASSARO',
+    uscfId: '12638835',
+    uscfRating: 1996,
+    asOfDate: '1996-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc7dbbc147630e2c1ca8 } ]
+array length: 60
+adding 30 games to db
+adding 28 games to db
+adding 2 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOSHUA GROSBARD',
+    uscfId: '12616207',
+    uscfRating: 1998,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bc8ebbc147630e2c1ca9 } ]
+array length: 160
+adding 100 games to db
+adding 55 games to db
+adding 5 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KELVIN TORRES',
+    uscfId: '12589434',
+    uscfRating: 1997,
+    asOfDate: '1997-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bca0bbc147630e2c1caa } ]
+array length: 111
+adding 60 games to db
+adding 43 games to db
+adding 8 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'NOAH G BROWN',
+    uscfId: '12567604',
+    uscfRating: 1179,
+    asOfDate: '2003-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bcb3bbc147630e2c1cab } ]
+array length: 246
+adding 127 games to db
+adding 109 games to db
+adding 10 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JASON R ROSADO',
+    uscfId: '12654102',
+    uscfRating: 1998,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bcc7bbc147630e2c1cac } ]
+array length: 141
+adding 80 games to db
+adding 50 games to db
+adding 11 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JANNELLE RICHARDSON',
+    uscfId: '12584936',
+    uscfRating: 1594,
+    asOfDate: '2002-12',
+    location: 'MA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bcd9bbc147630e2c1cad } ]
+array length: 322
+adding 176 games to db
+adding 126 games to db
+adding 20 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RAYMOND G CHRISTIAN',
+    uscfId: '12684301',
+    uscfRating: 1403,
+    asOfDate: '2008-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bcefbbc147630e2c1cae } ]
+array length: 85
+adding 31 games to db
+adding 45 games to db
+adding 9 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANIEL KUPRIYENKO',
+    uscfId: '12701426',
+    uscfRating: 1004,
+    asOfDate: '1999-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd02bbc147630e2c1caf } ]
+array length: 53
+adding 23 games to db
+adding 30 games to db
+adding 0 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'NICOLAS ZAPATA',
+    uscfId: '12667800',
+    uscfRating: 1013,
+    asOfDate: '1997-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd14bbc147630e2c1cb0 } ]
+array length: 62
+adding 30 games to db
+adding 23 games to db
+adding 9 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DEBORAH M DEDEWO',
+    uscfId: '12640792',
+    uscfRating: 1999,
+    asOfDate: '1999-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd27bbc147630e2c1cb1 } ]
+array length: 104
+adding 43 games to db
+adding 50 games to db
+adding 11 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CAMERON S FRIEDMAN',
+    uscfId: '12603543',
+    uscfRating: 1118,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd3abbc147630e2c1cb2 } ]
+array length: 310
+adding 147 games to db
+adding 124 games to db
+adding 39 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANDREA MAIRENA',
+    uscfId: '12575043',
+    uscfRating: 1130,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd4fbbc147630e2c1cb3 } ]
+array length: 291
+adding 143 games to db
+adding 131 games to db
+adding 17 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JESSE SUERO',
+    uscfId: '12679556',
+    uscfRating: 1203,
+    asOfDate: '2002-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd64bbc147630e2c1cb4 } ]
+array length: 92
+adding 50 games to db
+adding 34 games to db
+adding 8 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PHILIP PETROU',
+    uscfId: '12626065',
+    uscfRating: 1403,
+    asOfDate: '2001-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd77bbc147630e2c1cb5 } ]
+array length: 184
+adding 103 games to db
+adding 43 games to db
+adding 38 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JACOB ARLUCK',
+    uscfId: '12622402',
+    uscfRating: 1183,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd8abbc147630e2c1cb6 } ]
+array length: 320
+adding 173 games to db
+adding 117 games to db
+adding 30 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DOUGLAS T MC CLURE',
+    uscfId: '12596047',
+    uscfRating: 1019,
+    asOfDate: '1997-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bd9fbbc147630e2c1cb7 } ]
+array length: 175
+adding 74 games to db
+adding 93 games to db
+adding 8 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MARCEL L KNUDSEN',
+    uscfId: '12606102',
+    uscfRating: 1985,
+    asOfDate: '2013-08',
+    location: 'IL',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bdb3bbc147630e2c1cb8 } ]
+array length: 354
+adding 225 games to db
+adding 104 games to db
+adding 25 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LAUREN ZLETZ',
+    uscfId: '12598933',
+    uscfRating: 1553,
+    asOfDate: '2005-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bdcabbc147630e2c1cb9 } ]
+array length: 559
+adding 262 games to db
+adding 233 games to db
+adding 64 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SHARAZ KHAN',
+    uscfId: '12596087',
+    uscfRating: 1533,
+    asOfDate: '2003-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bde2bbc147630e2c1cba } ]
+array length: 492
+adding 245 games to db
+adding 206 games to db
+adding 41 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JEREMY WERTZER',
+    uscfId: '12599440',
+    uscfRating: 1093,
+    asOfDate: '1996-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bdf9bbc147630e2c1cbb } ]
+array length: 137
+adding 60 games to db
+adding 56 games to db
+adding 21 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOEL LOFGREN',
+    uscfId: '12708327',
+    uscfRating: 1243,
+    asOfDate: '2000-12',
+    location: 'MA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be0cbbc147630e2c1cbc } ]
+array length: 44
+adding 20 games to db
+adding 14 games to db
+adding 10 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MICHAEL BLACK',
+    uscfId: '12660492',
+    uscfRating: 1185,
+    asOfDate: '2000-12',
+    location: 'OH',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be1ebbc147630e2c1cbd } ]
+array length: 172
+adding 98 games to db
+adding 63 games to db
+adding 11 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MICHAEL S STEIN',
+    uscfId: '12635427',
+    uscfRating: 1658,
+    asOfDate: '2005-08',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be32bbc147630e2c1cbe } ]
+array length: 114
+adding 65 games to db
+adding 31 games to db
+adding 18 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MARK VAYNGRIB',
+    uscfId: '12664125',
+    uscfRating: 1913,
+    asOfDate: '2005-04',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be46bbc147630e2c1cbf } ]
+array length: 452
+adding 215 games to db
+adding 144 games to db
+adding 93 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JAMES J KWAK',
+    uscfId: '12692394',
+    uscfRating: 1331,
+    asOfDate: '2000-12',
+    location: 'HI',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be5cbbc147630e2c1cc0 } ]
+array length: 130
+adding 85 games to db
+adding 32 games to db
+adding 13 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANIEL LEO',
+    uscfId: '12639730',
+    uscfRating: 1249,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be6fbbc147630e2c1cc1 } ]
+array length: 125
+adding 69 games to db
+adding 42 games to db
+adding 14 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RYAN SANTOS',
+    uscfId: '12608620',
+    uscfRating: 1646,
+    asOfDate: '2007-09',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be83bbc147630e2c1cc2 } ]
+array length: 217
+adding 126 games to db
+adding 64 games to db
+adding 27 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'IVAN PHILIP DIRKX',
+    uscfId: '12641585',
+    uscfRating: 1877,
+    asOfDate: '2013-11',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9be97bbc147630e2c1cc3 } ]
+array length: 565
+adding 291 games to db
+adding 215 games to db
+adding 59 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SHAWN SCOTT',
+    uscfId: '12645354',
+    uscfRating: 1150,
+    asOfDate: '1997-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9beb0bbc147630e2c1cc4 } ]
+array length: 63
+adding 43 games to db
+adding 18 games to db
+adding 2 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SAMUEL L SHRANK',
+    uscfId: '12570699',
+    uscfRating: 1094,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bec3bbc147630e2c1cc5 } ]
+array length: 151
+adding 84 games to db
+adding 52 games to db
+adding 15 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANIEL C AISEN',
+    uscfId: '12616108',
+    uscfRating: 1626,
+    asOfDate: '2005-06',
+    location: 'MD',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bed7bbc147630e2c1cc6 } ]
+array length: 406
+adding 252 games to db
+adding 114 games to db
+adding 40 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'THOMAS H SPONTAK',
+    uscfId: '12781661',
+    uscfRating: 1568,
+    asOfDate: '2009-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9beedbbc147630e2c1cc7 } ]
+array length: 348
+adding 189 games to db
+adding 140 games to db
+adding 19 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BLAKE GIANNINY',
+    uscfId: '12603721',
+    uscfRating: 1755,
+    asOfDate: '2013-05',
+    location: 'NY',
+    fideId: '2071940',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bf04bbc147630e2c1cc8 } ]
+array length: 638
+adding 373 games to db
+adding 220 games to db
+adding 45 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MATTHEW MORALES',
+    uscfId: '12609709',
+    uscfRating: 1870,
+    asOfDate: '2013-04',
+    location: 'NY',
+    fideId: '2053802',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bf1dbbc147630e2c1cc9 } ]
+array length: 654
+adding 368 games to db
+adding 203 games to db
+adding 83 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MAX CORBIN',
+    uscfId: '12631489',
+    uscfRating: 1252,
+    asOfDate: '1999-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bf36bbc147630e2c1cca } ]
+array length: 307
+adding 162 games to db
+adding 129 games to db
+adding 16 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SUNIL MATABEEK',
+    uscfId: '12596090',
+    uscfRating: 1970,
+    asOfDate: '2013-04',
+    location: 'NY',
+    fideId: '2047250',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bf4cbbc147630e2c1ccb } ]
+array length: 873
+adding 496 games to db
+adding 230 games to db
+adding 147 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'TIFFANY D REMSEN',
+    uscfId: '12616148',
+    uscfRating: 1890,
+    asOfDate: '2002-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bf64bbc147630e2c1ccc } ]
+array length: 515
+adding 198 games to db
+adding 194 games to db
+adding 123 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANTHONY SANDRIK',
+    uscfId: '12547659',
+    uscfRating: 1278,
+    asOfDate: '1997-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bf7bbbc147630e2c1ccd } ]
+array length: 155
+adding 77 games to db
+adding 68 games to db
+adding 10 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MATTHEW NG',
+    uscfId: '12557938',
+    uscfRating: 1192,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bf90bbc147630e2c1cce } ]
+array length: 307
+adding 139 games to db
+adding 143 games to db
+adding 25 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ROBERT T LINDSAY',
+    uscfId: '12572301',
+    uscfRating: 1521,
+    asOfDate: '2005-04',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bfa6bbc147630e2c1ccf } ]
+array length: 286
+adding 161 games to db
+adding 93 games to db
+adding 32 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANTHONY CLARKE',
+    uscfId: '12750143',
+    uscfRating: 1657,
+    asOfDate: '2006-06',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bfbcbbc147630e2c1cd0 } ]
+array length: 257
+adding 128 games to db
+adding 81 games to db
+adding 48 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JEROME OLALOYE',
+    uscfId: '12596085',
+    uscfRating: 1519,
+    asOfDate: '2005-12',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bfd1bbc147630e2c1cd1 } ]
+array length: 354
+adding 189 games to db
+adding 112 games to db
+adding 53 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SCOTT J HELLER',
+    uscfId: '10034370',
+    uscfRating: 1615,
+    asOfDate: '2005-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bfe7bbc147630e2c1cd2 } ]
+array length: 198
+adding 109 games to db
+adding 65 games to db
+adding 24 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALEXANDER JAMES POLKY',
+    uscfId: '20073957',
+    uscfRating: 1600,
+    asOfDate: '2003-06',
+    location: 'IN',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9bffbbbc147630e2c1cd3 } ]
+array length: 554
+adding 359 games to db
+adding 154 games to db
+adding 41 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALBERT FREEMAN',
+    uscfId: '12652375',
+    uscfRating: 1854,
+    asOfDate: '2012-10',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c012bbc147630e2c1cd4 } ]
+array length: 95
+adding 52 games to db
+adding 29 games to db
+adding 14 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KIFANO K THOMAS',
+    uscfId: '13196153',
+    uscfRating: 1744,
+    asOfDate: '2011-02',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c026bbc147630e2c1cd5 } ]
+array length: 22
+adding 12 games to db
+adding 6 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DOUGLAS M BONOFF',
+    uscfId: '12433183',
+    uscfRating: 1453,
+    asOfDate: '2003-12',
+    location: 'CT',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c037bbc147630e2c1cd6 } ]
+array length: 32
+adding 12 games to db
+adding 12 games to db
+adding 8 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'VENKAT K KAUSIK',
+    uscfId: '12728161',
+    uscfRating: 1760,
+    asOfDate: '2008-09',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c048bbc147630e2c1cd7 } ]
+array length: 787
+adding 376 games to db
+adding 351 games to db
+adding 60 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DAMION JOSEPHS',
+    uscfId: '12609704',
+    uscfRating: 1485,
+    asOfDate: '2002-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c061bbc147630e2c1cd8 } ]
+array length: 388
+adding 198 games to db
+adding 136 games to db
+adding 54 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'FANEUIL ADAMS JR&nbsp;(Deceased)',
+    uscfId: '10076382',
+    uscfRating: 1400,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c076bbc147630e2c1cd9 } ]
+array length: 282
+adding 119 games to db
+adding 118 games to db
+adding 45 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SALVADOR LUNA',
+    uscfId: '12573453',
+    uscfRating: 1526,
+    asOfDate: '2001-12',
+    location: 'TX',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c08ebbc147630e2c1cda } ]
+array length: 570
+adding 353 games to db
+adding 190 games to db
+adding 27 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALEX BELKIN',
+    uscfId: '13073785',
+    uscfRating: 1577,
+    asOfDate: '2010-06',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c0a4bbc147630e2c1cdb } ]
+array length: 254
+adding 125 games to db
+adding 91 games to db
+adding 38 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JEHRON BRYANT',
+    uscfId: '12940433',
+    uscfRating: 2191,
+    asOfDate: '2013-05',
+    location: 'NY',
+    fideId: '2044455',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c0bbbbc147630e2c1cdc } ]
+array length: 831
+adding 441 games to db
+adding 213 games to db
+adding 177 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'AARON M WEDLUND',
+    uscfId: '12671564',
+    uscfRating: 1683,
+    asOfDate: '2005-04',
+    location: 'KY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c0d4bbc147630e2c1cdd } ]
+array length: 386
+adding 232 games to db
+adding 99 games to db
+adding 55 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KWADWO ACHEAMPOWG',
+    uscfId: '12596088',
+    uscfRating: 1697,
+    asOfDate: '2008-05',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c0ebbbc147630e2c1cde } ]
+array length: 394
+adding 212 games to db
+adding 131 games to db
+adding 51 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MALCOLM CRANE',
+    uscfId: '12587351',
+    uscfRating: 1682,
+    asOfDate: '2012-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c102bbc147630e2c1cdf } ]
+array length: 511
+adding 271 games to db
+adding 193 games to db
+adding 47 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MARK D NEUWIRTH',
+    uscfId: '12487679',
+    uscfRating: 1542,
+    asOfDate: '2005-10',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c119bbc147630e2c1ce0 } ]
+array length: 14
+adding 5 games to db
+adding 6 games to db
+adding 3 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SCOTT M MIDDLEMAN',
+    uscfId: '12664824',
+    uscfRating: 1756,
+    asOfDate: '2012-04',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c129bbc147630e2c1ce1 } ]
+array length: 241
+adding 98 games to db
+adding 94 games to db
+adding 49 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RICHARD BALISTRERI',
+    uscfId: '12548556',
+    uscfRating: 1540,
+    asOfDate: '2013-10',
+    location: 'FL',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c13fbbc147630e2c1ce2 } ]
+array length: 166
+adding 55 games to db
+adding 84 games to db
+adding 27 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SCOTT I TANNER',
+    uscfId: '12613125',
+    uscfRating: 1677,
+    asOfDate: '2003-08',
+    location: 'CT',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c153bbc147630e2c1ce3 } ]
+array length: 292
+adding 177 games to db
+adding 83 games to db
+adding 32 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JEROME A DE BELL',
+    uscfId: '12680399',
+    uscfRating: 1608,
+    asOfDate: '2009-11',
+    location: 'NC',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c168bbc147630e2c1ce4 } ]
+array length: 509
+adding 216 games to db
+adding 214 games to db
+adding 79 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JAMES T TAKAGI',
+    uscfId: '12567479',
+    uscfRating: 1707,
+    asOfDate: '2011-06',
+    location: 'NC',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c17fbbc147630e2c1ce5 } ]
+array length: 328
+adding 146 games to db
+adding 76 games to db
+adding 106 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'OWEN DUBLIN',
+    uscfId: '12568268',
+    uscfRating: 1798,
+    asOfDate: '2001-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c193bbc147630e2c1ce6 } ]
+array length: 466
+adding 247 games to db
+adding 154 games to db
+adding 65 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DAVID S LAU',
+    uscfId: '12595927',
+    uscfRating: 1738,
+    asOfDate: '2003-08',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c1aabbc147630e2c1ce7 } ]
+array length: 378
+adding 217 games to db
+adding 110 games to db
+adding 51 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PHILLIP LEE',
+    uscfId: '12638670',
+    uscfRating: 1613,
+    asOfDate: '2003-06',
+    location: 'MA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c1bfbbc147630e2c1ce8 } ]
+array length: 276
+adding 129 games to db
+adding 110 games to db
+adding 37 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DORAN RACE',
+    uscfId: '12183660',
+    uscfRating: 1951,
+    asOfDate: '2013-12',
+    location: 'NY',
+    fideId: '2077540',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c1d5bbc147630e2c1ce9 } ]
+array length: 441
+adding 206 games to db
+adding 196 games to db
+adding 39 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'HADAR SHASHOA',
+    uscfId: '12529477',
+    uscfRating: 1792,
+    asOfDate: '1998-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c1ebbbc147630e2c1cea } ]
+array length: 412
+adding 156 games to db
+adding 224 games to db
+adding 32 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'GABOR HALASZ',
+    uscfId: '12526664',
+    uscfRating: 1620,
+    asOfDate: '1998-12',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c200bbc147630e2c1ceb } ]
+array length: 105
+adding 54 games to db
+adding 38 games to db
+adding 13 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'SAMMY PADILLA',
+    uscfId: '20094780',
+    uscfRating: 1704,
+    asOfDate: '2005-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c213bbc147630e2c1cec } ]
+array length: 191
+adding 65 games to db
+adding 91 games to db
+adding 35 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ERIK LAMB',
+    uscfId: '12558512',
+    uscfRating: 1705,
+    asOfDate: '1997-12',
+    location: 'GA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c227bbc147630e2c1ced } ]
+array length: 818
+adding 427 games to db
+adding 283 games to db
+adding 108 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALFRED L BOLLING',
+    uscfId: '12580630',
+    uscfRating: 1745,
+    asOfDate: '2014-01',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c240bbc147630e2c1cee } ]
+array length: 124
+adding 55 games to db
+adding 56 games to db
+adding 13 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JIMMY LI',
+    uscfId: '13996265',
+    uscfRating: 1895,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c254bbc147630e2c1cef } ]
+array length: 315
+adding 147 games to db
+adding 133 games to db
+adding 35 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANIEL MINKIN',
+    uscfId: '13485141',
+    uscfRating: 2008,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: '2036681',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c26bbbc147630e2c1cf0 } ]
+array length: 207
+adding 65 games to db
+adding 68 games to db
+adding 74 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MICHAEL B PARRIS',
+    uscfId: '12711243',
+    uscfRating: 1916,
+    asOfDate: '2013-08',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c27ebbc147630e2c1cf1 } ]
+array length: 267
+adding 98 games to db
+adding 112 games to db
+adding 57 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'KRISTOPHER L WILLIAMS',
+    uscfId: '12839270',
+    uscfRating: 1845,
+    asOfDate: '2007-05',
+    location: 'IN',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c294bbc147630e2c1cf2 } ]
+array length: 335
+adding 180 games to db
+adding 122 games to db
+adding 33 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOHN GOODSELL FRISK',
+    uscfId: '12470652',
+    uscfRating: 1735,
+    asOfDate: '2013-04',
+    location: 'PA',
+    fideId: '2030578',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c2a9bbc147630e2c1cf3 } ]
+array length: 387
+adding 165 games to db
+adding 146 games to db
+adding 76 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ROBERT P POSEY',
+    uscfId: '10062047',
+    uscfRating: 1631,
+    asOfDate: '2011-08',
+    location: 'TN',
+    fideId: '2030616',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c2bebbc147630e2c1cf4 } ]
+array length: 40
+adding 10 games to db
+adding 20 games to db
+adding 10 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CAMILO J CATARINO',
+    uscfId: '12528030',
+    uscfRating: 1647,
+    asOfDate: '2010-10',
+    location: 'MA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c2cfbbc147630e2c1cf5 } ]
+array length: 127
+adding 62 games to db
+adding 48 games to db
+adding 17 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'CRAIG BERGER',
+    uscfId: '12465316',
+    uscfRating: 1865,
+    asOfDate: '2012-05',
+    location: 'CA',
+    fideId: '2019434',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c2e2bbc147630e2c1cf6 } ]
+array length: 708
+adding 324 games to db
+adding 298 games to db
+adding 86 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ANGEL LUIS BETANCOURT',
+    uscfId: '10083818',
+    uscfRating: 1629,
+    asOfDate: '2003-06',
+    location: 'GA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c2fabbc147630e2c1cf7 } ]
+array length: 22
+adding 7 games to db
+adding 11 games to db
+adding 4 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ERNEST HAILE&nbsp;(Deceased)',
+    uscfId: '10065801',
+    uscfRating: 1700,
+    asOfDate: '2004-02',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c30bbbc147630e2c1cf8 } ]
+array length: 1151
+adding 477 games to db
+adding 487 games to db
+adding 187 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DAVID G HUNT',
+    uscfId: '12614593',
+    uscfRating: 1765,
+    asOfDate: '2007-04',
+    location: 'OR',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c325bbc147630e2c1cf9 } ]
+array length: 167
+adding 83 games to db
+adding 46 games to db
+adding 38 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MANUEL TEJEDA',
+    uscfId: '12026520',
+    uscfRating: 1635,
+    asOfDate: '2009-08',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c339bbc147630e2c1cfa } ]
+array length: 184
+adding 73 games to db
+adding 83 games to db
+adding 28 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ALAN BRIONES',
+    uscfId: '12752656',
+    uscfRating: 1885,
+    asOfDate: '2009-05',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c34dbbc147630e2c1cfb } ]
+array length: 375
+adding 196 games to db
+adding 136 games to db
+adding 43 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANIEL EMONT',
+    uscfId: '12855685',
+    uscfRating: 1866,
+    asOfDate: '2006-10',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c362bbc147630e2c1cfc } ]
+array length: 224
+adding 114 games to db
+adding 82 games to db
+adding 28 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'GAUTAM NAGENDRA',
+    uscfId: '12718248',
+    uscfRating: 1908,
+    asOfDate: '2009-04',
+    location: 'OH',
+    fideId: '2036932',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c378bbc147630e2c1cfd } ]
+array length: 865
+adding 474 games to db
+adding 245 games to db
+adding 146 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'PAUL R JOSEPH',
+    uscfId: '12452482',
+    uscfRating: 1928,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2040220',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c391bbc147630e2c1cfe } ]
+array length: 1108
+adding 530 games to db
+adding 440 games to db
+adding 138 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JOHN P CUNEO',
+    uscfId: '12546178',
+    uscfRating: 1777,
+    asOfDate: '2006-08',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c3aabbc147630e2c1cff } ]
+array length: 65
+adding 31 games to db
+adding 26 games to db
+adding 8 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MICHAEL J HALLINAN JR',
+    uscfId: '12662790',
+    uscfRating: 1920,
+    asOfDate: '2010-08',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c3bdbbc147630e2c1d00 } ]
+array length: 318
+adding 161 games to db
+adding 124 games to db
+adding 33 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ORYA A SHOMRON',
+    uscfId: '12489055',
+    uscfRating: 1839,
+    asOfDate: '2000-12',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c3d3bbc147630e2c1d01 } ]
+array length: 258
+adding 96 games to db
+adding 134 games to db
+adding 28 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'TOM G SCHRADE',
+    uscfId: '10248213',
+    uscfRating: 1829,
+    asOfDate: '2013-10',
+    location: 'NY',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c3e8bbc147630e2c1d02 } ]
+array length: 325
+adding 126 games to db
+adding 114 games to db
+adding 85 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LILY FAERMAN',
+    uscfId: '12566295',
+    uscfRating: 1893,
+    asOfDate: '2009-12',
+    location: 'NY',
+    fideId: '2031531',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c3ffbbc147630e2c1d03 } ]
+array length: 719
+adding 324 games to db
+adding 312 games to db
+adding 83 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'MARTIN PROSKIN',
+    uscfId: '12578351',
+    uscfRating: 1700,
+    asOfDate: '2007-02',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c417bbc147630e2c1d04 } ]
+array length: 745
+adding 381 games to db
+adding 261 games to db
+adding 103 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRAD C THOMAS',
+    uscfId: '12564214',
+    uscfRating: 1948,
+    asOfDate: '2013-12',
+    location: 'DE',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c431bbc147630e2c1d05 } ]
+array length: 496
+adding 241 games to db
+adding 139 games to db
+adding 116 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LARRY SAXBY',
+    uscfId: '12627211',
+    uscfRating: 1978,
+    asOfDate: '2014-01',
+    location: 'PA',
+    fideId: '2047152',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c447bbc147630e2c1d06 } ]
+array length: 1681
+adding 836 games to db
+adding 580 games to db
+adding 265 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'STEVEN LEVERICH',
+    uscfId: '10262291',
+    uscfRating: 1900,
+    asOfDate: '2013-12',
+    location: 'FL',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c463bbc147630e2c1d07 } ]
+array length: 1298
+adding 489 games to db
+adding 573 games to db
+adding 236 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JACK WOOD',
+    uscfId: '12845728',
+    uscfRating: 2096,
+    asOfDate: '2014-01',
+    location: 'MI',
+    fideId: '2045362',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c47cbbc147630e2c1d08 } ]
+array length: 407
+adding 233 games to db
+adding 130 games to db
+adding 44 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DANIEL VULIS',
+    uscfId: '12711455',
+    uscfRating: 2094,
+    asOfDate: '2013-01',
+    location: 'NY',
+    fideId: '2019973',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c492bbc147630e2c1d09 } ]
+array length: 1132
+adding 546 games to db
+adding 421 games to db
+adding 165 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRYAN JOHNSON',
+    uscfId: '12481560',
+    uscfRating: 1901,
+    asOfDate: '2007-05',
+    location: 'PA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c4aebbc147630e2c1d0a } ]
+array length: 50
+adding 19 games to db
+adding 25 games to db
+adding 6 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ARI MINKOV',
+    uscfId: '12676135',
+    uscfRating: 2013,
+    asOfDate: '2014-01',
+    location: 'NJ',
+    fideId: '2051036',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c4bfbbc147630e2c1d0b } ]
+array length: 838
+adding 397 games to db
+adding 301 games to db
+adding 140 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRIAN M KOSTRINSKY',
+    uscfId: '12721938',
+    uscfRating: 2041,
+    asOfDate: '2008-08',
+    location: 'GA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c4d8bbc147630e2c1d0c } ]
+array length: 489
+adding 273 games to db
+adding 133 games to db
+adding 83 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'JEAN R LOUVRIER',
+    uscfId: '12762376',
+    uscfRating: 1909,
+    asOfDate: '1999-12',
+    location: 'PARIS*FRANCE',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c4f0bbc147630e2c1d0d } ]
+array length: 39
+adding 20 games to db
+adding 19 games to db
+adding 0 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'DOUG P MAZEFFA',
+    uscfId: '12561097',
+    uscfRating: 1796,
+    asOfDate: '2006-08',
+    location: 'OH',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c503bbc147630e2c1d0e } ]
+array length: 719
+adding 343 games to db
+adding 247 games to db
+adding 129 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'THOMAS D WAYMOUTH',
+    uscfId: '12640313',
+    uscfRating: 1964,
+    asOfDate: '2007-05',
+    location: 'NC',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c51dbbc147630e2c1d0f } ]
+array length: 743
+adding 367 games to db
+adding 270 games to db
+adding 106 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'LARRY D JOHNSON',
+    uscfId: '12396877',
+    uscfRating: 2009,
+    asOfDate: '2012-05',
+    location: 'GA',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c537bbc147630e2c1d10 } ]
+array length: 1839
+adding 1132 games to db
+adding 506 games to db
+adding 201 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'RAFAEL D PEREZ',
+    uscfId: '12429598',
+    uscfRating: 1752,
+    asOfDate: '2000-12',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c55abbc147630e2c1d11 } ]
+array length: 60
+adding 28 games to db
+adding 26 games to db
+adding 6 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'BRET WINOGRAD',
+    uscfId: '12535582',
+    uscfRating: 1833,
+    asOfDate: '1997-12',
+    location: 'NJ',
+    fideId: undefined,
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c56cbbc147630e2c1d12 } ]
+array length: 191
+adding 80 games to db
+adding 69 games to db
+adding 42 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+[ { name: 'ADONIS TURNER',
+    uscfId: '12914345',
+    uscfRating: 2037,
+    asOfDate: '2011-05',
+    location: 'PA',
+    fideId: '2056240',
+    wins: [],
+    draws: [],
+    losses: [],
+    _id: 52c9c580bbc147630e2c1d13 } ]
+array length: 36
+adding 26 games to db
+adding 9 games to db
+adding 1 games to db
+updates finished
+done pls
+current backoff timer: 960 seconds
+delay so that USCF doesn't get mad at me...
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Access forbidden!</title>
+<link rev="made" href="mailto:admin@uschess.org" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Access forbidden!</h1>
+<p>
+
+
+  
+
+    You don't have permission to access the requested object.
+    It is either read-protected or not readable by the server.
+
+  
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:admin@uschess.org">webmaster</a>.
+
+</p>
+
+<h2>Error 403</h2>
+<address>
+  <a href="/">www.uschess.org</a><br />
+  <span>Apache/2.2.3 (CentOS)</span>
+</address>
+</body>
+</html>
+
+
