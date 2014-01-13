@@ -247,6 +247,7 @@ var addGamesToDatabase = function(err, id, games, callback) {
 
 var updatePersistentData = function(id, games, queue, playersVisited, callback) {
     'use strict';
+    console.log('updating persistent data...');
     games.forEach(function(game) {
         if (game.winLossDraw === 'L' && !(game.opponentUscfId in playersVisited)) {
             //avoid duplicates
@@ -302,9 +303,10 @@ var addNextPlayerInQueue = function(callback) {
 
 var count = 0;
 
-function addPlayersLoop() {
+var addPlayersLoop = function() {
+    'use strict';
     async.whilst(
-        function () { return count < 1; },
+        function () { return count < 2; },
         function (callback) {
             count += 1;
             console.log('current backoff timer: '+backoffTimer/1000+' seconds');
@@ -313,12 +315,12 @@ function addPlayersLoop() {
                 addNextPlayerInQueue(callback);
             } , 5000);
         },
-        function (err) {
+        function () {
             console.log(queue.length);
             console.log('whilst done');
         }
     );
-}
+};
 
 addPlayersLoop();
 
