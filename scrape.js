@@ -1,9 +1,60 @@
-var getHighestBucketWithWin = require('./record_against_rating_buckets_scrape');
-var kamskyOrRecentWin = require('./Gamestats_Scrape');
-var async = require('async');
+'use strict';
 
-var getPathToKasparov = function(PlayerID, callback1) {
-	'use strict';
+var async = require('async'),
+    request = require('request'),
+    cheerio = require('cheerio');
+
+var kamskyOrRecentWin = function(player, bucket, WLD, callback) {
+    var requestURL = 'http://www.uschess.org/datapage/gamestats.php?memid=' + player + '&dkey='+bucket+'&drill=G';
+    request(requestURL, function(error, response, body) {
+        var LW = [];
+        var $ = cheerio.load(body);
+        var $table = $('.blog').siblings().find('tr');
+        $table.each(function(i, element) {
+            var $row = $(element);
+            var wl = $row.find('td').eq(7).text();
+            var pID = $row.find('td').eq(4).text();
+            var player = {};
+            player.winLoss = wl;
+            player.playerID = pID.trim();
+
+            if (WLD === wl) {
+                LW.push(player);
+            } else if (WLD === null && wl !== '') { // Make sure no empty objects are added
+                LW.push(player);
+            }
+        });
+        callback(LW);
+    });
+};
+
+var getHighestBucketWithWin = function(id, callback) {
+    console.log('player ID within getHighestBucketWithWin file: '+ id);
+    var requestUrl = 'http://main.uschess.org/datapage/gamestats.php?memid=' + id;
+    request(requestUrl, function(error, response, body) {
+        var $ = cheerio.load(body);
+        var $table = [];
+        $('.blog').siblings().find('tr').each(function(i, element) {
+            var $row = $(element);
+            $table.push({
+                bucket: $row.find('td').eq(0).text(),
+                wins: $row.find('td').eq(2).text()
+            });
+        });
+        var topBucket = 0;
+        $table.forEach(function(element) {
+            if (parseInt(element.wins, 10) > 0 && parseInt(element.bucket, 10) > topBucket) {
+                topBucket = element.bucket;
+            }
+        });
+        console.log('output from highest bucket file: '+topBucket);
+        callback(topBucket);
+        
+    });
+};
+
+var getPathToKasparov = function(PlayerID, callback) {
+	var error = null;
 
 	// initialize jump count and path
 	var jumpCount = 0;
@@ -11,6 +62,8 @@ var getPathToKasparov = function(PlayerID, callback1) {
 
 
 	// Players Kamsky has lost to hard coded to make search considerably faster
+	// (he's the worst (and maybe only?) US player to beat Kasparov)
+	// As this object is used as a set, the values are arbitrary
 	var kamskyLosses = {
 		'15218438': '15218438',
 		'12641216': '12641216',
@@ -58,20 +111,20 @@ var getPathToKasparov = function(PlayerID, callback1) {
 
 	async.whilst(
 		function() {
-			return !(PlayerID in kamskyLosses) || PlayerID === '12528459';
+			// 12528459 is Kamsky's ID
+			return !((PlayerID in kamskyLosses) || PlayerID === '12528459') && !error;
 		},
-		function(callback) {
+		function(asyncCallback) {
 			async.waterfall([
 
-				function(callback) {
+				function(asyncCallback) {
 					getHighestBucketWithWin(PlayerID, function(highestBucket) {
-						// console.log('playerID in getHighestBucketWithWin function: ' + PlayerID);
-						callback(null, highestBucket);
+						asyncCallback(null, highestBucket);
 					});
 				},
-				function(highestBucket, callback) {
+				function(highestBucket, asyncCallback) {
 					kamskyOrRecentWin(PlayerID, highestBucket, 'W', function(winsList) {
-						callback(null, winsList);
+						asyncCallback(null, winsList);
 					});
 				}
 			], function(err, winsList) {
@@ -79,10 +132,17 @@ var getPathToKasparov = function(PlayerID, callback1) {
 				if (didBeatKamksy(winsList)) {
 					PlayerID = didBeatKamksy(winsList);
 					path.push(PlayerID);
-					callback(null);
+					asyncCallback(null);
 				} else {
-					PlayerID = getWinByIndex(winsList, 0);
-					callback(null);
+					try {
+						PlayerID = getWinByIndex(winsList, 0);
+					}
+					catch (e) {
+						console.log('in catch')
+						console.log(e);
+						error = e;
+					}
+					asyncCallback(null);
 				}
 			});
 		},
@@ -90,15 +150,58 @@ var getPathToKasparov = function(PlayerID, callback1) {
 			if (err) {
 				console.log('error is: ' + err);
 			} else {
-				callback1(path);
+				console.log('in getpathtokasparov, before calling callback')
+				callback(path);
 			}
 		});
 
 };
 
-module.exports = getPathToKasparov;
+var getProfile = function(uscfID, callback) {
+    var errorMsg = '';
+    var user = null;
+    var requestURL = 'http://www.uschess.org/msa/MbrDtlMain.php?' + uscfID;
 
-// getPathToKasparov('12869413', function(result) {
+    request(requestURL, function(error, response, body) {
+        if (!error) { //Page Loaded
+            var $ = cheerio.load(body);
+            var tmp = $('.topbar-middle b').html();
+            if (tmp.search('Error') !== -1) { //uscfID not valid
+                errorMsg = 'Invalid USCF ID: ' + uscfID;
+            } else {
+                //get uscfID and player Name
+                user = {};
+                tmp = tmp.split(':');
+                user.uscfID = tmp[0];
+                user.name = tmp[1].trim();
+
+                //extracting other details
+                var mainContent = $('.topbar-middle table').toArray();
+                $(mainContent).last().find('tr').each(function(i, element) {
+                    var $row = $(element);
+                    var field = $row.find('td').eq(0).text().replace(/\n/g, '').replace(/ /g, '');
+                    var value = $row.find('td').eq(1).text().replace(/\n/g, '').trim();
+                    if (field === 'RegularRating') {
+                        value = value.match(/\d{4}/) + ' on ' + value.match(/\d{4}-\d{2}/);
+                        user[field] = value;
+                    } else if (field === 'OverallRanking' || field === 'State' || field === 'FIDETitle') {
+                        user[field] = value;
+                    }
+                }); //end each
+            } //end user created
+        } else {
+            errorMsg = 'error loading page: ' + error;
+        }
+        callback(errorMsg, user);
+    }); //ends request
+}; //ends getProfile
+
+module.exports = {
+	getPathToKasparov: getPathToKasparov,
+	getProfile: getProfile
+};
+
+// getPathToKasparov('00000000', function(result) {
 // 	console.log(result);
 // });
 

@@ -1,0 +1,56 @@
+html {
+	font-family: 'Raleway', sans-serif;
+	background-image: url('../images/background.jpg'); 
+	background-color: rgb(100, 118, 150);
+	background-blend-mode: multiply;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.pageHeader {
+	/*font-family: 'Droid Serif', serif;*/
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+.pageSubHeader {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.uscfIdForm {
+	color: #fff;
+	text-align: center;
+}
+
+.uscfIdForm input {
+	margin: 100px 0 0 0;
+}
+
+.results {
+	color: #fff;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+/*.inputContainer {
+	height: 200px;
+	width: 600px;
+	margin: auto;
+	background-color: rgba(192, 192, 192, .8);
+	color: #E18A07;
+}*/
