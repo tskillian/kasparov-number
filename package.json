@@ -1,0 +1,26 @@
+{
+  "name": "kasparov_number",
+  "version": "0.0.0",
+  "description": "This app will find how many jumps (and through which players) it takes for a given player to have transitively beaten Gary Kasparov",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tskillian/kasparov-number.git"
+  },
+  "keywords": [
+    "chess",
+    "kasparov"
+  ],
+  "author": "Tim Killian",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tskillian/kasparov-number/issues"
+  },
+  "dependencies": {
+    "express": "~4.8.5",
+    "logfmt": "~1.1.2",
+    "async": "~0.9.0",
+    "request": "~2.40.0",
+    "cheerio": "~0.17.0"
+  }
+}
