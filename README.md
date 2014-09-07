@@ -1,9 +1,6 @@
 Checkmates To Kasparov
 ==================
-Calculates your Kasparov number (how many jumps it takes for you to have transitively beaten previous world chess champion Garry Kasparov)
 
--npm install  
--bower install  
--node app/server.js 
+This project started because most novice tournament chess players seem to think, with a high degree of confidence, that there is no way they could have 'transitively beaten' (have beaten someone who has beaten someone else, who has beaten someone else, etc.) Russian chess legend Garry Kasparov. These people clearly underestimate the power of networks. Despite these players being relatively low rated (especially compared to Kasparov) and being on the other side of the world, most US chess players, as long as they have at least 1 win (a way into the network), have Kasparov numbers. On top of that, the numbers are usually smaller than people expect.
 
-Currently scraping the US Chess site to get the data in my own database so that I can calculate Kasparov numbers much faster, as well as allow some other interesting possibilities (number to Nakamura, etc.). Refer to js/scrapes_for_db.js for such scraping/database updating code
+Hosted at http://checkmates-to-kasparov.herokuapp.com/
