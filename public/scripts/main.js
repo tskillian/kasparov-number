@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	'use strict';
 	$('.uscfIdForm').submit(function (e) {
 		e.preventDefault();
 		var resultsDiv = $('.results');
@@ -10,11 +11,10 @@ $(document).ready(function() {
 		if (uscfIdRegex.test(uscfId)) {
 			$.getJSON('/' + uscfId, function (data) {
 				resultsDiv.empty();
-				var delayBetweenResults = 400;
 				if (data.length > 1) {
 					for (var i = 1; i < data.length; i++) {
 						var html = $('<div>' + data[i - 1].name + ' beat ' + data[i].name + '</div>');
-						html.hide().delay((i + 1)* delayBetweenResults).appendTo(resultsDiv).fadeIn(1000);
+						html.hide().delay(i * 400).appendTo(resultsDiv).fadeIn(1000);
 					}
 				} else {
 					resultsDiv.empty();
