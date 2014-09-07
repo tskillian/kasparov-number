@@ -47,7 +47,7 @@ var getHighestBucketWithWin = function(id, callback) {
                 topBucket = element.bucket;
             }
         });
-        console.log('output from highest bucket file: '+topBucket);
+        console.log('output from highest bucket file: ' + topBucket);
         callback(topBucket);
         
     });
@@ -88,7 +88,7 @@ var getPathToKasparov = function(PlayerID, callback) {
 
 	var didBeatKamksy = function(playerList) {
 		for (var i = 0; i < playerList.length; i++) {
-			if (playerList[i].playerID in kamskyLosses && playerList[i].winLoss === 'W') { //if player beat Kamsky, return true
+			if (playerList[i].playerID in kamskyLosses && playerList[i].winLoss === 'W') { //if player beat Kamsky
 				return playerList[i].playerID;
 			}
 		}
@@ -138,8 +138,6 @@ var getPathToKasparov = function(PlayerID, callback) {
 						PlayerID = getWinByIndex(winsList, 0);
 					}
 					catch (e) {
-						console.log('in catch')
-						console.log(e);
 						error = e;
 					}
 					asyncCallback(null);
